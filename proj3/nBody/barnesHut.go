@@ -17,7 +17,7 @@ func check(e error) {
 
 // Pass number of files as an argument, default is one
 func main() {
-	datafile, err := os.Create("particles.dat") // Output file for particle positions
+	datafile, err := os.Create("../benchmarks/particles_s.dat") // Output file for particle positions
 	check(err)
 	defer datafile.Close()
 
