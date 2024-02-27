@@ -33,7 +33,7 @@ func main() {
 	fmt.Printf("Number of particles set to %d\n", nParticles)
 
 	var p []*particle.Particle = make([]*particle.Particle, nParticles) // Arrays for randomly generated points
-	particle.InitialiseRandomPoints(p, nParticles)                      // Init position and velocity data
+	particle.InitialiseParticlesInCircle(p, nParticles)                 // Init position and velocity data
 
 	_, err = fmt.Fprintf(datafile, "%d %d %d\n", nParticles, nIters, 0)
 	check(err)

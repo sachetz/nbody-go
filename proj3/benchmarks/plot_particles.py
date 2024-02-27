@@ -19,8 +19,8 @@ if __name__ == "__main__":
         line_slice = lines[start:end]
         ax.clear()
         ax.title.set_text('Particle Positions')
-        ax.set_xlim(min_limit, max_limit)
-        ax.set_ylim(min_limit, max_limit)
+        ax.set_xlim(-10, 10)
+        ax.set_ylim(-10, 10)
 
         for line in line_slice:
             ax.scatter(line[0], line[1])

@@ -46,6 +46,7 @@ func InitialiseRandomPoints(data []*Particle, n int) {
 func InitialiseParticlesInCircle(p []*Particle, n int) {
 	var r float64 = 1.0 // Radius of the circle
 	for i := 0; i < n; i++ {
+		p[i] = &Particle{}
 		var a float64 = 2 * math.Pi * float64(i) / float64(n) // Angle of the new particle
 		p[i].X = r * math.Cos(a)
 		p[i].Y = r * math.Sin(a) // Circle centered at (0,0)
