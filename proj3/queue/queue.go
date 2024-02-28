@@ -8,8 +8,6 @@ type BoundedDeque struct {
 	top    *AtomicStampedReference
 }
 
-// TODO - convert lock based implementation to atomic implementation
-
 func NewBDEQueue(capacity int) *BoundedDeque {
 	queue := &BoundedDeque{}
 	queue.tasks = make([]func(), capacity)
