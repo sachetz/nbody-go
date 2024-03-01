@@ -2,57 +2,59 @@ package particle
 
 import (
 	"math"
-	"proj3/barrier"
 	"sync"
 )
 
 // Randomly initialize particles in parallel mode
 func InitialiseRandomPointsParallel(p []*Particle, nParticles int, nThreads int) {
-	b := barrier.NewBarrier(nThreads + 1)
+	var wg sync.WaitGroup
 	for i := 0; i < nThreads; i++ {
+		wg.Add(1)
 		lowerBound := i * nParticles / nThreads
 		upperBound := int(math.Min(float64((i+1)*nParticles/nThreads), float64(nParticles)))
-		f := func(tid int, bar *barrier.Barrier) {
+		f := func(tid int) {
+			defer wg.Done()
 			InitialiseRandomPointsSequential(p, lowerBound, upperBound)
-			bar.Wait()
 		}
-		go f(i, b)
+		go f(i)
 	}
-	b.Wait()
+	wg.Wait()
 }
 
 // Randomly initialize particles in a circle in parallel mode
 func InitialiseParticlesInCircleParallel(p []*Particle, nParticles int, nThreads int) {
-	b := barrier.NewBarrier(nThreads + 1)
+	var wg sync.WaitGroup
 	for i := 0; i < nThreads; i++ {
+		wg.Add(1)
 		lowerBound := i * nParticles / nThreads
 		upperBound := int(math.Min(float64((i+1)*nParticles/nThreads), float64(nParticles)))
-		f := func(tid int, bar *barrier.Barrier) {
+		f := func(tid int) {
+			defer wg.Done()
 			InitialiseParticlesInCircleSequential(p, lowerBound, upperBound, nParticles)
-			bar.Wait()
 		}
-		go f(i, b)
+		go f(i)
 	}
-	b.Wait()
+	wg.Wait()
 }
 
 // Find the bounds of the point coordinates in parallel mode
 func FindBoundsParallel(p []*Particle, nParticles int, nThreads int) float64 {
 	m := sync.Mutex{}
 	var max float64
-	b := barrier.NewBarrier(nThreads + 1)
+	var wg sync.WaitGroup
 	for i := 0; i < nThreads; i++ {
+		wg.Add(1)
 		lowerBound := i * nParticles / nThreads
 		upperBound := int(math.Min(float64((i+1)*nParticles/nThreads), float64(nParticles)))
-		f := func(tid int, bar *barrier.Barrier) {
+		f := func(tid int) {
+			defer wg.Done()
 			localMax := FindBoundsSequential(p, lowerBound, upperBound)
 			m.Lock()
 			max = math.Max(localMax, max)
 			m.Unlock()
-			bar.Wait()
 		}
-		go f(i, b)
+		go f(i)
 	}
-	b.Wait()
+	wg.Wait()
 	return max
 }
