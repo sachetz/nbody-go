@@ -1,4 +1,4 @@
-package main
+package barnesHut
 
 import (
 	"fmt"
@@ -6,29 +6,29 @@ import (
 	"os"
 	"proj3/particle"
 	"proj3/tree"
+	"proj3/utils"
 	"strconv"
 )
 
-func check(e error) {
-	if e != nil {
-		panic(e)
-	}
-}
-
 // Pass number of files as an argument, default is one
-func main() {
-	datafile, err := os.Create("../benchmarks/particles_s.dat") // Output file for particle positions
-	check(err)
+func Sequential() {
+	datafile, err := os.Create("benchmarks/particles_s.dat") // Output file for particle positions
+	utils.Check(err)
 	defer datafile.Close()
 
 	var nParticles int = 3000    // Default number of particles
 	const dt float64 = 0.01      // Time step
-	const nIters int = 200       // Number of steps in simulation
+	var nIters int = 200         // Number of steps in simulation
 	const theta float64 = 0.7071 // Approximation constant for using center of mass
 
-	if len(os.Args) > 1 {
-		nParticles, err = strconv.Atoi(os.Args[1])
-		check(err)
+	if len(os.Args) > 3 {
+		nParticles, err = strconv.Atoi(os.Args[2])
+		utils.Check(err)
+		nIters, err = strconv.Atoi(os.Args[2])
+		utils.Check(err)
+	} else if len(os.Args) > 2 {
+		nParticles, err = strconv.Atoi(os.Args[2])
+		utils.Check(err)
 	}
 	fmt.Printf("Number of particles set to %d\n", nParticles)
 
@@ -36,7 +36,7 @@ func main() {
 	particle.InitialiseParticlesInCircle(p, nParticles)                 // Init position and velocity data
 
 	_, err = fmt.Fprintf(datafile, "%d %d %d\n", nParticles, nIters, 0)
-	check(err)
+	utils.Check(err)
 
 	for iter := 0; iter < nIters; iter++ {
 		fmt.Printf("Running iteration %d\n", iter+1)
