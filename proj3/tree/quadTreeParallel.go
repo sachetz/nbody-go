@@ -80,7 +80,7 @@ func CalcTreeForceParallel(p []*particle.Particle, root *QuadTree, numThreads in
 		f := func() {
 			defer wg.Done()
 			for j := lowerBound; j < upperBound; j++ {
-				CalcTreeForce(p[i], root, utils.Theta, utils.Dt)
+				CalcTreeForce(p[j], root, utils.Theta, utils.Dt)
 			}
 		}
 		go f()
