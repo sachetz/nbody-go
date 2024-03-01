@@ -35,6 +35,11 @@ func Bsp() {
 
 		/* Add points to tree */
 		tree.AddParticlesParallel(p, root, nParticles, numThreads)
+		if logging {
+			for i := 0; i < nParticles; i++ {
+				fmt.Fprintf(datafile, "%f %f \n", p[i].X, p[i].Y)
+			}
+		}
 
 		// Compute center of mass for the tree
 		// TODO - parallelize
