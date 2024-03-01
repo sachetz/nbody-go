@@ -2,26 +2,25 @@ package tree
 
 import (
 	"math"
+	"proj3/barrier"
 	"proj3/particle"
 	"proj3/utils"
-	"sync"
 )
 
 func AddParticlesParallel(p []*particle.Particle, root *QuadTree, nParticles int, numThreads int) {
-	var wg sync.WaitGroup
+	b := barrier.NewBarrier(numThreads + 1)
 	for i := 0; i < numThreads; i++ {
-		wg.Add(1)
 		lowerBound := i * nParticles / numThreads
 		upperBound := int(math.Min(float64((i+1)*nParticles/numThreads), float64(nParticles)))
-		f := func() {
-			defer wg.Done()
+		f := func(tid int, bar *barrier.Barrier) {
 			for j := lowerBound; j < upperBound; j++ {
 				AddParticleToTreeParallel(p[j], root, false)
 			}
+			bar.Wait()
 		}
-		go f()
+		go f(i, b)
 	}
-	wg.Wait()
+	b.Wait()
 }
 
 func chooseNode(p *particle.Particle, node *QuadTree, midX, midY float64, update_parent_after bool) {
@@ -72,18 +71,17 @@ func AddParticleToTreeParallel(p *particle.Particle, node *QuadTree, update_pare
 
 func CalcTreeForceParallel(p []*particle.Particle, root *QuadTree, numThreads int, nParticles int) {
 	// Calculate force on each particle
-	var wg sync.WaitGroup
+	b := barrier.NewBarrier(numThreads + 1)
 	for i := 0; i < numThreads; i++ {
-		wg.Add(1)
 		lowerBound := i * nParticles / numThreads
 		upperBound := int(math.Min(float64((i+1)*nParticles/numThreads), float64(nParticles)))
-		f := func() {
-			defer wg.Done()
+		f := func(tid int, bar *barrier.Barrier) {
 			for j := lowerBound; j < upperBound; j++ {
 				CalcTreeForce(p[j], root, utils.Theta, utils.Dt)
 			}
+			bar.Wait()
 		}
-		go f()
+		go f(i, b)
 	}
-	wg.Wait()
+	b.Wait()
 }

@@ -41,7 +41,7 @@ func GetParams() (int, int, int, bool) {
 	if logging {
 		fmt.Printf("Number of particles set to %d\n", nParticles)
 		fmt.Printf("Number of iterations set to %d\n", nIters)
-		fmt.Printf("Number of threads set to %d\n", 1)
+		fmt.Printf("Number of threads set to %d\n", numThreads)
 		fmt.Printf("Logging set to %t\n", logging)
 	}
 	return nParticles, nIters, numThreads, logging
