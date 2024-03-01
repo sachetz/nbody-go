@@ -3,6 +3,7 @@ package particle
 import (
 	"math"
 	"math/rand"
+	"proj3/utils"
 )
 
 const SOFTENING float64 = 1e-9
@@ -31,9 +32,9 @@ func CalcForce(p1 *Particle, p2 *Particle, dt float64) {
 	}
 }
 
-// Randomly initialize particle positions and momenta
-func InitialiseRandomPoints(data []*Particle, n int) {
-	for i := 0; i < n; i++ {
+// Randomly initialize particles in parallel mode
+func InitialiseRandomPointsSequential(data []*Particle, lowerBound int, upperBound int) {
+	for i := lowerBound; i < upperBound; i++ {
 		data[i] = &Particle{}
 		data[i].X = 2.0*rand.Float64() - 1.0
 		data[i].Y = 2.0*rand.Float64() - 1.0
@@ -42,15 +43,33 @@ func InitialiseRandomPoints(data []*Particle, n int) {
 	}
 }
 
-// Randomly initialize particles in a circle - for testing
-func InitialiseParticlesInCircle(p []*Particle, n int) {
+// Randomly initialize particles in a circle in sequential mode
+func InitialiseParticlesInCircleSequential(p []*Particle, lowerBound int, upperBound int, nParticles int) {
 	var r float64 = 1.0 // Radius of the circle
-	for i := 0; i < n; i++ {
+	for i := lowerBound; i < upperBound; i++ {
 		p[i] = &Particle{}
-		var a float64 = 2 * math.Pi * float64(i) / float64(n) // Angle of the new particle
+		var a float64 = 2 * math.Pi * float64(i) / float64(nParticles) // Angle of the new particle
 		p[i].X = r * math.Cos(a)
 		p[i].Y = r * math.Sin(a) // Circle centered at (0,0)
 		p[i].Vx = 0
 		p[i].Vy = 0
 	}
+}
+
+// Update the positions of the particles in sequential mode
+func UpdatePosSequential(p []*Particle, lowerBound int, upperBound int) {
+	for i := lowerBound; i < upperBound; i++ {
+		p[i].X += p[i].Vx * utils.Dt
+		p[i].Y += p[i].Vy * utils.Dt
+	}
+}
+
+// Find the bounds of the point coordinates in sequential mode
+func FindBoundsSequential(p []*Particle, lowerBound int, upperBound int) float64 {
+	var max float64 = math.Abs(p[lowerBound].X)
+	for i := lowerBound; i < upperBound; i++ {
+		max = math.Max(max, math.Abs(p[i].X))
+		max = math.Max(max, math.Abs(p[i].Y))
+	}
+	return max
 }
