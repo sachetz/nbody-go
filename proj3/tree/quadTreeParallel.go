@@ -69,19 +69,22 @@ func AddParticleToTreeParallel(p *particle.Particle, node *QuadTree, update_pare
 	}
 }
 
-func CalcTreeForceParallel(p []*particle.Particle, root *QuadTree, numThreads int, nParticles int) {
+func CalcTreeForceAndUpdatePosParallel(p []*particle.Particle, root *QuadTree, numThreads int, nParticles int) {
 	// Calculate force on each particle
-	b := barrier.NewBarrier(numThreads + 1)
+	b1 := barrier.NewBarrier(numThreads)
+	b2 := barrier.NewBarrier(numThreads + 1)
 	for i := 0; i < numThreads; i++ {
 		lowerBound := i * nParticles / numThreads
 		upperBound := int(math.Min(float64((i+1)*nParticles/numThreads), float64(nParticles)))
-		f := func(tid int, bar *barrier.Barrier) {
+		f := func(tid int, bar1 *barrier.Barrier, bar2 *barrier.Barrier) {
 			for j := lowerBound; j < upperBound; j++ {
 				CalcTreeForce(p[j], root, utils.Theta, utils.Dt)
 			}
-			bar.Wait()
+			bar1.Wait()
+			particle.UpdatePosSequential(p, lowerBound, upperBound)
+			bar2.Wait()
 		}
-		go f(i, b)
+		go f(i, b1, b2)
 	}
-	b.Wait()
+	b2.Wait()
 }

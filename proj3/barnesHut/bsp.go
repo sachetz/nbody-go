@@ -45,9 +45,7 @@ func Bsp() {
 		// TODO - parallelize
 		tree.ComputeCenterOfMass(root)
 
-		tree.CalcTreeForceParallel(p, root, numThreads, nParticles)
-
-		particle.UpdatePosParallel(p, nParticles, numThreads)
+		tree.CalcTreeForceAndUpdatePosParallel(p, root, numThreads, nParticles)
 	}
 	dur := time.Since(start)
 	fmt.Printf("%f\n", dur.Seconds())
