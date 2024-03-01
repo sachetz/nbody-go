@@ -19,7 +19,7 @@ func GetParams() (int, int, int, bool) {
 	var nParticles int = 3000 // Default number of particles
 	var nIters int = 200      // Number of steps in simulation
 	var numThreads int = 8    // Default number of threads
-	var logging bool = false
+	var logging bool = true
 	var err error
 
 	if len(os.Args) > 2 {
