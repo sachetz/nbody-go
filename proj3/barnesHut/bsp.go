@@ -16,7 +16,7 @@ func Bsp() {
 	utils.Check(err)
 	defer datafile.Close()
 
-	nParticles, nIters, numThreads := utils.GetParams()
+	nParticles, nIters, numThreads, logging := utils.GetParams()
 
 	var p []*particle.Particle = make([]*particle.Particle, nParticles)     // Slices for randomly generated points
 	particle.InitialiseParticlesInCircleParallel(p, nParticles, numThreads) // Init position and velocity data
@@ -25,7 +25,9 @@ func Bsp() {
 	utils.Check(err)
 
 	for iter := 0; iter < nIters; iter++ {
-		fmt.Printf("Running iteration %d\n", iter+1)
+		if logging {
+			fmt.Printf("Running iteration %d\n", iter+1)
+		}
 
 		max := particle.FindBoundsParallel(p, nParticles, numThreads)
 
@@ -43,5 +45,5 @@ func Bsp() {
 		particle.UpdatePosParallel(p, nParticles, numThreads)
 	}
 	dur := time.Since(start)
-	fmt.Printf("Time taken %f", dur.Seconds())
+	fmt.Printf("%f\n", dur.Seconds())
 }

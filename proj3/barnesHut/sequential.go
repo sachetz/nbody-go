@@ -6,15 +6,17 @@ import (
 	"proj3/particle"
 	"proj3/tree"
 	"proj3/utils"
+	"time"
 )
 
 // Sequential code for Barnes-Hut nBody problem
 func Sequential() {
+	start := time.Now()
 	datafile, err := os.Create("benchmarks/particles_s.dat") // Output file for particle positions
 	utils.Check(err)
 	defer datafile.Close()
 
-	nParticles, nIters, _ := utils.GetParams()
+	nParticles, nIters, _, logging := utils.GetParams()
 
 	var p []*particle.Particle = make([]*particle.Particle, nParticles)          // Slices for randomly generated points
 	particle.InitialiseParticlesInCircleSequential(p, 0, nParticles, nParticles) // Init position and velocity data
@@ -23,7 +25,9 @@ func Sequential() {
 	utils.Check(err)
 
 	for iter := 0; iter < nIters; iter++ {
-		fmt.Printf("Running iteration %d\n", iter+1)
+		if logging {
+			fmt.Printf("Running iteration %d\n", iter+1)
+		}
 
 		max := particle.FindBoundsSequential(p, 0, nParticles)
 
@@ -46,4 +50,6 @@ func Sequential() {
 		// Update the position
 		particle.UpdatePosSequential(p, 0, nParticles)
 	}
+	dur := time.Since(start)
+	fmt.Printf("%f\n", dur.Seconds())
 }
