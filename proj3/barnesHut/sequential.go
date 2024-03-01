@@ -7,30 +7,15 @@ import (
 	"proj3/particle"
 	"proj3/tree"
 	"proj3/utils"
-	"strconv"
 )
 
-// Pass number of files as an argument, default is one
+// Sequential code for Barnes-Hut nBody problem
 func Sequential() {
 	datafile, err := os.Create("benchmarks/particles_s.dat") // Output file for particle positions
 	utils.Check(err)
 	defer datafile.Close()
 
-	var nParticles int = 3000    // Default number of particles
-	const dt float64 = 0.01      // Time step
-	var nIters int = 200         // Number of steps in simulation
-	const theta float64 = 0.7071 // Approximation constant for using center of mass
-
-	if len(os.Args) > 3 {
-		nParticles, err = strconv.Atoi(os.Args[2])
-		utils.Check(err)
-		nIters, err = strconv.Atoi(os.Args[2])
-		utils.Check(err)
-	} else if len(os.Args) > 2 {
-		nParticles, err = strconv.Atoi(os.Args[2])
-		utils.Check(err)
-	}
-	fmt.Printf("Number of particles set to %d\n", nParticles)
+	nParticles, nIters, _ := utils.GetParams()
 
 	var p []*particle.Particle = make([]*particle.Particle, nParticles) // Arrays for randomly generated points
 	particle.InitialiseParticlesInCircle(p, nParticles)                 // Init position and velocity data
@@ -68,13 +53,13 @@ func Sequential() {
 
 		// Calculate force on each particle
 		for i := 0; i < nParticles; i++ {
-			tree.CalcTreeForce(p[i], root, theta, dt)
+			tree.CalcTreeForce(p[i], root, utils.Theta, utils.Dt)
 		}
 
 		// Update the position
 		for i := 0; i < nParticles; i++ {
-			p[i].X += p[i].Vx * dt
-			p[i].Y += p[i].Vy * dt
+			p[i].X += p[i].Vx * utils.Dt
+			p[i].Y += p[i].Vy * utils.Dt
 		}
 	}
 }
