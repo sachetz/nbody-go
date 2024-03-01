@@ -35,7 +35,7 @@ func GetParams() (int, int, int, bool) {
 		Check(err)
 	}
 	if len(os.Args) > 5 {
-		logging, err = strconv.ParseBool(os.Args[4])
+		logging, err = strconv.ParseBool(os.Args[5])
 		Check(err)
 	}
 	if logging {
