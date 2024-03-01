@@ -1,6 +1,9 @@
 package tree
 
-import "proj3/particle"
+import (
+	"proj3/particle"
+	"sync"
+)
 
 const N_CHILD int = 4
 
@@ -10,6 +13,7 @@ type QuadTree struct {
 	lowX, lowY, highX, highY float64            // Coordinates that the subtree contains
 	parent                   *QuadTree          // Parent of the node
 	child                    [N_CHILD]*QuadTree // Children of the node
+	lock                     *sync.Mutex
 }
 
 // Create a new empty node
@@ -25,6 +29,7 @@ func CreateNode(par *QuadTree, lowX, lowY, highX, highY float64) *QuadTree {
 	node.highX = highX
 	node.highY = highY
 	node.count = 0
+	node.lock = &sync.Mutex{}
 	return node
 }
 

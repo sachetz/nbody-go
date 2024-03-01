@@ -6,10 +6,12 @@ import (
 	"proj3/particle"
 	"proj3/tree"
 	"proj3/utils"
+	"time"
 )
 
 // Code for Barnes-Hut nBody problem using BSP pattern
 func Bsp() {
+	start := time.Now()
 	datafile, err := os.Create("benchmarks/particles_bsp.dat") // Output file for particle positions
 	utils.Check(err)
 	defer datafile.Close()
@@ -30,19 +32,16 @@ func Bsp() {
 		var root *tree.QuadTree = tree.CreateNode(nil, -1*max, -1*max, max, max) // Create root of the tree
 
 		/* Add points to tree */
-		for i := 0; i < nParticles; i++ {
-			tree.AddParticleToTree(p[i], root)
-			fmt.Fprintf(datafile, "%f %f \n", p[i].X, p[i].Y)
-		}
+		tree.AddParticlesParallel(p, root, nParticles, numThreads)
 
 		// Compute center of mass for the tree
+		// TODO - parallelize
 		tree.ComputeCenterOfMass(root)
 
-		// Calculate force on each particle
-		for i := 0; i < nParticles; i++ {
-			tree.CalcTreeForce(p[i], root, utils.Theta, utils.Dt)
-		}
+		tree.CalcTreeForceParallel(p, root, numThreads, nParticles)
 
 		particle.UpdatePosParallel(p, nParticles, numThreads)
 	}
+	dur := time.Since(start)
+	fmt.Printf("Time taken %f", dur.Seconds())
 }
