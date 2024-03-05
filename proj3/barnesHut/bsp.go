@@ -18,8 +18,10 @@ func Bsp() {
 
 	nParticles, nIters, numThreads, logging := utils.GetParams()
 
-	var p []*particle.Particle = make([]*particle.Particle, nParticles)     // Slices for randomly generated points
+	var p []*particle.Particle = make([]*particle.Particle, nParticles) // Slices for randomly generated points
+
 	particle.InitialiseParticlesInCircleParallel(p, nParticles, numThreads) // Init position and velocity data
+	//particle.InitialiseRandomPointsParallel(p, nParticles, nIters)
 
 	_, err = fmt.Fprintf(datafile, "%d %d %d\n", nParticles, nIters, 0)
 	utils.Check(err)
@@ -42,7 +44,6 @@ func Bsp() {
 		}
 
 		// Compute center of mass for the tree
-		// TODO - parallelize
 		tree.ComputeCenterOfMass(root)
 
 		tree.CalcTreeForceAndUpdatePosParallel(p, root, numThreads, nParticles)

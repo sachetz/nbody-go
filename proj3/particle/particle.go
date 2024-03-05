@@ -68,8 +68,12 @@ func UpdatePosSequential(p []*Particle, lowerBound int, upperBound int) {
 func FindBoundsSequential(p []*Particle, lowerBound int, upperBound int) float64 {
 	var max float64 = math.Abs(p[lowerBound].X)
 	for i := lowerBound; i < upperBound; i++ {
-		max = math.Max(max, math.Abs(p[i].X))
-		max = math.Max(max, math.Abs(p[i].Y))
+		FindBounds(p, i, &max)
 	}
 	return max
+}
+
+func FindBounds(p []*Particle, idx int, max *float64) {
+	*max = math.Max(*max, math.Abs(p[idx].X))
+	*max = math.Max(*max, math.Abs(p[idx].Y))
 }

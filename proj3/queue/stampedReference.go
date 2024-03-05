@@ -1,42 +1,27 @@
 package queue
 
-import "sync/atomic"
+import (
+	"sync/atomic"
+	"unsafe"
+)
 
 type AtomicStampedReference struct {
-	val atomic.Int64
+	id    int
+	stamp int
 }
 
-func combine(ref int32, stamp int32) int64 {
-	return (int64(ref) << 32) | (int64(stamp) & 0xFFFFFFFF)
+func loadASRFromPointer(p *unsafe.Pointer) *AtomicStampedReference {
+	if p == nil {
+		return nil
+	}
+	return (*AtomicStampedReference)(atomic.LoadPointer(p))
 }
 
-func split(val int64) (int32, int32) {
-	return int32(val >> 32), int32(val & 0xFFFFFFFF)
-}
-
-func NewAtomicStampedReference(initialRef int32, initialStamp int32) *AtomicStampedReference {
-	stampedRef := &AtomicStampedReference{}
-	stampedRef.val.Store(combine(initialRef, initialStamp))
-	return stampedRef
-}
-
-func (asr *AtomicStampedReference) Get(stampHolder *int32) int32 {
-	ref, stamp := split(asr.val.Load())
-	*stampHolder = stamp
-	return ref
-}
-
-func (asr *AtomicStampedReference) GetReference() int32 {
-	ref, _ := split(asr.val.Load())
-	return ref
-}
-
-func (asr *AtomicStampedReference) Set(newRef int32, newStamp int32) {
-	asr.val.Store(combine(newRef, newStamp))
-}
-
-func (asr *AtomicStampedReference) CompareAndSet(expectedRef, newRef, expectedStamp, newStamp int32) bool {
-	oldVal := combine(expectedRef, expectedStamp)
-	newVal := combine(newRef, newStamp)
-	return asr.val.CompareAndSwap(oldVal, newVal)
+func compareAndSwap(ptr *unsafe.Pointer, old *AtomicStampedReference, new *AtomicStampedReference) bool {
+	var oldPtr unsafe.Pointer
+	oldPtr = nil
+	if old != nil {
+		oldPtr = unsafe.Pointer(old)
+	}
+	return atomic.CompareAndSwapPointer(ptr, oldPtr, unsafe.Pointer(new))
 }

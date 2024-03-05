@@ -2,10 +2,13 @@ package tree
 
 import (
 	"math"
+	"math/rand"
 	"proj3/barrier"
 	"proj3/particle"
+	"proj3/queue"
 	"proj3/utils"
 	"sync"
+	"sync/atomic"
 )
 
 func AddParticlesParallel(p []*particle.Particle, root *QuadTree, nParticles int, numThreads int) {
@@ -18,6 +21,38 @@ func AddParticlesParallel(p []*particle.Particle, root *QuadTree, nParticles int
 			defer wg.Done()
 			for j := lowerBound; j < upperBound; j++ {
 				AddParticleToTreeParallel(p[j], root, false)
+			}
+		}
+		go f(i)
+	}
+	wg.Wait()
+}
+
+func AddParticlesWorkStealing(p []*particle.Particle, root *QuadTree, nParticles int, numThreads int, workQueues []*queue.BoundedDeque, completed *atomic.Int32) {
+	var wg sync.WaitGroup
+	for i := 0; i < numThreads; i++ {
+		wg.Add(1)
+		f := func(tid int) {
+			defer wg.Done()
+
+			// Work on own queue
+			for {
+				idx := workQueues[tid].PopBottom()
+				if idx == -1 {
+					completed.Add(1)
+					break
+				}
+				AddParticleToTreeParallel(p[idx], root, false)
+			}
+
+			// If any randomly selected queue is non empty, steal from it and work on that job
+			for completed.Load() < int32(numThreads) {
+				target := rand.Int31n(int32(numThreads))
+				stolenWork := workQueues[target].PopTop()
+				if stolenWork == -1 {
+					continue
+				}
+				AddParticleToTreeParallel(p[stolenWork], root, false)
 			}
 		}
 		go f(i)
@@ -84,6 +119,44 @@ func CalcTreeForceAndUpdatePosParallel(p []*particle.Particle, root *QuadTree, n
 			for j := lowerBound; j < upperBound; j++ {
 				CalcTreeForce(p[j], root, utils.Theta, utils.Dt)
 			}
+			bar.Wait()
+			particle.UpdatePosSequential(p, lowerBound, upperBound)
+		}
+		go f(i, b)
+	}
+	wg.Wait()
+}
+
+func CalcTreeForceAndUpdatePosWorkStealing(p []*particle.Particle, root *QuadTree, numThreads int, nParticles int, workQueues []*queue.BoundedDeque, completed *atomic.Int32) {
+	// Calculate force on each particle
+	var wg sync.WaitGroup
+	b := barrier.NewBarrier(numThreads)
+	for i := 0; i < numThreads; i++ {
+		wg.Add(1)
+		lowerBound := i * nParticles / numThreads
+		upperBound := int(math.Min(float64((i+1)*nParticles/numThreads), float64(nParticles)))
+		f := func(tid int, bar *barrier.Barrier) {
+			defer wg.Done()
+
+			for {
+				idx := workQueues[tid].PopBottom()
+				if idx == -1 {
+					completed.Add(1)
+					break
+				}
+				CalcTreeForce(p[idx], root, utils.Theta, utils.Dt)
+			}
+
+			// If any randomly selected queue is non empty, steal from it and work on that job
+			for completed.Load() < int32(numThreads) {
+				target := rand.Int31n(int32(numThreads))
+				stolenWork := workQueues[target].PopTop()
+				if stolenWork == -1 {
+					continue
+				}
+				CalcTreeForce(p[stolenWork], root, utils.Theta, utils.Dt)
+			}
+
 			bar.Wait()
 			particle.UpdatePosSequential(p, lowerBound, upperBound)
 		}

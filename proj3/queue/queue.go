@@ -1,71 +1,54 @@
 package queue
 
-import "sync/atomic"
+import (
+	"sync/atomic"
+	"unsafe"
+)
 
 type BoundedDeque struct {
-	tasks  []func()
-	bottom atomic.Int32
-	top    *AtomicStampedReference
+	start  int
+	end    int
+	bottom int32
+	top    unsafe.Pointer
 }
 
-func NewBDEQueue(capacity int) *BoundedDeque {
-	queue := &BoundedDeque{}
-	queue.tasks = make([]func(), capacity)
-	queue.bottom.Store(0)
-	queue.top = &AtomicStampedReference{}
-	return queue
+func NewBoundedDeque(begin int, end int) *BoundedDeque {
+	topPtr := AtomicStampedReference{id: begin, stamp: 0}
+	q := BoundedDeque{top: unsafe.Pointer(&topPtr), bottom: int32(end), start: begin, end: end}
+	return &q
 }
 
-// PushBottom is only used by the owner thread - concurrency not required
-func (q *BoundedDeque) PushBottom(task func()) {
-	q.tasks[q.bottom.Load()] = task
-	q.bottom.Add(1)
+func (q *BoundedDeque) PopTop() int {
+	oldTop := loadASRFromPointer(&q.top)
+	newTop := AtomicStampedReference{id: oldTop.id + 1, stamp: oldTop.stamp + 1}
+	if int(q.bottom) <= oldTop.id {
+		return -1
+	}
+	if compareAndSwap(&q.top, oldTop, &newTop) {
+		return oldTop.id
+	}
+	return -1
 }
 
-// Try to atomically pop from the top and increment the top reference and stamp
-func (q *BoundedDeque) PopTop() func() {
-	var oldStamp int32
-	oldTop := q.top.Get(&oldStamp)
-	newTop := oldTop + 1
-	newStamp := oldStamp + 1
-	// Queue is empty, nothing to pop
-	if q.bottom.Load() <= oldTop {
-		return nil
+func (q *BoundedDeque) PopBottom() int {
+	bottom := int(q.bottom)
+	if bottom == q.start {
+		return -1
 	}
-	// Try to atomically update the top reference and the stamp
-	f := q.tasks[oldTop]
-	if q.top.CompareAndSet(oldTop, newTop, oldStamp, newStamp) {
-		return f
+	atomic.AddInt32(&q.bottom, -1)
+	bottom -= 1
+	particleIdx := bottom
+	oldTop := loadASRFromPointer(&q.top)
+	newTop := AtomicStampedReference{id: q.end - 1, stamp: oldTop.stamp + 1}
+	if bottom > oldTop.id {
+		return particleIdx
 	}
-	return nil
-}
-
-func (q *BoundedDeque) PopBottom() func() {
-	if q.bottom.Load() == 0 { // If queue is empty, return nil
-		return nil
-	}
-
-	// Otherwise decrement bottom and claim a task
-	q.bottom.Add(-1)
-	f := q.tasks[q.bottom.Load()]
-
-	var oldStamp int32
-	oldTop := q.top.Get(&oldStamp)
-	var newTop int32 = 0
-	newStamp := oldStamp + 1
-
-	// Return the function - bottom is not equal to top and concurrency not required
-	if q.bottom.Load() > oldTop {
-		return f
-	}
-	// Bottom = top, atomically update the top reference and stamp - other threads might be interacting
-	if q.bottom.Load() == oldTop {
-		q.bottom.Store(0)
-		if q.top.CompareAndSet(oldTop, newTop, oldStamp, newStamp) {
-			return f
+	if bottom == oldTop.id {
+		atomic.StoreInt32(&q.bottom, int32(q.start))
+		if compareAndSwap(&q.top, oldTop, &newTop) {
+			return particleIdx
 		}
 	}
-	// Failed to fetch, i.e. thief succeed but top not updated, update and return
-	q.top.Set(newTop, newStamp)
-	return nil
+	atomic.StorePointer(&q.top, unsafe.Pointer(&newTop))
+	return -1
 }
