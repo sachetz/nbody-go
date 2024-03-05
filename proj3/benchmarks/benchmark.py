@@ -37,6 +37,8 @@ if __name__ == "__main__":
 
                 for mode in ["bsp", "ws"]:
 
+                    benchmarkFile.write(f"Running for mode {mode}\n\n")
+
                     times = defaultdict(list)
                     threads = [2, 4, 6, 8, 12]
 
@@ -45,21 +47,22 @@ if __name__ == "__main__":
 
                         benchmarkFile.write(f"For nThreads {nThreads}\n")
 
-                        for experiment in range(1, 6):
+                        #for experiment in range(1, 6):
 
-                            # Run the process and get the time
-                            parallelProcess = subprocess.Popen([
-                                "go", "run", "../nBody.go", mode, str(testSize), str(nIters), str(nThreads), "false", inputType
-                            ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                            parallelTime = float(parallelProcess.stdout.readline().decode()[:-1])
-                            
-                            # Calculate the speedup
-                            benchmarkFile.write(f"In experiment {experiment}, time taken for execution in parallel: {parallelTime}\n")
-                            times[nThreads] = times[nThreads] + [parallelTime]
+                        # Run the process and get the time
+                        parallelProcess = subprocess.Popen([
+                            "go", "run", "../nBody.go", mode, str(testSize), str(nIters), str(nThreads), "false", inputType
+                        ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                        parallelTime = float(parallelProcess.stdout.readline().decode()[:-1])
+                        
+                        # Calculate the speedup
+                        #benchmarkFile.write(f"In experiment {experiment}, time taken for execution in parallel: {parallelTime}\n")
+                        benchmarkFile.write(f"Time taken for execution in parallel: {parallelTime}\n")
+                        times[nThreads] = parallelTime
 
                     benchmarkFile.write("\n")
 
-                    speedups = [sequentialTime/(sum(times[key])/5) for key in sorted(times.keys())]
+                    speedups = [sequentialTime/times[key] for key in sorted(times.keys())]
 
                     # Plot the graph
                     plt.figure(f"{inputType}-{mode}-{nIters}")
