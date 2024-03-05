@@ -5,7 +5,7 @@
 #SBATCH --job-name=proj3_graph
 #SBATCH --output=./slurm/out/%j.%N.stdout
 #SBATCH --error=./slurm/out/%j.%N.stderr
-#SBATCH --chdir=/home/sachetz/ParallelProgramming/project-3-sachetz/proj3/benchmark
+#SBATCH --chdir=/home/sachetz/ParallelProgramming/project-3-sachetz/proj3/benchmarks
 #SBATCH --partition=debug 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

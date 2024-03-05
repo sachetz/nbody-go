@@ -1,0 +1,462 @@
+--------------------------------------------------
+Processing 10 test size.
+Total sequential time: 0.138375
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.132182
+In experiment 2, time taken for execution in parallel: 0.048043
+In experiment 3, time taken for execution in parallel: 0.06563
+In experiment 4, time taken for execution in parallel: 0.186229
+In experiment 5, time taken for execution in parallel: 0.224183
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.096172
+In experiment 2, time taken for execution in parallel: 0.068211
+In experiment 3, time taken for execution in parallel: 0.070991
+In experiment 4, time taken for execution in parallel: 0.094214
+In experiment 5, time taken for execution in parallel: 0.137828
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.123218
+In experiment 2, time taken for execution in parallel: 0.116252
+In experiment 3, time taken for execution in parallel: 0.081444
+In experiment 4, time taken for execution in parallel: 0.073534
+In experiment 5, time taken for execution in parallel: 0.10907
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.160429
+In experiment 2, time taken for execution in parallel: 0.13837
+In experiment 3, time taken for execution in parallel: 0.107413
+In experiment 4, time taken for execution in parallel: 0.04608
+In experiment 5, time taken for execution in parallel: 0.092093
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.080135
+In experiment 2, time taken for execution in parallel: 0.175531
+In experiment 3, time taken for execution in parallel: 0.09848
+In experiment 4, time taken for execution in parallel: 0.105552
+In experiment 5, time taken for execution in parallel: 0.081269
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.252453
+In experiment 2, time taken for execution in parallel: 0.200179
+In experiment 3, time taken for execution in parallel: 0.146643
+In experiment 4, time taken for execution in parallel: 0.244908
+In experiment 5, time taken for execution in parallel: 0.164973
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.123651
+In experiment 2, time taken for execution in parallel: 0.125451
+In experiment 3, time taken for execution in parallel: 0.073008
+In experiment 4, time taken for execution in parallel: 0.084943
+In experiment 5, time taken for execution in parallel: 0.159631
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.180672
+In experiment 2, time taken for execution in parallel: 0.156281
+In experiment 3, time taken for execution in parallel: 0.124259
+In experiment 4, time taken for execution in parallel: 0.127686
+In experiment 5, time taken for execution in parallel: 0.158877
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.228982
+In experiment 2, time taken for execution in parallel: 0.205211
+In experiment 3, time taken for execution in parallel: 0.284329
+In experiment 4, time taken for execution in parallel: 0.284607
+In experiment 5, time taken for execution in parallel: 0.156731
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.269811
+In experiment 2, time taken for execution in parallel: 0.199038
+In experiment 3, time taken for execution in parallel: 0.212057
+In experiment 4, time taken for execution in parallel: 0.123566
+In experiment 5, time taken for execution in parallel: 0.197633
+
+--------------------------------------------------
+Processing 30 test size.
+Total sequential time: 0.168583
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.115087
+In experiment 2, time taken for execution in parallel: 0.102894
+In experiment 3, time taken for execution in parallel: 0.153051
+In experiment 4, time taken for execution in parallel: 0.138191
+In experiment 5, time taken for execution in parallel: 0.151186
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.135712
+In experiment 2, time taken for execution in parallel: 0.111837
+In experiment 3, time taken for execution in parallel: 0.143123
+In experiment 4, time taken for execution in parallel: 0.088473
+In experiment 5, time taken for execution in parallel: 0.125529
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.183208
+In experiment 2, time taken for execution in parallel: 0.085874
+In experiment 3, time taken for execution in parallel: 0.13064
+In experiment 4, time taken for execution in parallel: 0.124349
+In experiment 5, time taken for execution in parallel: 0.060778
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.087528
+In experiment 2, time taken for execution in parallel: 0.098478
+In experiment 3, time taken for execution in parallel: 0.076157
+In experiment 4, time taken for execution in parallel: 0.197973
+In experiment 5, time taken for execution in parallel: 0.2494
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.111687
+In experiment 2, time taken for execution in parallel: 0.163332
+In experiment 3, time taken for execution in parallel: 0.114477
+In experiment 4, time taken for execution in parallel: 0.079647
+In experiment 5, time taken for execution in parallel: 0.089424
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.11323
+In experiment 2, time taken for execution in parallel: 0.147604
+In experiment 3, time taken for execution in parallel: 0.237249
+In experiment 4, time taken for execution in parallel: 0.097064
+In experiment 5, time taken for execution in parallel: 0.17017
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.10165
+In experiment 2, time taken for execution in parallel: 0.266937
+In experiment 3, time taken for execution in parallel: 0.278941
+In experiment 4, time taken for execution in parallel: 0.115541
+In experiment 5, time taken for execution in parallel: 0.206265
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.24731
+In experiment 2, time taken for execution in parallel: 0.329016
+In experiment 3, time taken for execution in parallel: 0.29177
+In experiment 4, time taken for execution in parallel: 0.137705
+In experiment 5, time taken for execution in parallel: 0.161969
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.207798
+In experiment 2, time taken for execution in parallel: 0.135527
+In experiment 3, time taken for execution in parallel: 0.122271
+In experiment 4, time taken for execution in parallel: 0.139062
+In experiment 5, time taken for execution in parallel: 0.128172
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.175416
+In experiment 2, time taken for execution in parallel: 0.141029
+In experiment 3, time taken for execution in parallel: 0.140323
+In experiment 4, time taken for execution in parallel: 0.191723
+In experiment 5, time taken for execution in parallel: 0.240889
+
+--------------------------------------------------
+Processing 100 test size.
+Total sequential time: 0.479683
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.165756
+In experiment 2, time taken for execution in parallel: 0.168103
+In experiment 3, time taken for execution in parallel: 0.175336
+In experiment 4, time taken for execution in parallel: 0.138308
+In experiment 5, time taken for execution in parallel: 0.153777
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.215578
+In experiment 2, time taken for execution in parallel: 0.224634
+In experiment 3, time taken for execution in parallel: 0.160665
+In experiment 4, time taken for execution in parallel: 0.128623
+In experiment 5, time taken for execution in parallel: 0.148736
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.305733
+In experiment 2, time taken for execution in parallel: 0.194354
+In experiment 3, time taken for execution in parallel: 0.159039
+In experiment 4, time taken for execution in parallel: 0.123488
+In experiment 5, time taken for execution in parallel: 0.194154
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.169735
+In experiment 2, time taken for execution in parallel: 0.167338
+In experiment 3, time taken for execution in parallel: 0.118525
+In experiment 4, time taken for execution in parallel: 0.136857
+In experiment 5, time taken for execution in parallel: 0.216166
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.18073
+In experiment 2, time taken for execution in parallel: 0.187442
+In experiment 3, time taken for execution in parallel: 0.220931
+In experiment 4, time taken for execution in parallel: 0.227938
+In experiment 5, time taken for execution in parallel: 0.150702
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.171604
+In experiment 2, time taken for execution in parallel: 0.14383
+In experiment 3, time taken for execution in parallel: 0.130812
+In experiment 4, time taken for execution in parallel: 0.201955
+In experiment 5, time taken for execution in parallel: 0.161301
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.182784
+In experiment 2, time taken for execution in parallel: 0.185136
+In experiment 3, time taken for execution in parallel: 0.181554
+In experiment 4, time taken for execution in parallel: 0.246652
+In experiment 5, time taken for execution in parallel: 0.181181
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.203453
+In experiment 2, time taken for execution in parallel: 0.241047
+In experiment 3, time taken for execution in parallel: 0.180944
+In experiment 4, time taken for execution in parallel: 0.169977
+In experiment 5, time taken for execution in parallel: 0.228181
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.264423
+In experiment 2, time taken for execution in parallel: 0.28344
+In experiment 3, time taken for execution in parallel: 0.206711
+In experiment 4, time taken for execution in parallel: 0.202906
+In experiment 5, time taken for execution in parallel: 0.251974
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.296029
+In experiment 2, time taken for execution in parallel: 0.287082
+In experiment 3, time taken for execution in parallel: 0.257633
+In experiment 4, time taken for execution in parallel: 0.258985
+In experiment 5, time taken for execution in parallel: 0.286181
+
+--------------------------------------------------
+Processing 300 test size.
+Total sequential time: 0.724913
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.358974
+In experiment 2, time taken for execution in parallel: 0.269642
+In experiment 3, time taken for execution in parallel: 0.302409
+In experiment 4, time taken for execution in parallel: 0.358969
+In experiment 5, time taken for execution in parallel: 0.286788
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.280081
+In experiment 2, time taken for execution in parallel: 0.236633
+In experiment 3, time taken for execution in parallel: 0.224878
+In experiment 4, time taken for execution in parallel: 0.230283
+In experiment 5, time taken for execution in parallel: 0.305525
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.327716
+In experiment 2, time taken for execution in parallel: 0.294687
+In experiment 3, time taken for execution in parallel: 0.250744
+In experiment 4, time taken for execution in parallel: 0.281138
+In experiment 5, time taken for execution in parallel: 0.320386
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.304108
+In experiment 2, time taken for execution in parallel: 0.214901
+In experiment 3, time taken for execution in parallel: 0.254738
+In experiment 4, time taken for execution in parallel: 0.244518
+In experiment 5, time taken for execution in parallel: 0.279991
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.338953
+In experiment 2, time taken for execution in parallel: 0.361949
+In experiment 3, time taken for execution in parallel: 0.304077
+In experiment 4, time taken for execution in parallel: 0.246966
+In experiment 5, time taken for execution in parallel: 0.309269
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 0.391719
+In experiment 2, time taken for execution in parallel: 0.337011
+In experiment 3, time taken for execution in parallel: 0.370717
+In experiment 4, time taken for execution in parallel: 0.401389
+In experiment 5, time taken for execution in parallel: 0.341825
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.278463
+In experiment 2, time taken for execution in parallel: 0.269357
+In experiment 3, time taken for execution in parallel: 0.348535
+In experiment 4, time taken for execution in parallel: 0.326876
+In experiment 5, time taken for execution in parallel: 0.282478
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.265255
+In experiment 2, time taken for execution in parallel: 0.33683
+In experiment 3, time taken for execution in parallel: 0.288595
+In experiment 4, time taken for execution in parallel: 0.357653
+In experiment 5, time taken for execution in parallel: 0.247122
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.283983
+In experiment 2, time taken for execution in parallel: 0.428024
+In experiment 3, time taken for execution in parallel: 0.307827
+In experiment 4, time taken for execution in parallel: 0.339495
+In experiment 5, time taken for execution in parallel: 0.312933
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.347429
+In experiment 2, time taken for execution in parallel: 0.389369
+In experiment 3, time taken for execution in parallel: 0.340922
+In experiment 4, time taken for execution in parallel: 0.332063
+In experiment 5, time taken for execution in parallel: 0.395911
+
+--------------------------------------------------
+Processing 1000 test size.
+Total sequential time: 3.315177
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 1.259116
+In experiment 2, time taken for execution in parallel: 1.232032
+In experiment 3, time taken for execution in parallel: 1.196632
+In experiment 4, time taken for execution in parallel: 1.20646
+In experiment 5, time taken for execution in parallel: 1.30056
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.874008
+In experiment 2, time taken for execution in parallel: 0.871038
+In experiment 3, time taken for execution in parallel: 0.87717
+In experiment 4, time taken for execution in parallel: 0.850003
+In experiment 5, time taken for execution in parallel: 0.928341
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.666265
+In experiment 2, time taken for execution in parallel: 0.756322
+In experiment 3, time taken for execution in parallel: 0.972421
+In experiment 4, time taken for execution in parallel: 0.690948
+In experiment 5, time taken for execution in parallel: 0.74576
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.688567
+In experiment 2, time taken for execution in parallel: 0.609769
+In experiment 3, time taken for execution in parallel: 0.663684
+In experiment 4, time taken for execution in parallel: 0.672858
+In experiment 5, time taken for execution in parallel: 0.746699
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.637285
+In experiment 2, time taken for execution in parallel: 0.650933
+In experiment 3, time taken for execution in parallel: 0.597356
+In experiment 4, time taken for execution in parallel: 0.617473
+In experiment 5, time taken for execution in parallel: 0.631248
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 1.250358
+In experiment 2, time taken for execution in parallel: 1.253497
+In experiment 3, time taken for execution in parallel: 1.320059
+In experiment 4, time taken for execution in parallel: 1.253
+In experiment 5, time taken for execution in parallel: 1.246697
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 0.864852
+In experiment 2, time taken for execution in parallel: 0.858045
+In experiment 3, time taken for execution in parallel: 0.843568
+In experiment 4, time taken for execution in parallel: 0.80519
+In experiment 5, time taken for execution in parallel: 0.883304
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 0.791048
+In experiment 2, time taken for execution in parallel: 0.774107
+In experiment 3, time taken for execution in parallel: 0.752548
+In experiment 4, time taken for execution in parallel: 0.736893
+In experiment 5, time taken for execution in parallel: 0.734534
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 0.681577
+In experiment 2, time taken for execution in parallel: 0.686276
+In experiment 3, time taken for execution in parallel: 0.704216
+In experiment 4, time taken for execution in parallel: 0.764994
+In experiment 5, time taken for execution in parallel: 0.716473
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 0.728536
+In experiment 2, time taken for execution in parallel: 0.735901
+In experiment 3, time taken for execution in parallel: 0.729816
+In experiment 4, time taken for execution in parallel: 0.69419
+In experiment 5, time taken for execution in parallel: 0.661625
+
+--------------------------------------------------
+Processing 3000 test size.
+Total sequential time: 12.11589
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 4.724378
+In experiment 2, time taken for execution in parallel: 4.788962
+In experiment 3, time taken for execution in parallel: 4.857185
+In experiment 4, time taken for execution in parallel: 4.763429
+In experiment 5, time taken for execution in parallel: 4.768323
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 2.969364
+In experiment 2, time taken for execution in parallel: 2.961685
+In experiment 3, time taken for execution in parallel: 2.93777
+In experiment 4, time taken for execution in parallel: 2.934096
+In experiment 5, time taken for execution in parallel: 2.961831
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 2.393893
+In experiment 2, time taken for execution in parallel: 2.407693
+In experiment 3, time taken for execution in parallel: 2.45593
+In experiment 4, time taken for execution in parallel: 2.514954
+In experiment 5, time taken for execution in parallel: 2.433894
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 2.23216
+In experiment 2, time taken for execution in parallel: 2.194147
+In experiment 3, time taken for execution in parallel: 2.215128
+In experiment 4, time taken for execution in parallel: 2.280839
+In experiment 5, time taken for execution in parallel: 2.208327
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 1.938678
+In experiment 2, time taken for execution in parallel: 1.882713
+In experiment 3, time taken for execution in parallel: 1.933594
+In experiment 4, time taken for execution in parallel: 1.934313
+In experiment 5, time taken for execution in parallel: 1.942124
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 4.870568
+In experiment 2, time taken for execution in parallel: 4.875591
+In experiment 3, time taken for execution in parallel: 4.877191
+In experiment 4, time taken for execution in parallel: 4.917535
+In experiment 5, time taken for execution in parallel: 4.91349
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 3.093139
+In experiment 2, time taken for execution in parallel: 3.043767
+In experiment 3, time taken for execution in parallel: 3.049916
+In experiment 4, time taken for execution in parallel: 3.063502
+In experiment 5, time taken for execution in parallel: 3.058102
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 2.508018
+In experiment 2, time taken for execution in parallel: 2.571149
+In experiment 3, time taken for execution in parallel: 2.584802
+In experiment 4, time taken for execution in parallel: 2.537413
+In experiment 5, time taken for execution in parallel: 2.57519
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 2.268578
+In experiment 2, time taken for execution in parallel: 2.281163
+In experiment 3, time taken for execution in parallel: 2.282018
+In experiment 4, time taken for execution in parallel: 2.291305
+In experiment 5, time taken for execution in parallel: 2.320885
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 2.109032
+In experiment 2, time taken for execution in parallel: 2.135283
+In experiment 3, time taken for execution in parallel: 2.150826
+In experiment 4, time taken for execution in parallel: 2.056921
+In experiment 5, time taken for execution in parallel: 2.032508
+
+--------------------------------------------------
+Processing 10000 test size.
+Total sequential time: 46.097804
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 17.869102
+In experiment 2, time taken for execution in parallel: 17.779285
+In experiment 3, time taken for execution in parallel: 17.837819
+In experiment 4, time taken for execution in parallel: 17.838742
+In experiment 5, time taken for execution in parallel: 17.840254
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 10.544073
+In experiment 2, time taken for execution in parallel: 10.574072
+In experiment 3, time taken for execution in parallel: 10.558472
+In experiment 4, time taken for execution in parallel: 10.491439
+In experiment 5, time taken for execution in parallel: 10.608556
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 8.636774
+In experiment 2, time taken for execution in parallel: 8.641339
+In experiment 3, time taken for execution in parallel: 8.611784
+In experiment 4, time taken for execution in parallel: 8.685607
+In experiment 5, time taken for execution in parallel: 8.645802
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 7.64058
+In experiment 2, time taken for execution in parallel: 7.591742
+In experiment 3, time taken for execution in parallel: 7.612835
+In experiment 4, time taken for execution in parallel: 7.666895
+In experiment 5, time taken for execution in parallel: 7.66775
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 6.581119
+In experiment 2, time taken for execution in parallel: 6.604296
+In experiment 3, time taken for execution in parallel: 6.582699
+In experiment 4, time taken for execution in parallel: 6.612283
+In experiment 5, time taken for execution in parallel: 6.673051
+
+For nThreads 2
+In experiment 1, time taken for execution in parallel: 18.510081
+In experiment 2, time taken for execution in parallel: 18.423778
+In experiment 3, time taken for execution in parallel: 18.490049
+In experiment 4, time taken for execution in parallel: 18.553657
+In experiment 5, time taken for execution in parallel: 18.512812
+For nThreads 4
+In experiment 1, time taken for execution in parallel: 10.879396
+In experiment 2, time taken for execution in parallel: 10.904578
+In experiment 3, time taken for execution in parallel: 11.003334
+In experiment 4, time taken for execution in parallel: 10.872069
+In experiment 5, time taken for execution in parallel: 10.936106
+For nThreads 6
+In experiment 1, time taken for execution in parallel: 8.914412
+In experiment 2, time taken for execution in parallel: 8.857236
+In experiment 3, time taken for execution in parallel: 8.939341
+In experiment 4, time taken for execution in parallel: 8.925825
+In experiment 5, time taken for execution in parallel: 8.879387
+For nThreads 8
+In experiment 1, time taken for execution in parallel: 7.996921
+In experiment 2, time taken for execution in parallel: 7.976386
+In experiment 3, time taken for execution in parallel: 7.96533
+In experiment 4, time taken for execution in parallel: 7.90838
+In experiment 5, time taken for execution in parallel: 8.027323
+For nThreads 12
+In experiment 1, time taken for execution in parallel: 7.360015
+In experiment 2, time taken for execution in parallel: 7.121206
+In experiment 3, time taken for execution in parallel: 6.869754
+In experiment 4, time taken for execution in parallel: 6.920802
+In experiment 5, time taken for execution in parallel: 6.962961
+
