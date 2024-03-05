@@ -9,53 +9,64 @@ if __name__ == "__main__":
     # Open benchmark file in write mode
     benchmarkFile = open("benchmark.txt", 'w', buffering=1)
 
-    # Process for each test size
-    for testSize in [10, 30, 100, 300, 1000, 3000, 10000]:
-        
+    # Process for each input type
+    for inputType in ["random", "circle", "skewed"]:
+
         benchmarkFile.write(f"--------------------------------------------------\n")
-        benchmarkFile.write(f"Processing {testSize} test size.\n")
-        
-        # Run the process in sequential mode and get the times
-        sequentialProcess = subprocess.Popen([
-            "go", "run", "../nBody.go", "s", str(testSize), "200", "1", "false", "random"
-        ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        sequentialTime = float(sequentialProcess.stdout.readline().decode()[:-1])
+        benchmarkFile.write(f"Processing {inputType} input type.\n")
 
-        benchmarkFile.write(f"Total sequential time: {str(sequentialTime)}\n")
-        benchmarkFile.write("\n")
+        for nIters in [1, 10, 100, 1000]:
 
-        for mode in ["bsp", "ws"]:
+            benchmarkFile.write(f"--------------------------------------------------\n")
+            benchmarkFile.write(f"Processing {nIters} iterations.\n")
 
-            times = defaultdict(list)
-            threads = [2, 4, 6, 8, 12]
+            # Process for each test size
+            for testSize in [10, 30, 100, 300, 1000, 3000, 10000]:
+                
+                benchmarkFile.write(f"--------------------------------------------------\n")
+                benchmarkFile.write(f"Processing {testSize} test size.\n")
+                
+                # Run the process in sequential mode and get the times
+                sequentialProcess = subprocess.Popen([
+                    "go", "run", "../nBody.go", "s", str(testSize), str(nIters), "1", "false", inputType
+                ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                sequentialTime = float(sequentialProcess.stdout.readline().decode()[:-1])
 
-            # For each no of threads
-            for nThreads in threads:
+                benchmarkFile.write(f"Total sequential time: {str(sequentialTime)}\n")
+                benchmarkFile.write("\n")
 
-                benchmarkFile.write(f"For nThreads {nThreads}\n")
+                for mode in ["bsp", "ws"]:
 
-                for experiment in range(1, 6):
+                    times = defaultdict(list)
+                    threads = [2, 4, 6, 8, 12]
 
-                    # Run the process and get the time
-                    parallelProcess = subprocess.Popen([
-                        "go", "run", "../nBody.go", mode, str(testSize), "200", str(nThreads), "false", "random"
-                    ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                    parallelTime = float(parallelProcess.stdout.readline().decode()[:-1])
-                    
-                    # Calculate the speedup
-                    benchmarkFile.write(f"In experiment {experiment}, time taken for execution in parallel: {parallelTime}\n")
-                    times[nThreads] = times[nThreads] + [parallelTime]
+                    # For each no of threads
+                    for nThreads in threads:
 
-            benchmarkFile.write("\n")
+                        benchmarkFile.write(f"For nThreads {nThreads}\n")
 
-            speedups = [sequentialTime/(sum(times[key])/5) for key in sorted(times.keys())]
+                        for experiment in range(1, 6):
 
-            # Plot the graph
-            plt.figure(f"{mode}")
-            plt.plot(threads, speedups, label=testSize)
-            plt.legend(loc='upper left')
-            plt.xlabel("Number of Threads")
-            plt.ylabel("Speedup")
-            plt.savefig(f"speedup-benchmark-{mode}")
+                            # Run the process and get the time
+                            parallelProcess = subprocess.Popen([
+                                "go", "run", "../nBody.go", mode, str(testSize), str(nIters), str(nThreads), "false", inputType
+                            ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                            parallelTime = float(parallelProcess.stdout.readline().decode()[:-1])
+                            
+                            # Calculate the speedup
+                            benchmarkFile.write(f"In experiment {experiment}, time taken for execution in parallel: {parallelTime}\n")
+                            times[nThreads] = times[nThreads] + [parallelTime]
+
+                    benchmarkFile.write("\n")
+
+                    speedups = [sequentialTime/(sum(times[key])/5) for key in sorted(times.keys())]
+
+                    # Plot the graph
+                    plt.figure(f"{inputType}-{mode}-{nIters}")
+                    plt.plot(threads, speedups, label=testSize)
+                    plt.legend(loc='upper left')
+                    plt.xlabel("Number of Threads")
+                    plt.ylabel("Speedup")
+                    plt.savefig(f"speedup-benchmark-{inputType}-{mode}-{nIters}")
     
     benchmarkFile.close()
