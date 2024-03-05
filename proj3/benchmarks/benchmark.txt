@@ -4,849 +4,1409 @@ Processing random input type.
 Processing 1 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.093088
+Total sequential time: 0.010059
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.04965
+Time taken for execution in parallel: 0.012463
+Time taken for execution in parallel: 0.012866
+Time taken for execution in parallel: 0.01909
 For nThreads 4
-Time taken for execution in parallel: 0.111167
+Time taken for execution in parallel: 0.018899
+Time taken for execution in parallel: 0.018551
+Time taken for execution in parallel: 0.019175
 For nThreads 6
-Time taken for execution in parallel: 0.050102
+Time taken for execution in parallel: 0.015649
+Time taken for execution in parallel: 0.011712
+Time taken for execution in parallel: 0.017938
 For nThreads 8
-Time taken for execution in parallel: 0.074147
+Time taken for execution in parallel: 0.016178
+Time taken for execution in parallel: 0.021185
+Time taken for execution in parallel: 0.010215
 For nThreads 12
-Time taken for execution in parallel: 0.04609
+Time taken for execution in parallel: 0.01304
+Time taken for execution in parallel: 0.012725
+Time taken for execution in parallel: 0.018855
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.166604
+Time taken for execution in parallel: 0.016187
+Time taken for execution in parallel: 0.018387
+Time taken for execution in parallel: 0.018742
 For nThreads 4
-Time taken for execution in parallel: 0.048211
+Time taken for execution in parallel: 0.017128
+Time taken for execution in parallel: 0.029277
+Time taken for execution in parallel: 0.019818
 For nThreads 6
-Time taken for execution in parallel: 0.091124
+Time taken for execution in parallel: 0.016115
+Time taken for execution in parallel: 0.022851
+Time taken for execution in parallel: 0.015632
 For nThreads 8
-Time taken for execution in parallel: 0.034619
+Time taken for execution in parallel: 0.016624
+Time taken for execution in parallel: 0.014235
+Time taken for execution in parallel: 0.018101
 For nThreads 12
-Time taken for execution in parallel: 0.073493
+Time taken for execution in parallel: 0.029502
+Time taken for execution in parallel: 0.010593
+Time taken for execution in parallel: 0.012343
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.174703
+Total sequential time: 0.012175
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.078728
+Time taken for execution in parallel: 0.011176
+Time taken for execution in parallel: 0.018342
+Time taken for execution in parallel: 0.018495
 For nThreads 4
-Time taken for execution in parallel: 0.090623
+Time taken for execution in parallel: 0.020723
+Time taken for execution in parallel: 0.010493
+Time taken for execution in parallel: 0.016381
 For nThreads 6
-Time taken for execution in parallel: 0.068924
+Time taken for execution in parallel: 0.012141
+Time taken for execution in parallel: 0.01154
+Time taken for execution in parallel: 0.010605
 For nThreads 8
-Time taken for execution in parallel: 0.047212
+Time taken for execution in parallel: 0.011519
+Time taken for execution in parallel: 0.018397
+Time taken for execution in parallel: 0.009811
 For nThreads 12
-Time taken for execution in parallel: 0.045889
+Time taken for execution in parallel: 0.015922
+Time taken for execution in parallel: 0.016531
+Time taken for execution in parallel: 0.021549
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.04039
+Time taken for execution in parallel: 0.022354
+Time taken for execution in parallel: 0.01251
+Time taken for execution in parallel: 0.014433
 For nThreads 4
-Time taken for execution in parallel: 0.030911
+Time taken for execution in parallel: 0.010839
+Time taken for execution in parallel: 0.022564
+Time taken for execution in parallel: 0.012654
 For nThreads 6
-Time taken for execution in parallel: 0.045471
+Time taken for execution in parallel: 0.016354
+Time taken for execution in parallel: 0.015895
+Time taken for execution in parallel: 0.013835
 For nThreads 8
-Time taken for execution in parallel: 0.048078
+Time taken for execution in parallel: 0.015161
+Time taken for execution in parallel: 0.013804
+Time taken for execution in parallel: 0.010932
 For nThreads 12
-Time taken for execution in parallel: 0.051278
+Time taken for execution in parallel: 0.014437
+Time taken for execution in parallel: 0.016302
+Time taken for execution in parallel: 0.016546
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.038202
+Total sequential time: 0.016634
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.029844
+Time taken for execution in parallel: 0.008941
+Time taken for execution in parallel: 0.008125
+Time taken for execution in parallel: 0.015651
 For nThreads 4
-Time taken for execution in parallel: 0.02156
+Time taken for execution in parallel: 0.029081
+Time taken for execution in parallel: 0.024018
+Time taken for execution in parallel: 0.040108
 For nThreads 6
-Time taken for execution in parallel: 0.025423
+Time taken for execution in parallel: 0.07828
+Time taken for execution in parallel: 0.042233
+Time taken for execution in parallel: 0.015402
 For nThreads 8
-Time taken for execution in parallel: 0.037936
+Time taken for execution in parallel: 0.009588
+Time taken for execution in parallel: 0.010077
+Time taken for execution in parallel: 0.014052
 For nThreads 12
-Time taken for execution in parallel: 0.045522
+Time taken for execution in parallel: 0.011746
+Time taken for execution in parallel: 0.008664
+Time taken for execution in parallel: 0.012724
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.049818
+Time taken for execution in parallel: 0.01423
+Time taken for execution in parallel: 0.056366
+Time taken for execution in parallel: 0.032453
 For nThreads 4
-Time taken for execution in parallel: 0.050778
+Time taken for execution in parallel: 0.008149
+Time taken for execution in parallel: 0.013338
+Time taken for execution in parallel: 0.010185
 For nThreads 6
-Time taken for execution in parallel: 0.067637
+Time taken for execution in parallel: 0.009248
+Time taken for execution in parallel: 0.008779
+Time taken for execution in parallel: 0.010361
 For nThreads 8
-Time taken for execution in parallel: 0.033421
+Time taken for execution in parallel: 0.010031
+Time taken for execution in parallel: 0.008982
+Time taken for execution in parallel: 0.013927
 For nThreads 12
-Time taken for execution in parallel: 0.026328
+Time taken for execution in parallel: 0.015348
+Time taken for execution in parallel: 0.025839
+Time taken for execution in parallel: 0.013285
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.042988
+Total sequential time: 0.012069
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.023333
+Time taken for execution in parallel: 0.011605
+Time taken for execution in parallel: 0.012854
+Time taken for execution in parallel: 0.01118
 For nThreads 4
-Time taken for execution in parallel: 0.042664
+Time taken for execution in parallel: 0.011571
+Time taken for execution in parallel: 0.011299
+Time taken for execution in parallel: 0.01388
 For nThreads 6
-Time taken for execution in parallel: 0.026752
+Time taken for execution in parallel: 0.010418
+Time taken for execution in parallel: 0.013662
+Time taken for execution in parallel: 0.015711
 For nThreads 8
-Time taken for execution in parallel: 0.065405
+Time taken for execution in parallel: 0.015932
+Time taken for execution in parallel: 0.010994
+Time taken for execution in parallel: 0.009881
 For nThreads 12
-Time taken for execution in parallel: 0.046348
+Time taken for execution in parallel: 0.014304
+Time taken for execution in parallel: 0.013065
+Time taken for execution in parallel: 0.011092
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.060452
+Time taken for execution in parallel: 0.012102
+Time taken for execution in parallel: 0.010012
+Time taken for execution in parallel: 0.01168
 For nThreads 4
-Time taken for execution in parallel: 0.340121
+Time taken for execution in parallel: 0.016054
+Time taken for execution in parallel: 0.008528
+Time taken for execution in parallel: 0.011395
 For nThreads 6
-Time taken for execution in parallel: 0.046866
+Time taken for execution in parallel: 0.009076
+Time taken for execution in parallel: 0.013303
+Time taken for execution in parallel: 0.01118
 For nThreads 8
-Time taken for execution in parallel: 0.146831
+Time taken for execution in parallel: 0.009745
+Time taken for execution in parallel: 0.012214
+Time taken for execution in parallel: 0.01435
 For nThreads 12
-Time taken for execution in parallel: 0.062467
+Time taken for execution in parallel: 0.0133
+Time taken for execution in parallel: 0.012706
+Time taken for execution in parallel: 0.01282
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 0.063985
+Total sequential time: 0.022923
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.101062
+Time taken for execution in parallel: 0.017141
+Time taken for execution in parallel: 0.02895
+Time taken for execution in parallel: 0.028207
 For nThreads 4
-Time taken for execution in parallel: 0.076797
+Time taken for execution in parallel: 0.016547
+Time taken for execution in parallel: 0.013488
+Time taken for execution in parallel: 0.008763
 For nThreads 6
-Time taken for execution in parallel: 1.103606
+Time taken for execution in parallel: 0.008385
+Time taken for execution in parallel: 0.013774
+Time taken for execution in parallel: 0.014362
 For nThreads 8
-Time taken for execution in parallel: 0.154492
+Time taken for execution in parallel: 0.013601
+Time taken for execution in parallel: 0.00963
+Time taken for execution in parallel: 0.015951
 For nThreads 12
-Time taken for execution in parallel: 0.115615
+Time taken for execution in parallel: 0.017111
+Time taken for execution in parallel: 0.016339
+Time taken for execution in parallel: 0.013158
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.102432
+Time taken for execution in parallel: 0.014158
+Time taken for execution in parallel: 0.008366
+Time taken for execution in parallel: 0.014042
 For nThreads 4
-Time taken for execution in parallel: 0.089564
+Time taken for execution in parallel: 0.010841
+Time taken for execution in parallel: 0.013359
+Time taken for execution in parallel: 0.012773
 For nThreads 6
-Time taken for execution in parallel: 0.162336
+Time taken for execution in parallel: 0.009164
+Time taken for execution in parallel: 0.013888
+Time taken for execution in parallel: 0.014864
 For nThreads 8
-Time taken for execution in parallel: 0.115537
+Time taken for execution in parallel: 0.01341
+Time taken for execution in parallel: 0.010964
+Time taken for execution in parallel: 0.010515
 For nThreads 12
-Time taken for execution in parallel: 0.123781
+Time taken for execution in parallel: 0.013898
+Time taken for execution in parallel: 0.012325
+Time taken for execution in parallel: 0.016292
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 0.14696
+Total sequential time: 0.038605
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.049279
+Time taken for execution in parallel: 0.022715
+Time taken for execution in parallel: 0.023246
+Time taken for execution in parallel: 0.02091
 For nThreads 4
-Time taken for execution in parallel: 0.060925
+Time taken for execution in parallel: 0.016518
+Time taken for execution in parallel: 0.018324
+Time taken for execution in parallel: 0.018513
 For nThreads 6
-Time taken for execution in parallel: 0.151868
+Time taken for execution in parallel: 0.015756
+Time taken for execution in parallel: 0.014697
+Time taken for execution in parallel: 0.01952
 For nThreads 8
-Time taken for execution in parallel: 0.114325
+Time taken for execution in parallel: 0.01971
+Time taken for execution in parallel: 0.017886
+Time taken for execution in parallel: 0.016204
 For nThreads 12
-Time taken for execution in parallel: 0.07022
+Time taken for execution in parallel: 0.0169
+Time taken for execution in parallel: 0.017448
+Time taken for execution in parallel: 0.017944
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.061473
+Time taken for execution in parallel: 0.022338
+Time taken for execution in parallel: 0.022276
+Time taken for execution in parallel: 0.022025
 For nThreads 4
-Time taken for execution in parallel: 0.064844
+Time taken for execution in parallel: 0.019815
+Time taken for execution in parallel: 0.020053
+Time taken for execution in parallel: 0.018015
 For nThreads 6
-Time taken for execution in parallel: 0.074535
+Time taken for execution in parallel: 0.026969
+Time taken for execution in parallel: 0.016809
+Time taken for execution in parallel: 0.016209
 For nThreads 8
-Time taken for execution in parallel: 0.097993
+Time taken for execution in parallel: 0.017542
+Time taken for execution in parallel: 0.019882
+Time taken for execution in parallel: 0.021863
 For nThreads 12
-Time taken for execution in parallel: 0.079048
+Time taken for execution in parallel: 0.016171
+Time taken for execution in parallel: 0.020137
+Time taken for execution in parallel: 0.021458
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 0.273068
+Total sequential time: 0.128037
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.166717
+Time taken for execution in parallel: 0.086588
+Time taken for execution in parallel: 0.065891
+Time taken for execution in parallel: 0.076059
 For nThreads 4
-Time taken for execution in parallel: 0.121438
+Time taken for execution in parallel: 0.054995
+Time taken for execution in parallel: 0.043775
+Time taken for execution in parallel: 0.036889
 For nThreads 6
-Time taken for execution in parallel: 0.071598
+Time taken for execution in parallel: 0.03511
+Time taken for execution in parallel: 0.073756
+Time taken for execution in parallel: 0.0488
 For nThreads 8
-Time taken for execution in parallel: 0.086078
+Time taken for execution in parallel: 0.039738
+Time taken for execution in parallel: 0.034319
+Time taken for execution in parallel: 0.037132
 For nThreads 12
-Time taken for execution in parallel: 0.132954
+Time taken for execution in parallel: 0.038767
+Time taken for execution in parallel: 0.045903
+Time taken for execution in parallel: 0.03769
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.668023
+Time taken for execution in parallel: 0.054135
+Time taken for execution in parallel: 0.059379
+Time taken for execution in parallel: 0.057736
 For nThreads 4
-Time taken for execution in parallel: 0.234671
+Time taken for execution in parallel: 0.038489
+Time taken for execution in parallel: 0.041943
+Time taken for execution in parallel: 0.041119
 For nThreads 6
-Time taken for execution in parallel: 0.157523
+Time taken for execution in parallel: 0.040354
+Time taken for execution in parallel: 0.039754
+Time taken for execution in parallel: 0.033145
 For nThreads 8
-Time taken for execution in parallel: 0.103561
+Time taken for execution in parallel: 0.034764
+Time taken for execution in parallel: 0.036616
+Time taken for execution in parallel: 0.030649
 For nThreads 12
-Time taken for execution in parallel: 0.087033
+Time taken for execution in parallel: 0.037073
+Time taken for execution in parallel: 0.042045
+Time taken for execution in parallel: 0.035613
 
 --------------------------------------------------
 Processing 10 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.077946
+Total sequential time: 0.012233
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.15736
+Time taken for execution in parallel: 0.016895
+Time taken for execution in parallel: 0.015218
+Time taken for execution in parallel: 0.012141
 For nThreads 4
-Time taken for execution in parallel: 0.129154
+Time taken for execution in parallel: 0.009677
+Time taken for execution in parallel: 0.005987
+Time taken for execution in parallel: 0.012548
 For nThreads 6
-Time taken for execution in parallel: 0.085153
+Time taken for execution in parallel: 0.015378
+Time taken for execution in parallel: 0.013979
+Time taken for execution in parallel: 0.0155
 For nThreads 8
-Time taken for execution in parallel: 0.11236
+Time taken for execution in parallel: 0.011482
+Time taken for execution in parallel: 0.015356
+Time taken for execution in parallel: 0.014887
 For nThreads 12
-Time taken for execution in parallel: 0.093959
+Time taken for execution in parallel: 0.016925
+Time taken for execution in parallel: 0.012849
+Time taken for execution in parallel: 0.015672
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.074006
+Time taken for execution in parallel: 0.009747
+Time taken for execution in parallel: 0.013212
+Time taken for execution in parallel: 0.009483
 For nThreads 4
-Time taken for execution in parallel: 0.078222
+Time taken for execution in parallel: 0.012887
+Time taken for execution in parallel: 0.013055
+Time taken for execution in parallel: 0.020277
 For nThreads 6
-Time taken for execution in parallel: 0.059496
+Time taken for execution in parallel: 0.011497
+Time taken for execution in parallel: 0.01801
+Time taken for execution in parallel: 0.014308
 For nThreads 8
-Time taken for execution in parallel: 0.048907
+Time taken for execution in parallel: 0.020294
+Time taken for execution in parallel: 0.016177
+Time taken for execution in parallel: 0.013111
 For nThreads 12
-Time taken for execution in parallel: 0.042497
+Time taken for execution in parallel: 0.01418
+Time taken for execution in parallel: 0.012975
+Time taken for execution in parallel: 0.012694
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.076139
+Total sequential time: 0.015004
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.086801
+Time taken for execution in parallel: 0.008377
+Time taken for execution in parallel: 0.019891
+Time taken for execution in parallel: 0.013221
 For nThreads 4
-Time taken for execution in parallel: 0.076082
+Time taken for execution in parallel: 0.009918
+Time taken for execution in parallel: 0.012225
+Time taken for execution in parallel: 0.01138
 For nThreads 6
-Time taken for execution in parallel: 0.062496
+Time taken for execution in parallel: 0.013252
+Time taken for execution in parallel: 0.013546
+Time taken for execution in parallel: 0.013826
 For nThreads 8
-Time taken for execution in parallel: 0.07107
+Time taken for execution in parallel: 0.011536
+Time taken for execution in parallel: 0.016869
+Time taken for execution in parallel: 0.014709
 For nThreads 12
-Time taken for execution in parallel: 0.065543
+Time taken for execution in parallel: 0.016349
+Time taken for execution in parallel: 0.01519
+Time taken for execution in parallel: 0.013292
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.125983
+Time taken for execution in parallel: 0.013899
+Time taken for execution in parallel: 0.058243
+Time taken for execution in parallel: 0.010228
 For nThreads 4
-Time taken for execution in parallel: 0.071517
+Time taken for execution in parallel: 0.033958
+Time taken for execution in parallel: 0.03309
+Time taken for execution in parallel: 0.027806
 For nThreads 6
-Time taken for execution in parallel: 0.038518
+Time taken for execution in parallel: 0.027541
+Time taken for execution in parallel: 0.020861
+Time taken for execution in parallel: 0.039071
 For nThreads 8
-Time taken for execution in parallel: 0.0849
+Time taken for execution in parallel: 0.041677
+Time taken for execution in parallel: 0.01905
+Time taken for execution in parallel: 0.01517
 For nThreads 12
-Time taken for execution in parallel: 0.07959
+Time taken for execution in parallel: 0.014645
+Time taken for execution in parallel: 0.014769
+Time taken for execution in parallel: 0.015751
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.072101
+Total sequential time: 0.019292
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.061347
+Time taken for execution in parallel: 0.011583
+Time taken for execution in parallel: 0.028024
+Time taken for execution in parallel: 0.033831
 For nThreads 4
-Time taken for execution in parallel: 0.074627
+Time taken for execution in parallel: 0.039292
+Time taken for execution in parallel: 0.041697
+Time taken for execution in parallel: 0.032498
 For nThreads 6
-Time taken for execution in parallel: 0.09869
+Time taken for execution in parallel: 0.031538
+Time taken for execution in parallel: 0.020723
+Time taken for execution in parallel: 0.025774
 For nThreads 8
-Time taken for execution in parallel: 0.063773
+Time taken for execution in parallel: 0.035959
+Time taken for execution in parallel: 0.027172
+Time taken for execution in parallel: 0.020415
 For nThreads 12
-Time taken for execution in parallel: 0.063286
+Time taken for execution in parallel: 0.018202
+Time taken for execution in parallel: 0.011715
+Time taken for execution in parallel: 0.010804
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.112835
+Time taken for execution in parallel: 0.01464
+Time taken for execution in parallel: 0.01356
+Time taken for execution in parallel: 0.010148
 For nThreads 4
-Time taken for execution in parallel: 0.075756
+Time taken for execution in parallel: 0.013011
+Time taken for execution in parallel: 0.013928
+Time taken for execution in parallel: 0.015425
 For nThreads 6
-Time taken for execution in parallel: 0.064122
+Time taken for execution in parallel: 0.015408
+Time taken for execution in parallel: 0.011589
+Time taken for execution in parallel: 0.014307
 For nThreads 8
-Time taken for execution in parallel: 0.10525
+Time taken for execution in parallel: 0.013799
+Time taken for execution in parallel: 0.014265
+Time taken for execution in parallel: 0.013199
 For nThreads 12
-Time taken for execution in parallel: 0.053088
+Time taken for execution in parallel: 0.016644
+Time taken for execution in parallel: 0.021031
+Time taken for execution in parallel: 0.014893
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.115945
+Total sequential time: 0.036616
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.076856
+Time taken for execution in parallel: 0.018898
+Time taken for execution in parallel: 0.017149
+Time taken for execution in parallel: 0.016724
 For nThreads 4
-Time taken for execution in parallel: 0.065398
+Time taken for execution in parallel: 0.013985
+Time taken for execution in parallel: 0.01552
+Time taken for execution in parallel: 0.016366
 For nThreads 6
-Time taken for execution in parallel: 0.080687
+Time taken for execution in parallel: 0.016846
+Time taken for execution in parallel: 0.01354
+Time taken for execution in parallel: 0.014506
 For nThreads 8
-Time taken for execution in parallel: 0.069957
+Time taken for execution in parallel: 0.015163
+Time taken for execution in parallel: 0.016319
+Time taken for execution in parallel: 0.018383
 For nThreads 12
-Time taken for execution in parallel: 0.083728
+Time taken for execution in parallel: 0.01657
+Time taken for execution in parallel: 0.017036
+Time taken for execution in parallel: 0.018597
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.105515
+Time taken for execution in parallel: 0.023975
+Time taken for execution in parallel: 0.02014
+Time taken for execution in parallel: 0.016128
 For nThreads 4
-Time taken for execution in parallel: 0.084521
+Time taken for execution in parallel: 0.013592
+Time taken for execution in parallel: 0.012983
+Time taken for execution in parallel: 0.011894
 For nThreads 6
-Time taken for execution in parallel: 0.106936
+Time taken for execution in parallel: 0.013173
+Time taken for execution in parallel: 0.013704
+Time taken for execution in parallel: 0.014594
 For nThreads 8
-Time taken for execution in parallel: 0.224872
+Time taken for execution in parallel: 0.015431
+Time taken for execution in parallel: 0.013446
+Time taken for execution in parallel: 0.013862
 For nThreads 12
-Time taken for execution in parallel: 0.26302
+Time taken for execution in parallel: 0.016453
+Time taken for execution in parallel: 0.016091
+Time taken for execution in parallel: 0.019863
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 0.223217
+Total sequential time: 0.143691
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.12407
+Time taken for execution in parallel: 0.056149
+Time taken for execution in parallel: 0.059036
+Time taken for execution in parallel: 0.060682
 For nThreads 4
-Time taken for execution in parallel: 0.154845
+Time taken for execution in parallel: 0.042941
+Time taken for execution in parallel: 0.043515
+Time taken for execution in parallel: 0.043865
 For nThreads 6
-Time taken for execution in parallel: 0.182251
+Time taken for execution in parallel: 0.04021
+Time taken for execution in parallel: 0.040431
+Time taken for execution in parallel: 0.036334
 For nThreads 8
-Time taken for execution in parallel: 0.150591
+Time taken for execution in parallel: 0.03642
+Time taken for execution in parallel: 0.036584
+Time taken for execution in parallel: 0.036048
 For nThreads 12
-Time taken for execution in parallel: 0.121562
+Time taken for execution in parallel: 0.03743
+Time taken for execution in parallel: 0.041147
+Time taken for execution in parallel: 0.039203
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.180539
+Time taken for execution in parallel: 0.073345
+Time taken for execution in parallel: 0.06045
+Time taken for execution in parallel: 0.063429
 For nThreads 4
-Time taken for execution in parallel: 0.192326
+Time taken for execution in parallel: 0.042109
+Time taken for execution in parallel: 0.045323
+Time taken for execution in parallel: 0.04427
 For nThreads 6
-Time taken for execution in parallel: 0.17578
+Time taken for execution in parallel: 0.038356
+Time taken for execution in parallel: 0.038983
+Time taken for execution in parallel: 0.03958
 For nThreads 8
-Time taken for execution in parallel: 0.188349
+Time taken for execution in parallel: 0.03907
+Time taken for execution in parallel: 0.038157
+Time taken for execution in parallel: 0.03749
 For nThreads 12
-Time taken for execution in parallel: 0.74751
+Time taken for execution in parallel: 0.043839
+Time taken for execution in parallel: 0.037784
+Time taken for execution in parallel: 0.039796
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 0.75621
+Total sequential time: 0.539707
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.333274
+Time taken for execution in parallel: 0.224175
+Time taken for execution in parallel: 0.227295
+Time taken for execution in parallel: 0.223726
 For nThreads 4
-Time taken for execution in parallel: 0.379047
+Time taken for execution in parallel: 0.142121
+Time taken for execution in parallel: 0.140262
+Time taken for execution in parallel: 0.139882
 For nThreads 6
-Time taken for execution in parallel: 0.30413
+Time taken for execution in parallel: 0.118366
+Time taken for execution in parallel: 0.121627
+Time taken for execution in parallel: 0.119454
 For nThreads 8
-Time taken for execution in parallel: 0.241515
+Time taken for execution in parallel: 0.107633
+Time taken for execution in parallel: 0.107483
+Time taken for execution in parallel: 0.110131
 For nThreads 12
-Time taken for execution in parallel: 0.189904
+Time taken for execution in parallel: 0.103578
+Time taken for execution in parallel: 0.106449
+Time taken for execution in parallel: 0.102746
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.379483
+Time taken for execution in parallel: 0.230289
+Time taken for execution in parallel: 0.230665
+Time taken for execution in parallel: 0.231941
 For nThreads 4
-Time taken for execution in parallel: 0.202794
+Time taken for execution in parallel: 0.143845
+Time taken for execution in parallel: 0.145135
+Time taken for execution in parallel: 0.146112
 For nThreads 6
-Time taken for execution in parallel: 0.219236
+Time taken for execution in parallel: 0.122643
+Time taken for execution in parallel: 0.122664
+Time taken for execution in parallel: 0.124115
 For nThreads 8
-Time taken for execution in parallel: 0.154222
+Time taken for execution in parallel: 0.112937
+Time taken for execution in parallel: 0.119756
+Time taken for execution in parallel: 0.11273
 For nThreads 12
-Time taken for execution in parallel: 0.196974
+Time taken for execution in parallel: 0.107226
+Time taken for execution in parallel: 0.109359
+Time taken for execution in parallel: 0.107291
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 2.280494
+Total sequential time: 2.018856
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.964809
+Time taken for execution in parallel: 0.842028
+Time taken for execution in parallel: 0.837321
+Time taken for execution in parallel: 0.849579
 For nThreads 4
-Time taken for execution in parallel: 0.601458
+Time taken for execution in parallel: 0.507616
+Time taken for execution in parallel: 0.501388
+Time taken for execution in parallel: 0.495311
 For nThreads 6
-Time taken for execution in parallel: 0.512542
+Time taken for execution in parallel: 0.414005
+Time taken for execution in parallel: 0.413401
+Time taken for execution in parallel: 0.414353
 For nThreads 8
-Time taken for execution in parallel: 0.584843
+Time taken for execution in parallel: 0.372787
+Time taken for execution in parallel: 0.372021
+Time taken for execution in parallel: 0.370829
 For nThreads 12
-Time taken for execution in parallel: 0.511923
+Time taken for execution in parallel: 0.320156
+Time taken for execution in parallel: 0.325375
+Time taken for execution in parallel: 0.330351
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.281135
+Time taken for execution in parallel: 0.881555
+Time taken for execution in parallel: 0.877468
+Time taken for execution in parallel: 0.881252
 For nThreads 4
-Time taken for execution in parallel: 0.669616
+Time taken for execution in parallel: 0.519897
+Time taken for execution in parallel: 0.513021
+Time taken for execution in parallel: 0.516423
 For nThreads 6
-Time taken for execution in parallel: 0.857268
+Time taken for execution in parallel: 0.426175
+Time taken for execution in parallel: 0.422158
+Time taken for execution in parallel: 0.430624
 For nThreads 8
-Time taken for execution in parallel: 0.487468
+Time taken for execution in parallel: 0.384382
+Time taken for execution in parallel: 0.388867
+Time taken for execution in parallel: 0.384097
 For nThreads 12
-Time taken for execution in parallel: 0.671677
+Time taken for execution in parallel: 0.340444
+Time taken for execution in parallel: 0.338081
+Time taken for execution in parallel: 0.344944
 
 --------------------------------------------------
 Processing 100 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.058335
+Total sequential time: 0.013207
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.068465
+Time taken for execution in parallel: 0.01495
+Time taken for execution in parallel: 0.012332
+Time taken for execution in parallel: 0.01334
 For nThreads 4
-Time taken for execution in parallel: 0.030205
+Time taken for execution in parallel: 0.018303
+Time taken for execution in parallel: 0.016882
+Time taken for execution in parallel: 0.014186
 For nThreads 6
-Time taken for execution in parallel: 0.105419
+Time taken for execution in parallel: 0.016462
+Time taken for execution in parallel: 0.019021
+Time taken for execution in parallel: 0.017208
 For nThreads 8
-Time taken for execution in parallel: 0.06931
+Time taken for execution in parallel: 0.016256
+Time taken for execution in parallel: 0.016717
+Time taken for execution in parallel: 0.016582
 For nThreads 12
-Time taken for execution in parallel: 0.080233
+Time taken for execution in parallel: 0.018982
+Time taken for execution in parallel: 0.017248
+Time taken for execution in parallel: 0.01875
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.141287
+Time taken for execution in parallel: 0.029302
+Time taken for execution in parallel: 0.017997
+Time taken for execution in parallel: 0.017553
 For nThreads 4
-Time taken for execution in parallel: 0.395866
+Time taken for execution in parallel: 0.027884
+Time taken for execution in parallel: 0.028253
+Time taken for execution in parallel: 0.028428
 For nThreads 6
-Time taken for execution in parallel: 0.219068
+Time taken for execution in parallel: 0.035929
+Time taken for execution in parallel: 0.036179
+Time taken for execution in parallel: 0.039443
 For nThreads 8
-Time taken for execution in parallel: 0.101384
+Time taken for execution in parallel: 0.038103
+Time taken for execution in parallel: 0.042037
+Time taken for execution in parallel: 0.038728
 For nThreads 12
-Time taken for execution in parallel: 0.088367
+Time taken for execution in parallel: 0.044336
+Time taken for execution in parallel: 0.044339
+Time taken for execution in parallel: 0.073944
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.077948
+Total sequential time: 0.036644
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.065817
+Time taken for execution in parallel: 0.02721
+Time taken for execution in parallel: 0.028514
+Time taken for execution in parallel: 0.020479
 For nThreads 4
-Time taken for execution in parallel: 0.091988
+Time taken for execution in parallel: 0.019837
+Time taken for execution in parallel: 0.020201
+Time taken for execution in parallel: 0.023187
 For nThreads 6
-Time taken for execution in parallel: 0.099109
+Time taken for execution in parallel: 0.026258
+Time taken for execution in parallel: 0.020983
+Time taken for execution in parallel: 0.027278
 For nThreads 8
-Time taken for execution in parallel: 0.049993
+Time taken for execution in parallel: 0.027539
+Time taken for execution in parallel: 0.034218
+Time taken for execution in parallel: 0.024148
 For nThreads 12
-Time taken for execution in parallel: 0.077421
+Time taken for execution in parallel: 0.027655
+Time taken for execution in parallel: 0.028826
+Time taken for execution in parallel: 0.033665
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.080444
+Time taken for execution in parallel: 0.030714
+Time taken for execution in parallel: 0.023857
+Time taken for execution in parallel: 0.040802
 For nThreads 4
-Time taken for execution in parallel: 0.358889
+Time taken for execution in parallel: 0.040054
+Time taken for execution in parallel: 0.040933
+Time taken for execution in parallel: 0.036717
 For nThreads 6
-Time taken for execution in parallel: 0.436282
+Time taken for execution in parallel: 0.047416
+Time taken for execution in parallel: 0.043443
+Time taken for execution in parallel: 0.043492
 For nThreads 8
-Time taken for execution in parallel: 0.113365
+Time taken for execution in parallel: 0.047101
+Time taken for execution in parallel: 0.047702
+Time taken for execution in parallel: 0.044609
 For nThreads 12
-Time taken for execution in parallel: 0.149542
+Time taken for execution in parallel: 0.057328
+Time taken for execution in parallel: 0.055138
+Time taken for execution in parallel: 0.052828
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.178586
+Total sequential time: 0.107253
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.123163
+Time taken for execution in parallel: 0.051306
+Time taken for execution in parallel: 0.051806
+Time taken for execution in parallel: 0.052188
 For nThreads 4
-Time taken for execution in parallel: 0.159327
+Time taken for execution in parallel: 0.048521
+Time taken for execution in parallel: 0.052191
+Time taken for execution in parallel: 0.050833
 For nThreads 6
-Time taken for execution in parallel: 0.136033
+Time taken for execution in parallel: 0.05409
+Time taken for execution in parallel: 0.051181
+Time taken for execution in parallel: 0.050662
 For nThreads 8
-Time taken for execution in parallel: 0.148728
+Time taken for execution in parallel: 0.068107
+Time taken for execution in parallel: 0.052579
+Time taken for execution in parallel: 0.054596
 For nThreads 12
-Time taken for execution in parallel: 0.125528
+Time taken for execution in parallel: 0.065101
+Time taken for execution in parallel: 0.057969
+Time taken for execution in parallel: 0.062129
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.252243
+Time taken for execution in parallel: 0.056657
+Time taken for execution in parallel: 0.060925
+Time taken for execution in parallel: 0.056993
 For nThreads 4
-Time taken for execution in parallel: 0.149285
+Time taken for execution in parallel: 0.063137
+Time taken for execution in parallel: 0.068645
+Time taken for execution in parallel: 0.067012
 For nThreads 6
-Time taken for execution in parallel: 0.169229
+Time taken for execution in parallel: 0.074681
+Time taken for execution in parallel: 0.074198
+Time taken for execution in parallel: 0.07285
 For nThreads 8
-Time taken for execution in parallel: 0.172304
+Time taken for execution in parallel: 0.083721
+Time taken for execution in parallel: 0.092478
+Time taken for execution in parallel: 0.088216
 For nThreads 12
-Time taken for execution in parallel: 0.232824
+Time taken for execution in parallel: 0.099459
+Time taken for execution in parallel: 0.113312
+Time taken for execution in parallel: 0.100526
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.426504
+Total sequential time: 0.340684
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.210274
+Time taken for execution in parallel: 0.120909
+Time taken for execution in parallel: 0.124373
+Time taken for execution in parallel: 0.124807
 For nThreads 4
-Time taken for execution in parallel: 0.147306
+Time taken for execution in parallel: 0.100144
+Time taken for execution in parallel: 0.094053
+Time taken for execution in parallel: 0.100084
 For nThreads 6
-Time taken for execution in parallel: 0.146502
+Time taken for execution in parallel: 0.095738
+Time taken for execution in parallel: 0.091405
+Time taken for execution in parallel: 0.0918
 For nThreads 8
-Time taken for execution in parallel: 0.164841
+Time taken for execution in parallel: 0.091415
+Time taken for execution in parallel: 0.094588
+Time taken for execution in parallel: 0.097465
 For nThreads 12
-Time taken for execution in parallel: 0.174454
+Time taken for execution in parallel: 0.094908
+Time taken for execution in parallel: 0.100957
+Time taken for execution in parallel: 0.099695
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.268862
+Time taken for execution in parallel: 0.131022
+Time taken for execution in parallel: 0.132625
+Time taken for execution in parallel: 0.133932
 For nThreads 4
-Time taken for execution in parallel: 0.7207
+Time taken for execution in parallel: 0.10442
+Time taken for execution in parallel: 0.107145
+Time taken for execution in parallel: 0.110511
 For nThreads 6
-Time taken for execution in parallel: 0.152173
+Time taken for execution in parallel: 0.107516
+Time taken for execution in parallel: 0.110142
+Time taken for execution in parallel: 0.108368
 For nThreads 8
-Time taken for execution in parallel: 0.170979
+Time taken for execution in parallel: 0.109883
+Time taken for execution in parallel: 0.120481
+Time taken for execution in parallel: 0.111471
 For nThreads 12
-Time taken for execution in parallel: 0.628454
+Time taken for execution in parallel: 0.129504
+Time taken for execution in parallel: 0.144396
+Time taken for execution in parallel: 0.136079
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 1.694455
+Total sequential time: 1.493739
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.664411
+Time taken for execution in parallel: 0.573243
+Time taken for execution in parallel: 0.583373
+Time taken for execution in parallel: 0.573951
 For nThreads 4
-Time taken for execution in parallel: 0.794945
+Time taken for execution in parallel: 0.37676
+Time taken for execution in parallel: 0.376521
+Time taken for execution in parallel: 0.376859
 For nThreads 6
-Time taken for execution in parallel: 0.520857
+Time taken for execution in parallel: 0.320674
+Time taken for execution in parallel: 0.323267
+Time taken for execution in parallel: 0.329612
 For nThreads 8
-Time taken for execution in parallel: 0.445592
+Time taken for execution in parallel: 0.29815
+Time taken for execution in parallel: 0.300919
+Time taken for execution in parallel: 0.302866
 For nThreads 12
-Time taken for execution in parallel: 0.420984
+Time taken for execution in parallel: 0.292081
+Time taken for execution in parallel: 0.305238
+Time taken for execution in parallel: 0.305776
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.655633
+Time taken for execution in parallel: 0.625004
+Time taken for execution in parallel: 0.621002
+Time taken for execution in parallel: 0.610416
 For nThreads 4
-Time taken for execution in parallel: 1.269315
+Time taken for execution in parallel: 0.393086
+Time taken for execution in parallel: 0.395231
+Time taken for execution in parallel: 0.385256
 For nThreads 6
-Time taken for execution in parallel: 0.53648
+Time taken for execution in parallel: 0.347214
+Time taken for execution in parallel: 0.346135
+Time taken for execution in parallel: 0.344376
 For nThreads 8
-Time taken for execution in parallel: 0.370336
+Time taken for execution in parallel: 0.327681
+Time taken for execution in parallel: 0.338371
+Time taken for execution in parallel: 0.336857
 For nThreads 12
-Time taken for execution in parallel: 1.007704
+Time taken for execution in parallel: 0.327392
+Time taken for execution in parallel: 0.3346
+Time taken for execution in parallel: 0.32881
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 6.146048
+Total sequential time: 5.56681
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 2.454832
+Time taken for execution in parallel: 2.327192
+Time taken for execution in parallel: 2.335587
+Time taken for execution in parallel: 2.331993
 For nThreads 4
-Time taken for execution in parallel: 1.483658
+Time taken for execution in parallel: 1.433961
+Time taken for execution in parallel: 1.433814
+Time taken for execution in parallel: 1.431211
 For nThreads 6
-Time taken for execution in parallel: 2.193578
+Time taken for execution in parallel: 1.180573
+Time taken for execution in parallel: 1.18299
+Time taken for execution in parallel: 1.181388
 For nThreads 8
-Time taken for execution in parallel: 1.802362
+Time taken for execution in parallel: 1.046157
+Time taken for execution in parallel: 1.046845
+Time taken for execution in parallel: 1.062858
 For nThreads 12
-Time taken for execution in parallel: 1.63564
+Time taken for execution in parallel: 0.940693
+Time taken for execution in parallel: 0.927139
+Time taken for execution in parallel: 0.94101
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 2.424815
+Time taken for execution in parallel: 2.388775
+Time taken for execution in parallel: 2.402316
+Time taken for execution in parallel: 2.402502
 For nThreads 4
-Time taken for execution in parallel: 2.424902
+Time taken for execution in parallel: 1.484514
+Time taken for execution in parallel: 1.458818
+Time taken for execution in parallel: 1.454972
 For nThreads 6
-Time taken for execution in parallel: 1.350416
+Time taken for execution in parallel: 1.216872
+Time taken for execution in parallel: 1.225724
+Time taken for execution in parallel: 1.218349
 For nThreads 8
-Time taken for execution in parallel: 1.505257
+Time taken for execution in parallel: 1.104796
+Time taken for execution in parallel: 1.121676
+Time taken for execution in parallel: 1.133576
 For nThreads 12
-Time taken for execution in parallel: 1.3605
+Time taken for execution in parallel: 1.016172
+Time taken for execution in parallel: 1.007243
+Time taken for execution in parallel: 1.00991
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 23.5742
+Total sequential time: 21.116607
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 9.181905
+Time taken for execution in parallel: 8.722869
+Time taken for execution in parallel: 8.793136
+Time taken for execution in parallel: 8.85851
 For nThreads 4
-Time taken for execution in parallel: 5.607162
+Time taken for execution in parallel: 5.210013
+Time taken for execution in parallel: 5.210108
+Time taken for execution in parallel: 5.197908
 For nThreads 6
-Time taken for execution in parallel: 4.640626
+Time taken for execution in parallel: 4.282157
+Time taken for execution in parallel: 4.295972
+Time taken for execution in parallel: 4.276008
 For nThreads 8
-Time taken for execution in parallel: 4.44067
+Time taken for execution in parallel: 3.768827
+Time taken for execution in parallel: 3.766913
+Time taken for execution in parallel: 3.759894
 For nThreads 12
-Time taken for execution in parallel: 4.783059
+Time taken for execution in parallel: 3.300605
+Time taken for execution in parallel: 3.265377
+Time taken for execution in parallel: 3.256746
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 9.44278
+Time taken for execution in parallel: 9.183582
+Time taken for execution in parallel: 9.183855
+Time taken for execution in parallel: 9.177155
 For nThreads 4
-Time taken for execution in parallel: 5.916381
+Time taken for execution in parallel: 5.358163
+Time taken for execution in parallel: 5.344449
+Time taken for execution in parallel: 5.331455
 For nThreads 6
-Time taken for execution in parallel: 5.166984
+Time taken for execution in parallel: 4.368785
+Time taken for execution in parallel: 4.356313
+Time taken for execution in parallel: 4.346433
 For nThreads 8
-Time taken for execution in parallel: 4.87425
+Time taken for execution in parallel: 3.854868
+Time taken for execution in parallel: 3.872405
+Time taken for execution in parallel: 3.855726
 For nThreads 12
-Time taken for execution in parallel: 4.512084
+Time taken for execution in parallel: 3.359406
+Time taken for execution in parallel: 3.352743
+Time taken for execution in parallel: 3.360783
 
 --------------------------------------------------
 Processing 1000 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.166378
+Total sequential time: 0.081052
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.202208
+Time taken for execution in parallel: 0.061661
+Time taken for execution in parallel: 0.058769
+Time taken for execution in parallel: 0.06021
 For nThreads 4
-Time taken for execution in parallel: 0.214085
+Time taken for execution in parallel: 0.072937
+Time taken for execution in parallel: 0.077089
+Time taken for execution in parallel: 0.085006
 For nThreads 6
-Time taken for execution in parallel: 0.228038
+Time taken for execution in parallel: 0.092197
+Time taken for execution in parallel: 0.087114
+Time taken for execution in parallel: 0.090134
 For nThreads 8
-Time taken for execution in parallel: 0.177305
+Time taken for execution in parallel: 0.10305
+Time taken for execution in parallel: 0.10209
+Time taken for execution in parallel: 0.101693
 For nThreads 12
-Time taken for execution in parallel: 0.222912
+Time taken for execution in parallel: 0.12463
+Time taken for execution in parallel: 0.124357
+Time taken for execution in parallel: 0.124778
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.167069
+Time taken for execution in parallel: 0.100782
+Time taken for execution in parallel: 0.107701
+Time taken for execution in parallel: 0.106486
 For nThreads 4
-Time taken for execution in parallel: 0.293299
+Time taken for execution in parallel: 0.233132
+Time taken for execution in parallel: 0.234128
+Time taken for execution in parallel: 0.229617
 For nThreads 6
-Time taken for execution in parallel: 0.830634
+Time taken for execution in parallel: 0.29924
+Time taken for execution in parallel: 0.294495
+Time taken for execution in parallel: 0.299015
 For nThreads 8
-Time taken for execution in parallel: 0.384373
+Time taken for execution in parallel: 0.335446
+Time taken for execution in parallel: 0.346234
+Time taken for execution in parallel: 0.334569
 For nThreads 12
-Time taken for execution in parallel: 0.521462
+Time taken for execution in parallel: 0.414258
+Time taken for execution in parallel: 0.414956
+Time taken for execution in parallel: 0.396625
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.353276
+Total sequential time: 0.229873
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.327011
+Time taken for execution in parallel: 0.131084
+Time taken for execution in parallel: 0.129815
+Time taken for execution in parallel: 0.125292
 For nThreads 4
-Time taken for execution in parallel: 0.217178
+Time taken for execution in parallel: 0.139689
+Time taken for execution in parallel: 0.143416
+Time taken for execution in parallel: 0.139093
 For nThreads 6
-Time taken for execution in parallel: 0.266892
+Time taken for execution in parallel: 0.161647
+Time taken for execution in parallel: 0.164148
+Time taken for execution in parallel: 0.162383
 For nThreads 8
-Time taken for execution in parallel: 0.241421
+Time taken for execution in parallel: 0.180441
+Time taken for execution in parallel: 0.174647
+Time taken for execution in parallel: 0.178447
 For nThreads 12
-Time taken for execution in parallel: 0.337969
+Time taken for execution in parallel: 0.206311
+Time taken for execution in parallel: 0.204674
+Time taken for execution in parallel: 0.201626
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.26316
+Time taken for execution in parallel: 0.164275
+Time taken for execution in parallel: 0.1667
+Time taken for execution in parallel: 0.171338
 For nThreads 4
-Time taken for execution in parallel: 0.434452
+Time taken for execution in parallel: 0.296593
+Time taken for execution in parallel: 0.290503
+Time taken for execution in parallel: 0.291327
 For nThreads 6
-Time taken for execution in parallel: 0.481324
+Time taken for execution in parallel: 0.345961
+Time taken for execution in parallel: 0.340264
+Time taken for execution in parallel: 0.34897
 For nThreads 8
-Time taken for execution in parallel: 0.530891
+Time taken for execution in parallel: 0.371776
+Time taken for execution in parallel: 0.378438
+Time taken for execution in parallel: 0.373334
 For nThreads 12
-Time taken for execution in parallel: 0.673429
+Time taken for execution in parallel: 0.45714
+Time taken for execution in parallel: 0.449107
+Time taken for execution in parallel: 0.459348
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 1.312335
+Total sequential time: 1.011318
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.607915
+Time taken for execution in parallel: 0.447907
+Time taken for execution in parallel: 0.466965
+Time taken for execution in parallel: 0.452731
 For nThreads 4
-Time taken for execution in parallel: 0.607451
+Time taken for execution in parallel: 0.423907
+Time taken for execution in parallel: 0.430312
+Time taken for execution in parallel: 0.439635
 For nThreads 6
-Time taken for execution in parallel: 0.623406
+Time taken for execution in parallel: 0.442407
+Time taken for execution in parallel: 0.457443
+Time taken for execution in parallel: 0.45401
 For nThreads 8
-Time taken for execution in parallel: 0.68969
+Time taken for execution in parallel: 0.478374
+Time taken for execution in parallel: 0.484618
+Time taken for execution in parallel: 0.475855
 For nThreads 12
-Time taken for execution in parallel: 0.89455
+Time taken for execution in parallel: 0.543413
+Time taken for execution in parallel: 0.542948
+Time taken for execution in parallel: 0.54043
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.879817
+Time taken for execution in parallel: 0.485315
+Time taken for execution in parallel: 0.481879
+Time taken for execution in parallel: 0.476414
 For nThreads 4
-Time taken for execution in parallel: 3.477303
+Time taken for execution in parallel: 0.573645
+Time taken for execution in parallel: 0.580111
+Time taken for execution in parallel: 0.570938
 For nThreads 6
-Time taken for execution in parallel: 0.779037
+Time taken for execution in parallel: 0.678952
+Time taken for execution in parallel: 0.676656
+Time taken for execution in parallel: 0.688499
 For nThreads 8
-Time taken for execution in parallel: 1.105034
+Time taken for execution in parallel: 0.785381
+Time taken for execution in parallel: 0.778758
+Time taken for execution in parallel: 0.777124
 For nThreads 12
-Time taken for execution in parallel: 1.208421
+Time taken for execution in parallel: 0.920328
+Time taken for execution in parallel: 0.926727
+Time taken for execution in parallel: 0.940214
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 3.41757
+Total sequential time: 3.299467
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 1.320506
+Time taken for execution in parallel: 1.177226
+Time taken for execution in parallel: 1.17679
+Time taken for execution in parallel: 1.180845
 For nThreads 4
-Time taken for execution in parallel: 1.021885
+Time taken for execution in parallel: 0.898183
+Time taken for execution in parallel: 0.895065
+Time taken for execution in parallel: 0.892751
 For nThreads 6
-Time taken for execution in parallel: 1.04982
+Time taken for execution in parallel: 0.852543
+Time taken for execution in parallel: 0.850726
+Time taken for execution in parallel: 0.836157
 For nThreads 8
-Time taken for execution in parallel: 1.091252
+Time taken for execution in parallel: 0.859256
+Time taken for execution in parallel: 0.850653
+Time taken for execution in parallel: 0.86763
 For nThreads 12
-Time taken for execution in parallel: 1.037486
+Time taken for execution in parallel: 0.901145
+Time taken for execution in parallel: 0.89766
+Time taken for execution in parallel: 0.897289
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.440354
+Time taken for execution in parallel: 1.263208
+Time taken for execution in parallel: 1.256724
+Time taken for execution in parallel: 1.240916
 For nThreads 4
-Time taken for execution in parallel: 1.14575
+Time taken for execution in parallel: 0.994018
+Time taken for execution in parallel: 0.99685
+Time taken for execution in parallel: 0.999026
 For nThreads 6
-Time taken for execution in parallel: 1.196796
+Time taken for execution in parallel: 0.994614
+Time taken for execution in parallel: 0.995526
+Time taken for execution in parallel: 1.01242
 For nThreads 8
-Time taken for execution in parallel: 1.382903
+Time taken for execution in parallel: 1.062618
+Time taken for execution in parallel: 1.0772
+Time taken for execution in parallel: 1.065406
 For nThreads 12
-Time taken for execution in parallel: 2.003726
+Time taken for execution in parallel: 1.256047
+Time taken for execution in parallel: 1.259689
+Time taken for execution in parallel: 1.248396
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 16.006632
+Total sequential time: 14.902396
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 6.061274
+Time taken for execution in parallel: 5.827449
+Time taken for execution in parallel: 5.857529
+Time taken for execution in parallel: 5.8222
 For nThreads 4
-Time taken for execution in parallel: 3.983838
+Time taken for execution in parallel: 3.823044
+Time taken for execution in parallel: 3.831895
+Time taken for execution in parallel: 3.837001
 For nThreads 6
-Time taken for execution in parallel: 3.641357
+Time taken for execution in parallel: 3.260027
+Time taken for execution in parallel: 3.263154
+Time taken for execution in parallel: 3.260954
 For nThreads 8
-Time taken for execution in parallel: 4.153786
+Time taken for execution in parallel: 3.011528
+Time taken for execution in parallel: 3.008956
+Time taken for execution in parallel: 2.998915
 For nThreads 12
-Time taken for execution in parallel: 3.810081
+Time taken for execution in parallel: 2.912588
+Time taken for execution in parallel: 2.893237
+Time taken for execution in parallel: 2.870808
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 6.436545
+Time taken for execution in parallel: 6.041604
+Time taken for execution in parallel: 6.05693
+Time taken for execution in parallel: 6.054028
 For nThreads 4
-Time taken for execution in parallel: 4.192303
+Time taken for execution in parallel: 3.965813
+Time taken for execution in parallel: 3.948447
+Time taken for execution in parallel: 3.970576
 For nThreads 6
-Time taken for execution in parallel: 3.680787
+Time taken for execution in parallel: 3.482813
+Time taken for execution in parallel: 3.471652
+Time taken for execution in parallel: 3.494825
 For nThreads 8
-Time taken for execution in parallel: 3.933872
+Time taken for execution in parallel: 3.296349
+Time taken for execution in parallel: 3.288882
+Time taken for execution in parallel: 3.305761
 For nThreads 12
-Time taken for execution in parallel: 5.131367
+Time taken for execution in parallel: 3.217254
+Time taken for execution in parallel: 3.203297
+Time taken for execution in parallel: 3.206082
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 60.21032
+Total sequential time: 56.435953
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 25.295907
+Time taken for execution in parallel: 23.521814
+Time taken for execution in parallel: 23.575738
+Time taken for execution in parallel: 23.573229
 For nThreads 4
-Time taken for execution in parallel: 18.434686
+Time taken for execution in parallel: 14.437972
+Time taken for execution in parallel: 14.416604
+Time taken for execution in parallel: 14.481186
 For nThreads 6
-Time taken for execution in parallel: 14.98621
+Time taken for execution in parallel: 11.964076
+Time taken for execution in parallel: 11.956632
+Time taken for execution in parallel: 11.911209
 For nThreads 8
-Time taken for execution in parallel: 14.09315
+Time taken for execution in parallel: 10.69559
+Time taken for execution in parallel: 10.667393
+Time taken for execution in parallel: 10.668873
 For nThreads 12
-Time taken for execution in parallel: 13.172908
+Time taken for execution in parallel: 9.528211
+Time taken for execution in parallel: 9.454265
+Time taken for execution in parallel: 9.435157
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 26.341313
+Time taken for execution in parallel: 24.441409
+Time taken for execution in parallel: 24.458962
+Time taken for execution in parallel: 24.457686
 For nThreads 4
-Time taken for execution in parallel: 18.489972
+Time taken for execution in parallel: 14.918603
+Time taken for execution in parallel: 14.900562
+Time taken for execution in parallel: 14.917656
 For nThreads 6
-Time taken for execution in parallel: 15.48841
+Time taken for execution in parallel: 12.420628
+Time taken for execution in parallel: 12.415896
+Time taken for execution in parallel: 12.419974
 For nThreads 8
-Time taken for execution in parallel: 14.57073
+Time taken for execution in parallel: 11.244787
+Time taken for execution in parallel: 11.222476
+Time taken for execution in parallel: 11.239863
 For nThreads 12
-Time taken for execution in parallel: 16.988773
+Time taken for execution in parallel: 10.072976
+Time taken for execution in parallel: 10.111293
+Time taken for execution in parallel: 10.114629
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 236.085585
+Total sequential time: 213.985111
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 91.198782
+Time taken for execution in parallel: 89.005658
+Time taken for execution in parallel: 89.093722
+Time taken for execution in parallel: 89.067423
 For nThreads 4
-Time taken for execution in parallel: 61.425499
+Time taken for execution in parallel: 52.29807
+Time taken for execution in parallel: 52.450431
+Time taken for execution in parallel: 52.333478
 For nThreads 6
-Time taken for execution in parallel: 52.563796
+Time taken for execution in parallel: 42.978598
+Time taken for execution in parallel: 42.980868
+Time taken for execution in parallel: 42.961068
 For nThreads 8
-Time taken for execution in parallel: 43.97234
+Time taken for execution in parallel: 37.861175
+Time taken for execution in parallel: 37.984046
+Time taken for execution in parallel: 37.833013
 For nThreads 12
-Time taken for execution in parallel: 32.615812
+Time taken for execution in parallel: 32.589746
+Time taken for execution in parallel: 33.260571
+Time taken for execution in parallel: 33.068906
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 92.191206
+Time taken for execution in parallel: 92.161373
+Time taken for execution in parallel: 92.108024
+Time taken for execution in parallel: 92.195927
 For nThreads 4
-Time taken for execution in parallel: 53.755848
+Time taken for execution in parallel: 53.842796
+Time taken for execution in parallel: 53.746155
+Time taken for execution in parallel: 53.787285
 For nThreads 6
-Time taken for execution in parallel: 43.705017
+Time taken for execution in parallel: 43.670892
+Time taken for execution in parallel: 43.73297
+Time taken for execution in parallel: 43.650675
 For nThreads 8
-Time taken for execution in parallel: 38.75567
+Time taken for execution in parallel: 38.762981
+Time taken for execution in parallel: 38.675912
+Time taken for execution in parallel: 38.727245
 For nThreads 12
-Time taken for execution in parallel: 33.678739
+Time taken for execution in parallel: 33.604426
+Time taken for execution in parallel: 33.590782
+Time taken for execution in parallel: 33.583436
 
 --------------------------------------------------
 Processing circle input type.
@@ -854,849 +1414,1409 @@ Processing circle input type.
 Processing 1 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.133111
+Total sequential time: 0.08291
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.034816
+Time taken for execution in parallel: 0.123024
+Time taken for execution in parallel: 0.092496
+Time taken for execution in parallel: 0.10886
 For nThreads 4
-Time taken for execution in parallel: 0.052955
+Time taken for execution in parallel: 0.038825
+Time taken for execution in parallel: 0.030876
+Time taken for execution in parallel: 0.043532
 For nThreads 6
-Time taken for execution in parallel: 0.04036
+Time taken for execution in parallel: 0.046796
+Time taken for execution in parallel: 0.039775
+Time taken for execution in parallel: 0.039433
 For nThreads 8
-Time taken for execution in parallel: 0.039811
+Time taken for execution in parallel: 0.021511
+Time taken for execution in parallel: 0.028753
+Time taken for execution in parallel: 0.020277
 For nThreads 12
-Time taken for execution in parallel: 0.065668
+Time taken for execution in parallel: 0.036533
+Time taken for execution in parallel: 0.021632
+Time taken for execution in parallel: 0.024155
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.097998
+Time taken for execution in parallel: 0.022504
+Time taken for execution in parallel: 0.045959
+Time taken for execution in parallel: 0.021452
 For nThreads 4
-Time taken for execution in parallel: 0.083687
+Time taken for execution in parallel: 0.021618
+Time taken for execution in parallel: 0.016855
+Time taken for execution in parallel: 0.024879
 For nThreads 6
-Time taken for execution in parallel: 0.099446
+Time taken for execution in parallel: 0.042305
+Time taken for execution in parallel: 0.019454
+Time taken for execution in parallel: 0.030855
 For nThreads 8
-Time taken for execution in parallel: 0.070909
+Time taken for execution in parallel: 0.021384
+Time taken for execution in parallel: 0.024376
+Time taken for execution in parallel: 0.082517
 For nThreads 12
-Time taken for execution in parallel: 0.028066
+Time taken for execution in parallel: 0.070239
+Time taken for execution in parallel: 0.084544
+Time taken for execution in parallel: 0.038954
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.05447
+Total sequential time: 0.091014
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.049692
+Time taken for execution in parallel: 0.083782
+Time taken for execution in parallel: 0.050107
+Time taken for execution in parallel: 0.069277
 For nThreads 4
-Time taken for execution in parallel: 0.102772
+Time taken for execution in parallel: 0.096363
+Time taken for execution in parallel: 0.095853
+Time taken for execution in parallel: 0.096354
 For nThreads 6
-Time taken for execution in parallel: 0.080845
+Time taken for execution in parallel: 0.053293
+Time taken for execution in parallel: 0.063045
+Time taken for execution in parallel: 0.060476
 For nThreads 8
-Time taken for execution in parallel: 0.081608
+Time taken for execution in parallel: 0.055851
+Time taken for execution in parallel: 0.029254
+Time taken for execution in parallel: 0.03006
 For nThreads 12
-Time taken for execution in parallel: 0.110368
+Time taken for execution in parallel: 0.03066
+Time taken for execution in parallel: 0.038581
+Time taken for execution in parallel: 0.03284
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.066456
+Time taken for execution in parallel: 0.058662
+Time taken for execution in parallel: 0.023397
+Time taken for execution in parallel: 0.045899
 For nThreads 4
-Time taken for execution in parallel: 0.104359
+Time taken for execution in parallel: 0.036853
+Time taken for execution in parallel: 0.025526
+Time taken for execution in parallel: 0.035498
 For nThreads 6
-Time taken for execution in parallel: 0.065779
+Time taken for execution in parallel: 0.038197
+Time taken for execution in parallel: 0.021357
+Time taken for execution in parallel: 0.051644
 For nThreads 8
-Time taken for execution in parallel: 0.043284
+Time taken for execution in parallel: 0.032412
+Time taken for execution in parallel: 0.064011
+Time taken for execution in parallel: 0.029066
 For nThreads 12
-Time taken for execution in parallel: 0.084846
+Time taken for execution in parallel: 0.032334
+Time taken for execution in parallel: 0.01975
+Time taken for execution in parallel: 0.067789
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.139499
+Total sequential time: 0.04582
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.066254
+Time taken for execution in parallel: 0.02642
+Time taken for execution in parallel: 0.042154
+Time taken for execution in parallel: 0.021996
 For nThreads 4
-Time taken for execution in parallel: 0.071282
+Time taken for execution in parallel: 0.025765
+Time taken for execution in parallel: 0.023873
+Time taken for execution in parallel: 0.020791
 For nThreads 6
-Time taken for execution in parallel: 0.084298
+Time taken for execution in parallel: 0.05405
+Time taken for execution in parallel: 0.048865
+Time taken for execution in parallel: 0.040377
 For nThreads 8
-Time taken for execution in parallel: 0.024313
+Time taken for execution in parallel: 0.054057
+Time taken for execution in parallel: 0.055288
+Time taken for execution in parallel: 0.077648
 For nThreads 12
-Time taken for execution in parallel: 0.040522
+Time taken for execution in parallel: 0.0643
+Time taken for execution in parallel: 0.023177
+Time taken for execution in parallel: 0.022728
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.023954
+Time taken for execution in parallel: 0.046599
+Time taken for execution in parallel: 0.02706
+Time taken for execution in parallel: 0.104267
 For nThreads 4
-Time taken for execution in parallel: 0.060046
+Time taken for execution in parallel: 0.094567
+Time taken for execution in parallel: 0.106351
+Time taken for execution in parallel: 0.079138
 For nThreads 6
-Time taken for execution in parallel: 0.065573
+Time taken for execution in parallel: 0.10396
+Time taken for execution in parallel: 0.039699
+Time taken for execution in parallel: 0.098621
 For nThreads 8
-Time taken for execution in parallel: 0.04658
+Time taken for execution in parallel: 0.072228
+Time taken for execution in parallel: 0.088433
+Time taken for execution in parallel: 0.093422
 For nThreads 12
-Time taken for execution in parallel: 0.034684
+Time taken for execution in parallel: 0.119009
+Time taken for execution in parallel: 0.047985
+Time taken for execution in parallel: 0.096902
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.06585
+Total sequential time: 0.071164
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.080115
+Time taken for execution in parallel: 0.13377
+Time taken for execution in parallel: 0.104187
+Time taken for execution in parallel: 0.04993
 For nThreads 4
-Time taken for execution in parallel: 0.081956
+Time taken for execution in parallel: 0.049664
+Time taken for execution in parallel: 0.070863
+Time taken for execution in parallel: 0.087392
 For nThreads 6
-Time taken for execution in parallel: 0.070006
+Time taken for execution in parallel: 0.086743
+Time taken for execution in parallel: 0.106011
+Time taken for execution in parallel: 0.051689
 For nThreads 8
-Time taken for execution in parallel: 0.109434
+Time taken for execution in parallel: 0.132037
+Time taken for execution in parallel: 0.087095
+Time taken for execution in parallel: 0.060442
 For nThreads 12
-Time taken for execution in parallel: 0.02648
+Time taken for execution in parallel: 0.107379
+Time taken for execution in parallel: 0.078969
+Time taken for execution in parallel: 0.080204
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.098395
+Time taken for execution in parallel: 0.038647
+Time taken for execution in parallel: 0.052681
+Time taken for execution in parallel: 0.116633
 For nThreads 4
-Time taken for execution in parallel: 0.068856
+Time taken for execution in parallel: 0.149948
+Time taken for execution in parallel: 0.199371
+Time taken for execution in parallel: 0.061685
 For nThreads 6
-Time taken for execution in parallel: 0.028332
+Time taken for execution in parallel: 0.087121
+Time taken for execution in parallel: 0.097469
+Time taken for execution in parallel: 0.09418
 For nThreads 8
-Time taken for execution in parallel: 0.061398
+Time taken for execution in parallel: 0.089774
+Time taken for execution in parallel: 0.074307
+Time taken for execution in parallel: 0.034518
 For nThreads 12
-Time taken for execution in parallel: 0.070592
+Time taken for execution in parallel: 0.026126
+Time taken for execution in parallel: 0.050412
+Time taken for execution in parallel: 0.069707
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 0.087863
+Total sequential time: 0.093067
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.052564
+Time taken for execution in parallel: 0.054792
+Time taken for execution in parallel: 0.028166
+Time taken for execution in parallel: 0.056821
 For nThreads 4
-Time taken for execution in parallel: 0.086281
+Time taken for execution in parallel: 0.039005
+Time taken for execution in parallel: 0.046463
+Time taken for execution in parallel: 0.094848
 For nThreads 6
-Time taken for execution in parallel: 0.083808
+Time taken for execution in parallel: 0.021541
+Time taken for execution in parallel: 0.042595
+Time taken for execution in parallel: 0.043842
 For nThreads 8
-Time taken for execution in parallel: 0.090212
+Time taken for execution in parallel: 0.02791
+Time taken for execution in parallel: 0.032476
+Time taken for execution in parallel: 0.042846
 For nThreads 12
-Time taken for execution in parallel: 0.05829
+Time taken for execution in parallel: 0.022059
+Time taken for execution in parallel: 0.060451
+Time taken for execution in parallel: 0.0451
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.06035
+Time taken for execution in parallel: 0.038929
+Time taken for execution in parallel: 0.048866
+Time taken for execution in parallel: 0.052875
 For nThreads 4
-Time taken for execution in parallel: 0.076095
+Time taken for execution in parallel: 0.069161
+Time taken for execution in parallel: 0.057749
+Time taken for execution in parallel: 0.038645
 For nThreads 6
-Time taken for execution in parallel: 0.095251
+Time taken for execution in parallel: 0.064413
+Time taken for execution in parallel: 0.105535
+Time taken for execution in parallel: 0.071353
 For nThreads 8
-Time taken for execution in parallel: 0.145116
+Time taken for execution in parallel: 0.10128
+Time taken for execution in parallel: 0.047886
+Time taken for execution in parallel: 0.042019
 For nThreads 12
-Time taken for execution in parallel: 0.086532
+Time taken for execution in parallel: 0.055847
+Time taken for execution in parallel: 0.046679
+Time taken for execution in parallel: 0.043712
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 0.136786
+Total sequential time: 0.05253
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.120703
+Time taken for execution in parallel: 0.059451
+Time taken for execution in parallel: 0.104861
+Time taken for execution in parallel: 0.052277
 For nThreads 4
-Time taken for execution in parallel: 0.107363
+Time taken for execution in parallel: 0.039772
+Time taken for execution in parallel: 0.035092
+Time taken for execution in parallel: 0.086146
 For nThreads 6
-Time taken for execution in parallel: 0.104514
+Time taken for execution in parallel: 0.073877
+Time taken for execution in parallel: 0.039429
+Time taken for execution in parallel: 0.039173
 For nThreads 8
-Time taken for execution in parallel: 0.093938
+Time taken for execution in parallel: 0.072445
+Time taken for execution in parallel: 0.060077
+Time taken for execution in parallel: 0.034665
 For nThreads 12
-Time taken for execution in parallel: 0.15352
+Time taken for execution in parallel: 0.063822
+Time taken for execution in parallel: 0.029275
+Time taken for execution in parallel: 0.05813
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.174778
+Time taken for execution in parallel: 0.053825
+Time taken for execution in parallel: 0.060641
+Time taken for execution in parallel: 0.063721
 For nThreads 4
-Time taken for execution in parallel: 0.094148
+Time taken for execution in parallel: 0.031793
+Time taken for execution in parallel: 0.042911
+Time taken for execution in parallel: 0.043645
 For nThreads 6
-Time taken for execution in parallel: 0.053291
+Time taken for execution in parallel: 0.103748
+Time taken for execution in parallel: 0.047634
+Time taken for execution in parallel: 0.167023
 For nThreads 8
-Time taken for execution in parallel: 0.143013
+Time taken for execution in parallel: 0.0457
+Time taken for execution in parallel: 0.04789
+Time taken for execution in parallel: 0.025309
 For nThreads 12
-Time taken for execution in parallel: 0.062575
+Time taken for execution in parallel: 0.060004
+Time taken for execution in parallel: 0.057498
+Time taken for execution in parallel: 0.067054
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 0.187734
+Total sequential time: 0.13972
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.107184
+Time taken for execution in parallel: 0.09629
+Time taken for execution in parallel: 0.117661
+Time taken for execution in parallel: 0.100055
 For nThreads 4
-Time taken for execution in parallel: 0.055318
+Time taken for execution in parallel: 0.075842
+Time taken for execution in parallel: 0.074133
+Time taken for execution in parallel: 0.073657
 For nThreads 6
-Time taken for execution in parallel: 0.19991
+Time taken for execution in parallel: 0.148714
+Time taken for execution in parallel: 0.07223
+Time taken for execution in parallel: 0.075342
 For nThreads 8
-Time taken for execution in parallel: 0.120176
+Time taken for execution in parallel: 0.066415
+Time taken for execution in parallel: 0.046339
+Time taken for execution in parallel: 0.074309
 For nThreads 12
-Time taken for execution in parallel: 0.072852
+Time taken for execution in parallel: 0.064176
+Time taken for execution in parallel: 0.055744
+Time taken for execution in parallel: 0.05097
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.07182
+Time taken for execution in parallel: 0.07104
+Time taken for execution in parallel: 0.0851
+Time taken for execution in parallel: 0.137281
 For nThreads 4
-Time taken for execution in parallel: 0.076214
+Time taken for execution in parallel: 0.064604
+Time taken for execution in parallel: 0.118029
+Time taken for execution in parallel: 0.103389
 For nThreads 6
-Time taken for execution in parallel: 0.126216
+Time taken for execution in parallel: 0.1366
+Time taken for execution in parallel: 0.057671
+Time taken for execution in parallel: 0.052585
 For nThreads 8
-Time taken for execution in parallel: 0.132671
+Time taken for execution in parallel: 0.087903
+Time taken for execution in parallel: 0.103233
+Time taken for execution in parallel: 0.091716
 For nThreads 12
-Time taken for execution in parallel: 0.10067
+Time taken for execution in parallel: 0.124441
+Time taken for execution in parallel: 0.050282
+Time taken for execution in parallel: 0.167129
 
 --------------------------------------------------
 Processing 10 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.058446
+Total sequential time: 0.046125
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.061199
+Time taken for execution in parallel: 0.097708
+Time taken for execution in parallel: 0.115249
+Time taken for execution in parallel: 0.162079
 For nThreads 4
-Time taken for execution in parallel: 0.124619
+Time taken for execution in parallel: 0.073168
+Time taken for execution in parallel: 0.08494
+Time taken for execution in parallel: 0.079865
 For nThreads 6
-Time taken for execution in parallel: 0.090284
+Time taken for execution in parallel: 0.080399
+Time taken for execution in parallel: 0.101354
+Time taken for execution in parallel: 0.119033
 For nThreads 8
-Time taken for execution in parallel: 0.083419
+Time taken for execution in parallel: 0.160448
+Time taken for execution in parallel: 0.10934
+Time taken for execution in parallel: 0.09014
 For nThreads 12
-Time taken for execution in parallel: 0.110704
+Time taken for execution in parallel: 0.103098
+Time taken for execution in parallel: 0.086744
+Time taken for execution in parallel: 0.049446
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.102367
+Time taken for execution in parallel: 0.067646
+Time taken for execution in parallel: 0.054381
+Time taken for execution in parallel: 0.07166
 For nThreads 4
-Time taken for execution in parallel: 0.102577
+Time taken for execution in parallel: 0.094859
+Time taken for execution in parallel: 0.062434
+Time taken for execution in parallel: 0.147905
 For nThreads 6
-Time taken for execution in parallel: 0.103858
+Time taken for execution in parallel: 0.071937
+Time taken for execution in parallel: 0.098723
+Time taken for execution in parallel: 0.053287
 For nThreads 8
-Time taken for execution in parallel: 0.43237
+Time taken for execution in parallel: 0.073507
+Time taken for execution in parallel: 0.056863
+Time taken for execution in parallel: 0.098026
 For nThreads 12
-Time taken for execution in parallel: 0.07579
+Time taken for execution in parallel: 0.086399
+Time taken for execution in parallel: 0.067103
+Time taken for execution in parallel: 0.077499
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.079191
+Total sequential time: 0.04286
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.054725
+Time taken for execution in parallel: 0.116727
+Time taken for execution in parallel: 0.057628
+Time taken for execution in parallel: 0.049048
 For nThreads 4
-Time taken for execution in parallel: 0.089536
+Time taken for execution in parallel: 0.168487
+Time taken for execution in parallel: 0.101914
+Time taken for execution in parallel: 0.081032
 For nThreads 6
-Time taken for execution in parallel: 0.113299
+Time taken for execution in parallel: 0.144138
+Time taken for execution in parallel: 0.109977
+Time taken for execution in parallel: 0.028643
 For nThreads 8
-Time taken for execution in parallel: 0.093189
+Time taken for execution in parallel: 0.060362
+Time taken for execution in parallel: 0.076736
+Time taken for execution in parallel: 0.041799
 For nThreads 12
-Time taken for execution in parallel: 0.103843
+Time taken for execution in parallel: 0.07753
+Time taken for execution in parallel: 0.057674
+Time taken for execution in parallel: 0.106938
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.078002
+Time taken for execution in parallel: 0.048073
+Time taken for execution in parallel: 0.060757
+Time taken for execution in parallel: 0.061379
 For nThreads 4
-Time taken for execution in parallel: 0.04558
+Time taken for execution in parallel: 0.074553
+Time taken for execution in parallel: 0.045006
+Time taken for execution in parallel: 0.044219
 For nThreads 6
-Time taken for execution in parallel: 0.077024
+Time taken for execution in parallel: 0.105768
+Time taken for execution in parallel: 0.044362
+Time taken for execution in parallel: 0.047426
 For nThreads 8
-Time taken for execution in parallel: 0.064006
+Time taken for execution in parallel: 0.030804
+Time taken for execution in parallel: 0.043956
+Time taken for execution in parallel: 0.048109
 For nThreads 12
-Time taken for execution in parallel: 0.133812
+Time taken for execution in parallel: 0.03468
+Time taken for execution in parallel: 0.035373
+Time taken for execution in parallel: 0.095527
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.112282
+Total sequential time: 0.052914
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.123795
+Time taken for execution in parallel: 0.041218
+Time taken for execution in parallel: 0.031258
+Time taken for execution in parallel: 0.030356
 For nThreads 4
-Time taken for execution in parallel: 0.114328
+Time taken for execution in parallel: 0.031716
+Time taken for execution in parallel: 0.032188
+Time taken for execution in parallel: 0.0272
 For nThreads 6
-Time taken for execution in parallel: 0.114147
+Time taken for execution in parallel: 0.052072
+Time taken for execution in parallel: 0.05324
+Time taken for execution in parallel: 0.056568
 For nThreads 8
-Time taken for execution in parallel: 0.076374
+Time taken for execution in parallel: 0.047369
+Time taken for execution in parallel: 0.025897
+Time taken for execution in parallel: 0.029868
 For nThreads 12
-Time taken for execution in parallel: 0.054129
+Time taken for execution in parallel: 0.052324
+Time taken for execution in parallel: 0.098609
+Time taken for execution in parallel: 0.091254
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.066436
+Time taken for execution in parallel: 0.027853
+Time taken for execution in parallel: 0.107273
+Time taken for execution in parallel: 0.095715
 For nThreads 4
-Time taken for execution in parallel: 0.068349
+Time taken for execution in parallel: 0.057278
+Time taken for execution in parallel: 0.111582
+Time taken for execution in parallel: 0.055808
 For nThreads 6
-Time taken for execution in parallel: 0.090378
+Time taken for execution in parallel: 0.067578
+Time taken for execution in parallel: 0.06777
+Time taken for execution in parallel: 0.081325
 For nThreads 8
-Time taken for execution in parallel: 0.094686
+Time taken for execution in parallel: 0.128859
+Time taken for execution in parallel: 0.047295
+Time taken for execution in parallel: 0.066701
 For nThreads 12
-Time taken for execution in parallel: 0.064514
+Time taken for execution in parallel: 0.067109
+Time taken for execution in parallel: 0.068756
+Time taken for execution in parallel: 0.091036
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.088531
+Total sequential time: 0.077681
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.066967
+Time taken for execution in parallel: 0.038038
+Time taken for execution in parallel: 0.060034
+Time taken for execution in parallel: 0.071444
 For nThreads 4
-Time taken for execution in parallel: 0.095821
+Time taken for execution in parallel: 0.060587
+Time taken for execution in parallel: 0.097408
+Time taken for execution in parallel: 0.133057
 For nThreads 6
-Time taken for execution in parallel: 0.078985
+Time taken for execution in parallel: 0.066641
+Time taken for execution in parallel: 0.067149
+Time taken for execution in parallel: 0.079393
 For nThreads 8
-Time taken for execution in parallel: 0.088779
+Time taken for execution in parallel: 0.110378
+Time taken for execution in parallel: 0.078575
+Time taken for execution in parallel: 0.075262
 For nThreads 12
-Time taken for execution in parallel: 0.055234
+Time taken for execution in parallel: 0.065685
+Time taken for execution in parallel: 0.115436
+Time taken for execution in parallel: 0.072361
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.065316
+Time taken for execution in parallel: 0.081815
+Time taken for execution in parallel: 0.060165
+Time taken for execution in parallel: 0.067016
 For nThreads 4
-Time taken for execution in parallel: 0.099544
+Time taken for execution in parallel: 0.075812
+Time taken for execution in parallel: 0.07978
+Time taken for execution in parallel: 0.05956
 For nThreads 6
-Time taken for execution in parallel: 0.081202
+Time taken for execution in parallel: 0.062865
+Time taken for execution in parallel: 0.165991
+Time taken for execution in parallel: 0.116176
 For nThreads 8
-Time taken for execution in parallel: 0.124341
+Time taken for execution in parallel: 0.156088
+Time taken for execution in parallel: 0.135368
+Time taken for execution in parallel: 0.047281
 For nThreads 12
-Time taken for execution in parallel: 0.096196
+Time taken for execution in parallel: 0.05324
+Time taken for execution in parallel: 0.098636
+Time taken for execution in parallel: 0.086488
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 0.207446
+Total sequential time: 0.169034
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.124018
+Time taken for execution in parallel: 0.071092
+Time taken for execution in parallel: 0.087246
+Time taken for execution in parallel: 0.08145
 For nThreads 4
-Time taken for execution in parallel: 0.098806
+Time taken for execution in parallel: 0.073763
+Time taken for execution in parallel: 0.091533
+Time taken for execution in parallel: 0.082064
 For nThreads 6
-Time taken for execution in parallel: 0.082026
+Time taken for execution in parallel: 0.088947
+Time taken for execution in parallel: 0.052794
+Time taken for execution in parallel: 0.084564
 For nThreads 8
-Time taken for execution in parallel: 0.075242
+Time taken for execution in parallel: 0.048562
+Time taken for execution in parallel: 0.083925
+Time taken for execution in parallel: 0.042806
 For nThreads 12
-Time taken for execution in parallel: 0.082107
+Time taken for execution in parallel: 0.044699
+Time taken for execution in parallel: 0.065589
+Time taken for execution in parallel: 0.080966
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.104638
+Time taken for execution in parallel: 0.089098
+Time taken for execution in parallel: 0.125726
+Time taken for execution in parallel: 0.087316
 For nThreads 4
-Time taken for execution in parallel: 0.086944
+Time taken for execution in parallel: 0.071201
+Time taken for execution in parallel: 0.050385
+Time taken for execution in parallel: 0.108462
 For nThreads 6
-Time taken for execution in parallel: 0.097063
+Time taken for execution in parallel: 0.107997
+Time taken for execution in parallel: 0.088769
+Time taken for execution in parallel: 0.098628
 For nThreads 8
-Time taken for execution in parallel: 0.076106
+Time taken for execution in parallel: 0.056216
+Time taken for execution in parallel: 0.105518
+Time taken for execution in parallel: 0.092189
 For nThreads 12
-Time taken for execution in parallel: 0.115808
+Time taken for execution in parallel: 0.112368
+Time taken for execution in parallel: 0.074597
+Time taken for execution in parallel: 0.080729
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 0.462271
+Total sequential time: 0.462522
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.176437
+Time taken for execution in parallel: 0.177019
+Time taken for execution in parallel: 0.210796
+Time taken for execution in parallel: 0.182881
 For nThreads 4
-Time taken for execution in parallel: 0.153871
+Time taken for execution in parallel: 0.127036
+Time taken for execution in parallel: 0.133511
+Time taken for execution in parallel: 0.149911
 For nThreads 6
-Time taken for execution in parallel: 0.153343
+Time taken for execution in parallel: 0.11928
+Time taken for execution in parallel: 0.145608
+Time taken for execution in parallel: 0.140468
 For nThreads 8
-Time taken for execution in parallel: 0.123892
+Time taken for execution in parallel: 0.148761
+Time taken for execution in parallel: 0.14206
+Time taken for execution in parallel: 0.125194
 For nThreads 12
-Time taken for execution in parallel: 0.356544
+Time taken for execution in parallel: 0.108169
+Time taken for execution in parallel: 0.114895
+Time taken for execution in parallel: 0.181444
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.233257
+Time taken for execution in parallel: 0.218933
+Time taken for execution in parallel: 0.214404
+Time taken for execution in parallel: 0.179672
 For nThreads 4
-Time taken for execution in parallel: 0.155224
+Time taken for execution in parallel: 0.117753
+Time taken for execution in parallel: 0.123123
+Time taken for execution in parallel: 0.14032
 For nThreads 6
-Time taken for execution in parallel: 0.172251
+Time taken for execution in parallel: 0.105768
+Time taken for execution in parallel: 0.117576
+Time taken for execution in parallel: 0.14403
 For nThreads 8
-Time taken for execution in parallel: 0.137878
+Time taken for execution in parallel: 0.100289
+Time taken for execution in parallel: 0.104918
+Time taken for execution in parallel: 0.112964
 For nThreads 12
-Time taken for execution in parallel: 0.155093
+Time taken for execution in parallel: 0.112133
+Time taken for execution in parallel: 0.105115
+Time taken for execution in parallel: 0.110899
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 1.499318
+Total sequential time: 1.426026
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.562431
+Time taken for execution in parallel: 0.578277
+Time taken for execution in parallel: 0.560216
+Time taken for execution in parallel: 0.562068
 For nThreads 4
-Time taken for execution in parallel: 0.377705
+Time taken for execution in parallel: 0.361442
+Time taken for execution in parallel: 0.349999
+Time taken for execution in parallel: 0.363978
 For nThreads 6
-Time taken for execution in parallel: 0.301127
+Time taken for execution in parallel: 0.314047
+Time taken for execution in parallel: 0.364834
+Time taken for execution in parallel: 0.305695
 For nThreads 8
-Time taken for execution in parallel: 0.313469
+Time taken for execution in parallel: 0.280295
+Time taken for execution in parallel: 0.28495
+Time taken for execution in parallel: 0.281283
 For nThreads 12
-Time taken for execution in parallel: 0.28034
+Time taken for execution in parallel: 0.289482
+Time taken for execution in parallel: 0.272657
+Time taken for execution in parallel: 0.270035
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.568076
+Time taken for execution in parallel: 0.558049
+Time taken for execution in parallel: 0.581547
+Time taken for execution in parallel: 0.537127
 For nThreads 4
-Time taken for execution in parallel: 0.356245
+Time taken for execution in parallel: 0.330495
+Time taken for execution in parallel: 0.328299
+Time taken for execution in parallel: 0.327134
 For nThreads 6
-Time taken for execution in parallel: 0.332043
+Time taken for execution in parallel: 0.304132
+Time taken for execution in parallel: 0.282007
+Time taken for execution in parallel: 0.291064
 For nThreads 8
-Time taken for execution in parallel: 0.293845
+Time taken for execution in parallel: 0.318486
+Time taken for execution in parallel: 0.315148
+Time taken for execution in parallel: 0.292353
 For nThreads 12
-Time taken for execution in parallel: 0.292375
+Time taken for execution in parallel: 0.295881
+Time taken for execution in parallel: 0.249512
+Time taken for execution in parallel: 0.285296
 
 --------------------------------------------------
 Processing 100 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.123904
+Total sequential time: 0.022049
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.107353
+Time taken for execution in parallel: 0.042928
+Time taken for execution in parallel: 0.018666
+Time taken for execution in parallel: 0.03437
 For nThreads 4
-Time taken for execution in parallel: 0.076443
+Time taken for execution in parallel: 0.034604
+Time taken for execution in parallel: 0.030552
+Time taken for execution in parallel: 0.01851
 For nThreads 6
-Time taken for execution in parallel: 0.106001
+Time taken for execution in parallel: 0.020275
+Time taken for execution in parallel: 0.029597
+Time taken for execution in parallel: 0.038483
 For nThreads 8
-Time taken for execution in parallel: 0.163864
+Time taken for execution in parallel: 0.049344
+Time taken for execution in parallel: 0.045209
+Time taken for execution in parallel: 0.045762
 For nThreads 12
-Time taken for execution in parallel: 0.106943
+Time taken for execution in parallel: 0.03175
+Time taken for execution in parallel: 0.025577
+Time taken for execution in parallel: 0.041438
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.129857
+Time taken for execution in parallel: 0.06438
+Time taken for execution in parallel: 0.11696
+Time taken for execution in parallel: 0.100774
 For nThreads 4
-Time taken for execution in parallel: 0.182327
+Time taken for execution in parallel: 0.067206
+Time taken for execution in parallel: 0.079019
+Time taken for execution in parallel: 0.075297
 For nThreads 6
-Time taken for execution in parallel: 0.118284
+Time taken for execution in parallel: 0.068503
+Time taken for execution in parallel: 0.080629
+Time taken for execution in parallel: 0.092731
 For nThreads 8
-Time taken for execution in parallel: 0.170183
+Time taken for execution in parallel: 0.086296
+Time taken for execution in parallel: 0.103602
+Time taken for execution in parallel: 0.089167
 For nThreads 12
-Time taken for execution in parallel: 0.090467
+Time taken for execution in parallel: 0.063347
+Time taken for execution in parallel: 0.094315
+Time taken for execution in parallel: 0.087818
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.124924
+Total sequential time: 0.060079
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.134167
+Time taken for execution in parallel: 0.045229
+Time taken for execution in parallel: 0.070709
+Time taken for execution in parallel: 0.05997
 For nThreads 4
-Time taken for execution in parallel: 0.135578
+Time taken for execution in parallel: 0.036283
+Time taken for execution in parallel: 0.05617
+Time taken for execution in parallel: 0.042703
 For nThreads 6
-Time taken for execution in parallel: 0.150663
+Time taken for execution in parallel: 0.042533
+Time taken for execution in parallel: 0.030809
+Time taken for execution in parallel: 0.040961
 For nThreads 8
-Time taken for execution in parallel: 0.093761
+Time taken for execution in parallel: 0.035399
+Time taken for execution in parallel: 0.049215
+Time taken for execution in parallel: 0.061141
 For nThreads 12
-Time taken for execution in parallel: 0.078682
+Time taken for execution in parallel: 0.058365
+Time taken for execution in parallel: 0.048083
+Time taken for execution in parallel: 0.040994
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.13401
+Time taken for execution in parallel: 0.04623
+Time taken for execution in parallel: 0.050461
+Time taken for execution in parallel: 0.037881
 For nThreads 4
-Time taken for execution in parallel: 0.111804
+Time taken for execution in parallel: 0.047995
+Time taken for execution in parallel: 0.067733
+Time taken for execution in parallel: 0.062493
 For nThreads 6
-Time taken for execution in parallel: 0.145629
+Time taken for execution in parallel: 0.046098
+Time taken for execution in parallel: 0.070434
+Time taken for execution in parallel: 0.056952
 For nThreads 8
-Time taken for execution in parallel: 0.118352
+Time taken for execution in parallel: 0.055833
+Time taken for execution in parallel: 0.063437
+Time taken for execution in parallel: 0.052006
 For nThreads 12
-Time taken for execution in parallel: 0.090272
+Time taken for execution in parallel: 0.115372
+Time taken for execution in parallel: 0.065406
+Time taken for execution in parallel: 0.07838
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.18715
+Total sequential time: 0.170235
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.082963
+Time taken for execution in parallel: 0.077174
+Time taken for execution in parallel: 0.077588
+Time taken for execution in parallel: 0.046339
 For nThreads 4
-Time taken for execution in parallel: 0.095401
+Time taken for execution in parallel: 0.062678
+Time taken for execution in parallel: 0.061897
+Time taken for execution in parallel: 0.05721
 For nThreads 6
-Time taken for execution in parallel: 0.105355
+Time taken for execution in parallel: 0.061179
+Time taken for execution in parallel: 0.064937
+Time taken for execution in parallel: 0.069445
 For nThreads 8
-Time taken for execution in parallel: 0.136763
+Time taken for execution in parallel: 0.050624
+Time taken for execution in parallel: 0.068009
+Time taken for execution in parallel: 0.088125
 For nThreads 12
-Time taken for execution in parallel: 0.12646
+Time taken for execution in parallel: 0.068866
+Time taken for execution in parallel: 0.064052
+Time taken for execution in parallel: 0.05705
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.099504
+Time taken for execution in parallel: 0.061921
+Time taken for execution in parallel: 0.065355
+Time taken for execution in parallel: 0.06586
 For nThreads 4
-Time taken for execution in parallel: 0.131214
+Time taken for execution in parallel: 0.066052
+Time taken for execution in parallel: 0.076685
+Time taken for execution in parallel: 0.059239
 For nThreads 6
-Time taken for execution in parallel: 0.17853
+Time taken for execution in parallel: 0.148484
+Time taken for execution in parallel: 0.125533
+Time taken for execution in parallel: 0.137814
 For nThreads 8
-Time taken for execution in parallel: 0.263797
+Time taken for execution in parallel: 0.122756
+Time taken for execution in parallel: 0.147121
+Time taken for execution in parallel: 0.1301
 For nThreads 12
-Time taken for execution in parallel: 0.172763
+Time taken for execution in parallel: 0.174089
+Time taken for execution in parallel: 0.170328
+Time taken for execution in parallel: 0.161065
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.364782
+Total sequential time: 0.393706
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.198632
+Time taken for execution in parallel: 0.184201
+Time taken for execution in parallel: 0.147772
+Time taken for execution in parallel: 0.142891
 For nThreads 4
-Time taken for execution in parallel: 0.161941
+Time taken for execution in parallel: 0.166269
+Time taken for execution in parallel: 0.146922
+Time taken for execution in parallel: 0.14567
 For nThreads 6
-Time taken for execution in parallel: 0.143014
+Time taken for execution in parallel: 0.143992
+Time taken for execution in parallel: 0.13849
+Time taken for execution in parallel: 0.145592
 For nThreads 8
-Time taken for execution in parallel: 0.184961
+Time taken for execution in parallel: 0.128461
+Time taken for execution in parallel: 0.122608
+Time taken for execution in parallel: 0.125135
 For nThreads 12
-Time taken for execution in parallel: 0.167589
+Time taken for execution in parallel: 0.129061
+Time taken for execution in parallel: 0.118158
+Time taken for execution in parallel: 0.128193
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.199118
+Time taken for execution in parallel: 0.161638
+Time taken for execution in parallel: 0.163343
+Time taken for execution in parallel: 0.148559
 For nThreads 4
-Time taken for execution in parallel: 0.189036
+Time taken for execution in parallel: 0.123426
+Time taken for execution in parallel: 0.121157
+Time taken for execution in parallel: 0.12884
 For nThreads 6
-Time taken for execution in parallel: 0.206357
+Time taken for execution in parallel: 0.129563
+Time taken for execution in parallel: 0.127988
+Time taken for execution in parallel: 0.125904
 For nThreads 8
-Time taken for execution in parallel: 0.166153
+Time taken for execution in parallel: 0.172181
+Time taken for execution in parallel: 0.141346
+Time taken for execution in parallel: 0.176911
 For nThreads 12
-Time taken for execution in parallel: 0.174258
+Time taken for execution in parallel: 0.212014
+Time taken for execution in parallel: 0.2202
+Time taken for execution in parallel: 0.1979
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 1.383413
+Total sequential time: 1.386301
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.520139
+Time taken for execution in parallel: 0.557369
+Time taken for execution in parallel: 0.559769
+Time taken for execution in parallel: 0.571561
 For nThreads 4
-Time taken for execution in parallel: 0.386662
+Time taken for execution in parallel: 0.381586
+Time taken for execution in parallel: 0.360912
+Time taken for execution in parallel: 0.433207
 For nThreads 6
-Time taken for execution in parallel: 0.342025
+Time taken for execution in parallel: 0.367926
+Time taken for execution in parallel: 0.41711
+Time taken for execution in parallel: 0.393803
 For nThreads 8
-Time taken for execution in parallel: 0.311125
+Time taken for execution in parallel: 0.325525
+Time taken for execution in parallel: 0.354657
+Time taken for execution in parallel: 0.335915
 For nThreads 12
-Time taken for execution in parallel: 0.301839
+Time taken for execution in parallel: 0.449828
+Time taken for execution in parallel: 0.381223
+Time taken for execution in parallel: 0.329457
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.601246
+Time taken for execution in parallel: 0.570699
+Time taken for execution in parallel: 0.593557
+Time taken for execution in parallel: 0.620894
 For nThreads 4
-Time taken for execution in parallel: 0.437256
+Time taken for execution in parallel: 0.395094
+Time taken for execution in parallel: 0.412649
+Time taken for execution in parallel: 0.417352
 For nThreads 6
-Time taken for execution in parallel: 0.360473
+Time taken for execution in parallel: 0.357729
+Time taken for execution in parallel: 0.348785
+Time taken for execution in parallel: 0.361404
 For nThreads 8
-Time taken for execution in parallel: 0.356033
+Time taken for execution in parallel: 0.357313
+Time taken for execution in parallel: 0.317836
+Time taken for execution in parallel: 0.356601
 For nThreads 12
-Time taken for execution in parallel: 0.394193
+Time taken for execution in parallel: 0.362915
+Time taken for execution in parallel: 0.335991
+Time taken for execution in parallel: 0.377125
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 4.163054
+Total sequential time: 4.16429
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 1.480847
+Time taken for execution in parallel: 1.52201
+Time taken for execution in parallel: 1.476729
+Time taken for execution in parallel: 1.467516
 For nThreads 4
-Time taken for execution in parallel: 0.953125
+Time taken for execution in parallel: 0.951819
+Time taken for execution in parallel: 0.961462
+Time taken for execution in parallel: 0.954282
 For nThreads 6
-Time taken for execution in parallel: 0.823866
+Time taken for execution in parallel: 0.817779
+Time taken for execution in parallel: 0.893323
+Time taken for execution in parallel: 0.847895
 For nThreads 8
-Time taken for execution in parallel: 0.773085
+Time taken for execution in parallel: 0.736357
+Time taken for execution in parallel: 0.740668
+Time taken for execution in parallel: 0.740823
 For nThreads 12
-Time taken for execution in parallel: 0.742878
+Time taken for execution in parallel: 0.712319
+Time taken for execution in parallel: 0.71361
+Time taken for execution in parallel: 0.695
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.540795
+Time taken for execution in parallel: 1.561644
+Time taken for execution in parallel: 1.641451
+Time taken for execution in parallel: 1.562884
 For nThreads 4
-Time taken for execution in parallel: 0.995507
+Time taken for execution in parallel: 0.976035
+Time taken for execution in parallel: 0.955568
+Time taken for execution in parallel: 0.995042
 For nThreads 6
-Time taken for execution in parallel: 0.936105
+Time taken for execution in parallel: 0.89371
+Time taken for execution in parallel: 0.86612
+Time taken for execution in parallel: 0.867389
 For nThreads 8
-Time taken for execution in parallel: 0.877043
+Time taken for execution in parallel: 0.834805
+Time taken for execution in parallel: 0.829932
+Time taken for execution in parallel: 0.821364
 For nThreads 12
-Time taken for execution in parallel: 0.823059
+Time taken for execution in parallel: 0.848654
+Time taken for execution in parallel: 0.798724
+Time taken for execution in parallel: 0.895728
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 14.812468
+Total sequential time: 14.351924
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 5.093357
+Time taken for execution in parallel: 5.047813
+Time taken for execution in parallel: 5.04187
+Time taken for execution in parallel: 5.048338
 For nThreads 4
-Time taken for execution in parallel: 3.11619
+Time taken for execution in parallel: 3.122908
+Time taken for execution in parallel: 3.071569
+Time taken for execution in parallel: 3.076847
 For nThreads 6
-Time taken for execution in parallel: 2.66152
+Time taken for execution in parallel: 2.726703
+Time taken for execution in parallel: 2.643639
+Time taken for execution in parallel: 2.699083
 For nThreads 8
-Time taken for execution in parallel: 2.400593
+Time taken for execution in parallel: 2.391167
+Time taken for execution in parallel: 2.397528
+Time taken for execution in parallel: 2.424222
 For nThreads 12
-Time taken for execution in parallel: 2.207873
+Time taken for execution in parallel: 2.221643
+Time taken for execution in parallel: 2.203273
+Time taken for execution in parallel: 2.210978
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 5.394925
+Time taken for execution in parallel: 5.410719
+Time taken for execution in parallel: 5.393064
+Time taken for execution in parallel: 5.411316
 For nThreads 4
-Time taken for execution in parallel: 3.23599
+Time taken for execution in parallel: 3.287111
+Time taken for execution in parallel: 3.309541
+Time taken for execution in parallel: 3.2857
 For nThreads 6
-Time taken for execution in parallel: 2.812955
+Time taken for execution in parallel: 2.768082
+Time taken for execution in parallel: 2.856927
+Time taken for execution in parallel: 2.82428
 For nThreads 8
-Time taken for execution in parallel: 2.548439
+Time taken for execution in parallel: 2.588376
+Time taken for execution in parallel: 2.551771
+Time taken for execution in parallel: 2.511457
 For nThreads 12
-Time taken for execution in parallel: 2.367958
+Time taken for execution in parallel: 2.452924
+Time taken for execution in parallel: 2.406996
+Time taken for execution in parallel: 2.397084
 
 --------------------------------------------------
 Processing 1000 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.166917
+Total sequential time: 0.112828
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.167291
+Time taken for execution in parallel: 0.119084
+Time taken for execution in parallel: 0.108061
+Time taken for execution in parallel: 0.114193
 For nThreads 4
-Time taken for execution in parallel: 0.117334
+Time taken for execution in parallel: 0.143764
+Time taken for execution in parallel: 0.103274
+Time taken for execution in parallel: 0.130892
 For nThreads 6
-Time taken for execution in parallel: 0.158736
+Time taken for execution in parallel: 0.105638
+Time taken for execution in parallel: 0.140415
+Time taken for execution in parallel: 0.103718
 For nThreads 8
-Time taken for execution in parallel: 0.19813
+Time taken for execution in parallel: 0.132972
+Time taken for execution in parallel: 0.136477
+Time taken for execution in parallel: 0.128225
 For nThreads 12
-Time taken for execution in parallel: 0.214549
+Time taken for execution in parallel: 0.152271
+Time taken for execution in parallel: 0.175596
+Time taken for execution in parallel: 0.167177
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.219124
+Time taken for execution in parallel: 0.156587
+Time taken for execution in parallel: 0.158552
+Time taken for execution in parallel: 0.12158
 For nThreads 4
-Time taken for execution in parallel: 0.287758
+Time taken for execution in parallel: 0.257429
+Time taken for execution in parallel: 0.271098
+Time taken for execution in parallel: 0.298988
 For nThreads 6
-Time taken for execution in parallel: 0.385107
+Time taken for execution in parallel: 0.390551
+Time taken for execution in parallel: 0.325387
+Time taken for execution in parallel: 0.332255
 For nThreads 8
-Time taken for execution in parallel: 0.453193
+Time taken for execution in parallel: 0.416435
+Time taken for execution in parallel: 0.382638
+Time taken for execution in parallel: 0.428228
 For nThreads 12
-Time taken for execution in parallel: 0.441274
+Time taken for execution in parallel: 0.48624
+Time taken for execution in parallel: 0.445729
+Time taken for execution in parallel: 0.52819
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.306271
+Total sequential time: 0.294218
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.212223
+Time taken for execution in parallel: 0.211692
+Time taken for execution in parallel: 0.18959
+Time taken for execution in parallel: 0.276169
 For nThreads 4
-Time taken for execution in parallel: 0.168849
+Time taken for execution in parallel: 0.253749
+Time taken for execution in parallel: 0.238946
+Time taken for execution in parallel: 0.203945
 For nThreads 6
-Time taken for execution in parallel: 0.21002
+Time taken for execution in parallel: 0.210858
+Time taken for execution in parallel: 0.318266
+Time taken for execution in parallel: 0.256818
 For nThreads 8
-Time taken for execution in parallel: 0.268137
+Time taken for execution in parallel: 0.27842
+Time taken for execution in parallel: 0.212086
+Time taken for execution in parallel: 0.273264
 For nThreads 12
-Time taken for execution in parallel: 0.275636
+Time taken for execution in parallel: 0.244495
+Time taken for execution in parallel: 0.248303
+Time taken for execution in parallel: 0.244047
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.272654
+Time taken for execution in parallel: 0.214733
+Time taken for execution in parallel: 0.231914
+Time taken for execution in parallel: 0.213718
 For nThreads 4
-Time taken for execution in parallel: 0.327294
+Time taken for execution in parallel: 0.326864
+Time taken for execution in parallel: 0.421033
+Time taken for execution in parallel: 0.349175
 For nThreads 6
-Time taken for execution in parallel: 0.388228
+Time taken for execution in parallel: 0.392448
+Time taken for execution in parallel: 0.412671
+Time taken for execution in parallel: 0.413178
 For nThreads 8
-Time taken for execution in parallel: 0.405533
+Time taken for execution in parallel: 0.40981
+Time taken for execution in parallel: 0.387822
+Time taken for execution in parallel: 0.414841
 For nThreads 12
-Time taken for execution in parallel: 0.463031
+Time taken for execution in parallel: 0.48265
+Time taken for execution in parallel: 0.471347
+Time taken for execution in parallel: 0.462289
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 1.199335
+Total sequential time: 0.966542
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.42575
+Time taken for execution in parallel: 0.405957
+Time taken for execution in parallel: 0.381226
+Time taken for execution in parallel: 0.393013
 For nThreads 4
-Time taken for execution in parallel: 0.391614
+Time taken for execution in parallel: 0.422816
+Time taken for execution in parallel: 0.425765
+Time taken for execution in parallel: 0.43862
 For nThreads 6
-Time taken for execution in parallel: 0.395281
+Time taken for execution in parallel: 0.437512
+Time taken for execution in parallel: 0.431002
+Time taken for execution in parallel: 0.437224
 For nThreads 8
-Time taken for execution in parallel: 0.453781
+Time taken for execution in parallel: 0.424435
+Time taken for execution in parallel: 0.430171
+Time taken for execution in parallel: 0.44344
 For nThreads 12
-Time taken for execution in parallel: 0.485772
+Time taken for execution in parallel: 0.539649
+Time taken for execution in parallel: 0.52003
+Time taken for execution in parallel: 0.50634
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.463009
+Time taken for execution in parallel: 0.480272
+Time taken for execution in parallel: 0.431832
+Time taken for execution in parallel: 0.478182
 For nThreads 4
-Time taken for execution in parallel: 0.561263
+Time taken for execution in parallel: 0.536847
+Time taken for execution in parallel: 0.565264
+Time taken for execution in parallel: 0.557932
 For nThreads 6
-Time taken for execution in parallel: 0.673535
+Time taken for execution in parallel: 0.710631
+Time taken for execution in parallel: 0.715746
+Time taken for execution in parallel: 0.664156
 For nThreads 8
-Time taken for execution in parallel: 0.800169
+Time taken for execution in parallel: 0.75294
+Time taken for execution in parallel: 0.748863
+Time taken for execution in parallel: 0.777986
 For nThreads 12
-Time taken for execution in parallel: 0.942936
+Time taken for execution in parallel: 0.906526
+Time taken for execution in parallel: 0.970104
+Time taken for execution in parallel: 0.99614
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 3.366113
+Total sequential time: 3.367521
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 1.262665
+Time taken for execution in parallel: 1.364256
+Time taken for execution in parallel: 1.290701
+Time taken for execution in parallel: 1.253378
 For nThreads 4
-Time taken for execution in parallel: 1.112642
+Time taken for execution in parallel: 1.02466
+Time taken for execution in parallel: 0.972196
+Time taken for execution in parallel: 0.988722
 For nThreads 6
-Time taken for execution in parallel: 0.937185
+Time taken for execution in parallel: 0.935037
+Time taken for execution in parallel: 0.967398
+Time taken for execution in parallel: 0.996781
 For nThreads 8
-Time taken for execution in parallel: 0.976919
+Time taken for execution in parallel: 0.939183
+Time taken for execution in parallel: 1.053763
+Time taken for execution in parallel: 0.924839
 For nThreads 12
-Time taken for execution in parallel: 0.988927
+Time taken for execution in parallel: 0.983959
+Time taken for execution in parallel: 0.971134
+Time taken for execution in parallel: 0.964193
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.35856
+Time taken for execution in parallel: 1.293941
+Time taken for execution in parallel: 1.301764
+Time taken for execution in parallel: 1.310193
 For nThreads 4
-Time taken for execution in parallel: 1.059093
+Time taken for execution in parallel: 1.209698
+Time taken for execution in parallel: 1.118867
+Time taken for execution in parallel: 1.129386
 For nThreads 6
-Time taken for execution in parallel: 1.093779
+Time taken for execution in parallel: 1.106937
+Time taken for execution in parallel: 1.094937
+Time taken for execution in parallel: 1.073161
 For nThreads 8
-Time taken for execution in parallel: 1.160154
+Time taken for execution in parallel: 1.119012
+Time taken for execution in parallel: 1.104591
+Time taken for execution in parallel: 1.125025
 For nThreads 12
-Time taken for execution in parallel: 1.339782
+Time taken for execution in parallel: 1.314884
+Time taken for execution in parallel: 1.337539
+Time taken for execution in parallel: 1.304979
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 14.262231
+Total sequential time: 13.841388
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 5.129286
+Time taken for execution in parallel: 5.046032
+Time taken for execution in parallel: 5.035999
+Time taken for execution in parallel: 5.094321
 For nThreads 4
-Time taken for execution in parallel: 3.417026
+Time taken for execution in parallel: 3.379709
+Time taken for execution in parallel: 3.39005
+Time taken for execution in parallel: 3.351493
 For nThreads 6
-Time taken for execution in parallel: 2.879081
+Time taken for execution in parallel: 2.843113
+Time taken for execution in parallel: 2.877874
+Time taken for execution in parallel: 2.859021
 For nThreads 8
-Time taken for execution in parallel: 2.707978
+Time taken for execution in parallel: 2.698457
+Time taken for execution in parallel: 2.688908
+Time taken for execution in parallel: 2.694948
 For nThreads 12
-Time taken for execution in parallel: 2.656649
+Time taken for execution in parallel: 2.633695
+Time taken for execution in parallel: 2.641099
+Time taken for execution in parallel: 2.701351
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 5.320669
+Time taken for execution in parallel: 5.306497
+Time taken for execution in parallel: 5.319347
+Time taken for execution in parallel: 5.364334
 For nThreads 4
-Time taken for execution in parallel: 3.510604
+Time taken for execution in parallel: 3.486738
+Time taken for execution in parallel: 3.497258
+Time taken for execution in parallel: 3.480026
 For nThreads 6
-Time taken for execution in parallel: 3.129452
+Time taken for execution in parallel: 3.161817
+Time taken for execution in parallel: 3.148514
+Time taken for execution in parallel: 3.176566
 For nThreads 8
-Time taken for execution in parallel: 3.074899
+Time taken for execution in parallel: 3.067293
+Time taken for execution in parallel: 2.987649
+Time taken for execution in parallel: 3.039738
 For nThreads 12
-Time taken for execution in parallel: 3.034078
+Time taken for execution in parallel: 2.964552
+Time taken for execution in parallel: 2.991084
+Time taken for execution in parallel: 2.994695
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 43.10694
+Total sequential time: 41.093513
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 14.3446
+Time taken for execution in parallel: 14.319946
+Time taken for execution in parallel: 14.385911
+Time taken for execution in parallel: 14.482264
 For nThreads 4
-Time taken for execution in parallel: 9.20292
+Time taken for execution in parallel: 9.142786
+Time taken for execution in parallel: 9.192443
+Time taken for execution in parallel: 9.190548
 For nThreads 6
-Time taken for execution in parallel: 8.075617
+Time taken for execution in parallel: 7.98681
+Time taken for execution in parallel: 8.060648
+Time taken for execution in parallel: 8.09803
 For nThreads 8
-Time taken for execution in parallel: 7.263466
+Time taken for execution in parallel: 7.220867
+Time taken for execution in parallel: 7.339289
+Time taken for execution in parallel: 7.28702
 For nThreads 12
-Time taken for execution in parallel: 6.805995
+Time taken for execution in parallel: 6.707416
+Time taken for execution in parallel: 6.733587
+Time taken for execution in parallel: 6.742323
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 15.270058
+Time taken for execution in parallel: 15.329175
+Time taken for execution in parallel: 15.300684
+Time taken for execution in parallel: 15.289523
 For nThreads 4
-Time taken for execution in parallel: 9.63209
+Time taken for execution in parallel: 9.662381
+Time taken for execution in parallel: 9.661074
+Time taken for execution in parallel: 9.704715
 For nThreads 6
-Time taken for execution in parallel: 8.465306
+Time taken for execution in parallel: 8.412793
+Time taken for execution in parallel: 8.430859
+Time taken for execution in parallel: 8.472102
 For nThreads 8
-Time taken for execution in parallel: 7.890202
+Time taken for execution in parallel: 7.858887
+Time taken for execution in parallel: 7.944712
+Time taken for execution in parallel: 7.860222
 For nThreads 12
-Time taken for execution in parallel: 7.499326
+Time taken for execution in parallel: 7.465763
+Time taken for execution in parallel: 7.477319
+Time taken for execution in parallel: 7.515407
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 148.718423
+Total sequential time: 148.978852
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 50.314484
+Time taken for execution in parallel: 50.309288
+Time taken for execution in parallel: 50.304772
+Time taken for execution in parallel: 50.311143
 For nThreads 4
-Time taken for execution in parallel: 30.631134
+Time taken for execution in parallel: 30.600668
+Time taken for execution in parallel: 30.708527
+Time taken for execution in parallel: 30.579176
 For nThreads 6
-Time taken for execution in parallel: 26.368223
+Time taken for execution in parallel: 26.272533
+Time taken for execution in parallel: 26.287212
+Time taken for execution in parallel: 26.341812
 For nThreads 8
-Time taken for execution in parallel: 23.585411
+Time taken for execution in parallel: 23.569764
+Time taken for execution in parallel: 23.553206
+Time taken for execution in parallel: 23.621429
 For nThreads 12
-Time taken for execution in parallel: 21.636069
+Time taken for execution in parallel: 21.64361
+Time taken for execution in parallel: 21.578746
+Time taken for execution in parallel: 21.656846
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 53.879332
+Time taken for execution in parallel: 53.865696
+Time taken for execution in parallel: 53.841882
+Time taken for execution in parallel: 53.910972
 For nThreads 4
-Time taken for execution in parallel: 32.069732
+Time taken for execution in parallel: 32.140492
+Time taken for execution in parallel: 32.038125
+Time taken for execution in parallel: 32.079377
 For nThreads 6
-Time taken for execution in parallel: 27.260608
+Time taken for execution in parallel: 27.339612
+Time taken for execution in parallel: 27.265682
+Time taken for execution in parallel: 27.278012
 For nThreads 8
-Time taken for execution in parallel: 24.954468
+Time taken for execution in parallel: 25.248382
+Time taken for execution in parallel: 25.356884
+Time taken for execution in parallel: 25.25685
 For nThreads 12
-Time taken for execution in parallel: 23.140447
+Time taken for execution in parallel: 23.792968
+Time taken for execution in parallel: 23.718023
+Time taken for execution in parallel: 23.516917
 
 --------------------------------------------------
 Processing skewed input type.
@@ -1704,847 +2824,1407 @@ Processing skewed input type.
 Processing 1 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.092269
+Total sequential time: 0.091799
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.106912
+Time taken for execution in parallel: 0.069993
+Time taken for execution in parallel: 0.088325
+Time taken for execution in parallel: 0.034069
 For nThreads 4
-Time taken for execution in parallel: 0.057788
+Time taken for execution in parallel: 0.033504
+Time taken for execution in parallel: 0.104018
+Time taken for execution in parallel: 0.068265
 For nThreads 6
-Time taken for execution in parallel: 0.075135
+Time taken for execution in parallel: 0.096891
+Time taken for execution in parallel: 0.076794
+Time taken for execution in parallel: 0.0921
 For nThreads 8
-Time taken for execution in parallel: 0.085914
+Time taken for execution in parallel: 0.075143
+Time taken for execution in parallel: 0.02766
+Time taken for execution in parallel: 0.050817
 For nThreads 12
-Time taken for execution in parallel: 0.099176
+Time taken for execution in parallel: 0.044331
+Time taken for execution in parallel: 0.089387
+Time taken for execution in parallel: 0.045867
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.091326
+Time taken for execution in parallel: 0.079431
+Time taken for execution in parallel: 0.086764
+Time taken for execution in parallel: 0.055235
 For nThreads 4
-Time taken for execution in parallel: 0.082809
+Time taken for execution in parallel: 0.035055
+Time taken for execution in parallel: 0.108031
+Time taken for execution in parallel: 0.120294
 For nThreads 6
-Time taken for execution in parallel: 0.057224
+Time taken for execution in parallel: 0.091199
+Time taken for execution in parallel: 0.026807
+Time taken for execution in parallel: 0.07483
 For nThreads 8
-Time taken for execution in parallel: 0.074595
+Time taken for execution in parallel: 0.061318
+Time taken for execution in parallel: 0.065386
+Time taken for execution in parallel: 0.056665
 For nThreads 12
-Time taken for execution in parallel: 0.079972
+Time taken for execution in parallel: 0.046405
+Time taken for execution in parallel: 0.114223
+Time taken for execution in parallel: 0.054761
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.059451
+Total sequential time: 0.101058
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.052489
+Time taken for execution in parallel: 0.034723
+Time taken for execution in parallel: 0.054289
+Time taken for execution in parallel: 0.038285
 For nThreads 4
-Time taken for execution in parallel: 0.059425
+Time taken for execution in parallel: 0.140163
+Time taken for execution in parallel: 0.079579
+Time taken for execution in parallel: 0.127743
 For nThreads 6
-Time taken for execution in parallel: 0.164735
+Time taken for execution in parallel: 0.062163
+Time taken for execution in parallel: 0.079461
+Time taken for execution in parallel: 0.121587
 For nThreads 8
-Time taken for execution in parallel: 0.113828
+Time taken for execution in parallel: 0.057748
+Time taken for execution in parallel: 0.205726
+Time taken for execution in parallel: 0.051842
 For nThreads 12
-Time taken for execution in parallel: 0.047218
+Time taken for execution in parallel: 0.137933
+Time taken for execution in parallel: 0.111632
+Time taken for execution in parallel: 0.107696
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.116408
+Time taken for execution in parallel: 0.065058
+Time taken for execution in parallel: 0.058024
+Time taken for execution in parallel: 0.073985
 For nThreads 4
-Time taken for execution in parallel: 0.0814
+Time taken for execution in parallel: 0.094285
+Time taken for execution in parallel: 0.09554
+Time taken for execution in parallel: 0.103925
 For nThreads 6
-Time taken for execution in parallel: 0.092534
+Time taken for execution in parallel: 0.060076
+Time taken for execution in parallel: 0.067476
+Time taken for execution in parallel: 0.173856
 For nThreads 8
-Time taken for execution in parallel: 0.097124
+Time taken for execution in parallel: 0.112062
+Time taken for execution in parallel: 0.060969
+Time taken for execution in parallel: 0.180054
 For nThreads 12
-Time taken for execution in parallel: 0.069114
+Time taken for execution in parallel: 0.109162
+Time taken for execution in parallel: 0.14718
+Time taken for execution in parallel: 0.100814
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.07525
+Total sequential time: 0.11853
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.138866
+Time taken for execution in parallel: 0.035617
+Time taken for execution in parallel: 0.074519
+Time taken for execution in parallel: 0.095306
 For nThreads 4
-Time taken for execution in parallel: 0.067396
+Time taken for execution in parallel: 0.066862
+Time taken for execution in parallel: 0.146992
+Time taken for execution in parallel: 0.135382
 For nThreads 6
-Time taken for execution in parallel: 0.079085
+Time taken for execution in parallel: 0.163197
+Time taken for execution in parallel: 0.163471
+Time taken for execution in parallel: 0.051722
 For nThreads 8
-Time taken for execution in parallel: 0.059818
+Time taken for execution in parallel: 0.08061
+Time taken for execution in parallel: 0.147938
+Time taken for execution in parallel: 0.098349
 For nThreads 12
-Time taken for execution in parallel: 0.037326
+Time taken for execution in parallel: 0.092254
+Time taken for execution in parallel: 0.071253
+Time taken for execution in parallel: 0.133553
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.113991
+Time taken for execution in parallel: 0.077934
+Time taken for execution in parallel: 0.082931
+Time taken for execution in parallel: 0.030961
 For nThreads 4
-Time taken for execution in parallel: 0.076131
+Time taken for execution in parallel: 0.067584
+Time taken for execution in parallel: 0.098116
+Time taken for execution in parallel: 0.120915
 For nThreads 6
-Time taken for execution in parallel: 0.062502
+Time taken for execution in parallel: 0.079224
+Time taken for execution in parallel: 0.10189
+Time taken for execution in parallel: 0.158985
 For nThreads 8
-Time taken for execution in parallel: 0.042578
+Time taken for execution in parallel: 0.089717
+Time taken for execution in parallel: 0.044119
+Time taken for execution in parallel: 0.114049
 For nThreads 12
-Time taken for execution in parallel: 0.070797
+Time taken for execution in parallel: 0.118723
+Time taken for execution in parallel: 0.047745
+Time taken for execution in parallel: 0.097917
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.091096
+Total sequential time: 0.07998
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.083807
+Time taken for execution in parallel: 0.194277
+Time taken for execution in parallel: 0.059976
+Time taken for execution in parallel: 0.098364
 For nThreads 4
-Time taken for execution in parallel: 0.080251
+Time taken for execution in parallel: 0.094255
+Time taken for execution in parallel: 0.060919
+Time taken for execution in parallel: 0.075988
 For nThreads 6
-Time taken for execution in parallel: 0.091131
+Time taken for execution in parallel: 0.090617
+Time taken for execution in parallel: 0.081119
+Time taken for execution in parallel: 0.02789
 For nThreads 8
-Time taken for execution in parallel: 0.120811
+Time taken for execution in parallel: 0.056542
+Time taken for execution in parallel: 0.074688
+Time taken for execution in parallel: 0.083646
 For nThreads 12
-Time taken for execution in parallel: 0.064324
+Time taken for execution in parallel: 0.043365
+Time taken for execution in parallel: 0.058393
+Time taken for execution in parallel: 0.06039
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.140274
+Time taken for execution in parallel: 0.070702
+Time taken for execution in parallel: 0.071076
+Time taken for execution in parallel: 0.099177
 For nThreads 4
-Time taken for execution in parallel: 0.109366
+Time taken for execution in parallel: 0.094419
+Time taken for execution in parallel: 0.069431
+Time taken for execution in parallel: 0.082488
 For nThreads 6
-Time taken for execution in parallel: 0.110582
+Time taken for execution in parallel: 0.117662
+Time taken for execution in parallel: 0.076516
+Time taken for execution in parallel: 0.055888
 For nThreads 8
-Time taken for execution in parallel: 0.10315
+Time taken for execution in parallel: 0.053258
+Time taken for execution in parallel: 0.051464
+Time taken for execution in parallel: 0.05522
 For nThreads 12
-Time taken for execution in parallel: 0.088803
+Time taken for execution in parallel: 0.047209
+Time taken for execution in parallel: 0.035155
+Time taken for execution in parallel: 0.116499
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 0.069949
+Total sequential time: 0.068078
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.132922
+Time taken for execution in parallel: 0.102517
+Time taken for execution in parallel: 0.057012
+Time taken for execution in parallel: 0.054632
 For nThreads 4
-Time taken for execution in parallel: 0.053915
+Time taken for execution in parallel: 0.07047
+Time taken for execution in parallel: 0.107551
+Time taken for execution in parallel: 0.116033
 For nThreads 6
-Time taken for execution in parallel: 0.147551
+Time taken for execution in parallel: 0.154633
+Time taken for execution in parallel: 0.042911
+Time taken for execution in parallel: 0.065795
 For nThreads 8
-Time taken for execution in parallel: 0.153496
+Time taken for execution in parallel: 0.104104
+Time taken for execution in parallel: 0.103123
+Time taken for execution in parallel: 0.101424
 For nThreads 12
-Time taken for execution in parallel: 0.097078
+Time taken for execution in parallel: 0.119436
+Time taken for execution in parallel: 0.14463
+Time taken for execution in parallel: 0.067906
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.101293
+Time taken for execution in parallel: 0.082946
+Time taken for execution in parallel: 0.127933
+Time taken for execution in parallel: 0.086958
 For nThreads 4
-Time taken for execution in parallel: 0.107371
+Time taken for execution in parallel: 0.115047
+Time taken for execution in parallel: 0.060683
+Time taken for execution in parallel: 0.098541
 For nThreads 6
-Time taken for execution in parallel: 0.074592
+Time taken for execution in parallel: 0.145152
+Time taken for execution in parallel: 0.08685
+Time taken for execution in parallel: 0.120298
 For nThreads 8
-Time taken for execution in parallel: 0.052866
+Time taken for execution in parallel: 0.059802
+Time taken for execution in parallel: 0.091114
+Time taken for execution in parallel: 0.073108
 For nThreads 12
-Time taken for execution in parallel: 0.189769
+Time taken for execution in parallel: 0.084186
+Time taken for execution in parallel: 0.05926
+Time taken for execution in parallel: 0.117902
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 0.14394
+Total sequential time: 0.124173
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.140996
+Time taken for execution in parallel: 0.04724
+Time taken for execution in parallel: 0.130386
+Time taken for execution in parallel: 0.058814
 For nThreads 4
-Time taken for execution in parallel: 0.087411
+Time taken for execution in parallel: 0.081536
+Time taken for execution in parallel: 0.121814
+Time taken for execution in parallel: 0.044657
 For nThreads 6
-Time taken for execution in parallel: 0.098214
+Time taken for execution in parallel: 0.107855
+Time taken for execution in parallel: 0.105608
+Time taken for execution in parallel: 0.12717
 For nThreads 8
-Time taken for execution in parallel: 0.126222
+Time taken for execution in parallel: 0.101192
+Time taken for execution in parallel: 0.081747
+Time taken for execution in parallel: 0.12533
 For nThreads 12
-Time taken for execution in parallel: 0.079877
+Time taken for execution in parallel: 0.113979
+Time taken for execution in parallel: 0.092187
+Time taken for execution in parallel: 0.075635
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.10643
+Time taken for execution in parallel: 0.082238
+Time taken for execution in parallel: 0.101166
+Time taken for execution in parallel: 0.06736
 For nThreads 4
-Time taken for execution in parallel: 0.11319
+Time taken for execution in parallel: 0.055257
+Time taken for execution in parallel: 0.110918
+Time taken for execution in parallel: 0.072217
 For nThreads 6
-Time taken for execution in parallel: 0.180492
+Time taken for execution in parallel: 0.084622
+Time taken for execution in parallel: 0.091314
+Time taken for execution in parallel: 0.063675
 For nThreads 8
-Time taken for execution in parallel: 0.138498
+Time taken for execution in parallel: 0.111195
+Time taken for execution in parallel: 0.059062
+Time taken for execution in parallel: 0.082092
 For nThreads 12
-Time taken for execution in parallel: 0.1264
+Time taken for execution in parallel: 0.094993
+Time taken for execution in parallel: 0.066297
+Time taken for execution in parallel: 0.067772
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 0.36471
+Total sequential time: 0.211528
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.23068
+Time taken for execution in parallel: 0.082969
+Time taken for execution in parallel: 0.130628
+Time taken for execution in parallel: 0.128093
 For nThreads 4
-Time taken for execution in parallel: 0.158029
+Time taken for execution in parallel: 0.106707
+Time taken for execution in parallel: 0.077571
+Time taken for execution in parallel: 0.090859
 For nThreads 6
-Time taken for execution in parallel: 0.194101
+Time taken for execution in parallel: 0.073697
+Time taken for execution in parallel: 0.055555
+Time taken for execution in parallel: 0.052402
 For nThreads 8
-Time taken for execution in parallel: 0.103045
+Time taken for execution in parallel: 0.099914
+Time taken for execution in parallel: 0.050649
+Time taken for execution in parallel: 0.100054
 For nThreads 12
-Time taken for execution in parallel: 0.139349
+Time taken for execution in parallel: 0.079075
+Time taken for execution in parallel: 0.08843
+Time taken for execution in parallel: 0.06355
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.120052
+Time taken for execution in parallel: 0.108097
+Time taken for execution in parallel: 0.125244
+Time taken for execution in parallel: 0.099894
 For nThreads 4
-Time taken for execution in parallel: 0.169236
+Time taken for execution in parallel: 0.069823
+Time taken for execution in parallel: 0.058861
+Time taken for execution in parallel: 0.065594
 For nThreads 6
-Time taken for execution in parallel: 0.148492
+Time taken for execution in parallel: 0.080404
+Time taken for execution in parallel: 0.096686
+Time taken for execution in parallel: 0.098291
 For nThreads 8
-Time taken for execution in parallel: 0.167779
+Time taken for execution in parallel: 0.120733
+Time taken for execution in parallel: 0.062553
+Time taken for execution in parallel: 0.101898
 For nThreads 12
-Time taken for execution in parallel: 0.141758
+Time taken for execution in parallel: 0.058643
+Time taken for execution in parallel: 0.135574
+Time taken for execution in parallel: 0.083949
 
 --------------------------------------------------
 Processing 10 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.070511
+Total sequential time: 0.043973
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.030954
+Time taken for execution in parallel: 0.062533
+Time taken for execution in parallel: 0.07477
+Time taken for execution in parallel: 0.039639
 For nThreads 4
-Time taken for execution in parallel: 0.136952
+Time taken for execution in parallel: 0.052968
+Time taken for execution in parallel: 0.055147
+Time taken for execution in parallel: 0.040633
 For nThreads 6
-Time taken for execution in parallel: 0.200778
+Time taken for execution in parallel: 0.04095
+Time taken for execution in parallel: 0.07979
+Time taken for execution in parallel: 0.091963
 For nThreads 8
-Time taken for execution in parallel: 0.076999
+Time taken for execution in parallel: 0.022802
+Time taken for execution in parallel: 0.070018
+Time taken for execution in parallel: 0.059097
 For nThreads 12
-Time taken for execution in parallel: 0.076854
+Time taken for execution in parallel: 0.032899
+Time taken for execution in parallel: 0.102541
+Time taken for execution in parallel: 0.078919
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.111948
+Time taken for execution in parallel: 0.078768
+Time taken for execution in parallel: 0.056905
+Time taken for execution in parallel: 0.182842
 For nThreads 4
-Time taken for execution in parallel: 0.070711
+Time taken for execution in parallel: 0.029053
+Time taken for execution in parallel: 0.077741
+Time taken for execution in parallel: 0.121857
 For nThreads 6
-Time taken for execution in parallel: 0.124916
+Time taken for execution in parallel: 0.143966
+Time taken for execution in parallel: 0.095604
+Time taken for execution in parallel: 0.093802
 For nThreads 8
-Time taken for execution in parallel: 0.167553
+Time taken for execution in parallel: 0.501089
+Time taken for execution in parallel: 0.071983
+Time taken for execution in parallel: 0.092578
 For nThreads 12
-Time taken for execution in parallel: 0.074055
+Time taken for execution in parallel: 0.081111
+Time taken for execution in parallel: 0.058922
+Time taken for execution in parallel: 0.120168
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.086479
+Total sequential time: 0.061322
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.162323
+Time taken for execution in parallel: 0.080202
+Time taken for execution in parallel: 0.069029
+Time taken for execution in parallel: 0.077935
 For nThreads 4
-Time taken for execution in parallel: 0.104945
+Time taken for execution in parallel: 0.044365
+Time taken for execution in parallel: 0.054225
+Time taken for execution in parallel: 0.128682
 For nThreads 6
-Time taken for execution in parallel: 0.126971
+Time taken for execution in parallel: 0.128104
+Time taken for execution in parallel: 0.097047
+Time taken for execution in parallel: 0.135007
 For nThreads 8
-Time taken for execution in parallel: 0.101602
+Time taken for execution in parallel: 0.060319
+Time taken for execution in parallel: 0.167582
+Time taken for execution in parallel: 0.04827
 For nThreads 12
-Time taken for execution in parallel: 0.084432
+Time taken for execution in parallel: 0.141311
+Time taken for execution in parallel: 0.173162
+Time taken for execution in parallel: 0.036564
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.07654
+Time taken for execution in parallel: 0.102406
+Time taken for execution in parallel: 0.051987
+Time taken for execution in parallel: 0.091149
 For nThreads 4
-Time taken for execution in parallel: 0.073132
+Time taken for execution in parallel: 0.072213
+Time taken for execution in parallel: 0.067038
+Time taken for execution in parallel: 0.045877
 For nThreads 6
-Time taken for execution in parallel: 0.096086
+Time taken for execution in parallel: 0.074394
+Time taken for execution in parallel: 0.047204
+Time taken for execution in parallel: 0.118246
 For nThreads 8
-Time taken for execution in parallel: 0.153152
+Time taken for execution in parallel: 0.063065
+Time taken for execution in parallel: 0.087874
+Time taken for execution in parallel: 0.093054
 For nThreads 12
-Time taken for execution in parallel: 0.032893
+Time taken for execution in parallel: 0.114597
+Time taken for execution in parallel: 0.06399
+Time taken for execution in parallel: 0.056671
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.067922
+Total sequential time: 0.040046
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.117696
+Time taken for execution in parallel: 0.101974
+Time taken for execution in parallel: 0.03277
+Time taken for execution in parallel: 0.047087
 For nThreads 4
-Time taken for execution in parallel: 0.113014
+Time taken for execution in parallel: 0.064059
+Time taken for execution in parallel: 0.039997
+Time taken for execution in parallel: 0.0507
 For nThreads 6
-Time taken for execution in parallel: 0.095949
+Time taken for execution in parallel: 0.041683
+Time taken for execution in parallel: 0.040544
+Time taken for execution in parallel: 0.068459
 For nThreads 8
-Time taken for execution in parallel: 0.071892
+Time taken for execution in parallel: 0.057488
+Time taken for execution in parallel: 0.03551
+Time taken for execution in parallel: 0.120946
 For nThreads 12
-Time taken for execution in parallel: 0.063696
+Time taken for execution in parallel: 0.042468
+Time taken for execution in parallel: 0.034956
+Time taken for execution in parallel: 0.075248
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.067708
+Time taken for execution in parallel: 0.048082
+Time taken for execution in parallel: 0.0928
+Time taken for execution in parallel: 0.05875
 For nThreads 4
-Time taken for execution in parallel: 0.06554
+Time taken for execution in parallel: 0.045541
+Time taken for execution in parallel: 0.052332
+Time taken for execution in parallel: 0.083786
 For nThreads 6
-Time taken for execution in parallel: 0.057503
+Time taken for execution in parallel: 0.060954
+Time taken for execution in parallel: 0.066949
+Time taken for execution in parallel: 0.082513
 For nThreads 8
-Time taken for execution in parallel: 0.069934
+Time taken for execution in parallel: 0.062734
+Time taken for execution in parallel: 0.051206
+Time taken for execution in parallel: 0.061417
 For nThreads 12
-Time taken for execution in parallel: 0.047857
+Time taken for execution in parallel: 0.112475
+Time taken for execution in parallel: 0.046148
+Time taken for execution in parallel: 0.067253
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.104666
+Total sequential time: 0.168707
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.060423
+Time taken for execution in parallel: 0.069676
+Time taken for execution in parallel: 0.104923
+Time taken for execution in parallel: 0.069199
 For nThreads 4
-Time taken for execution in parallel: 0.075685
+Time taken for execution in parallel: 0.104272
+Time taken for execution in parallel: 0.095424
+Time taken for execution in parallel: 0.066848
 For nThreads 6
-Time taken for execution in parallel: 0.084823
+Time taken for execution in parallel: 0.051076
+Time taken for execution in parallel: 0.04579
+Time taken for execution in parallel: 0.06307
 For nThreads 8
-Time taken for execution in parallel: 0.068135
+Time taken for execution in parallel: 0.051262
+Time taken for execution in parallel: 0.053559
+Time taken for execution in parallel: 0.052596
 For nThreads 12
-Time taken for execution in parallel: 0.054908
+Time taken for execution in parallel: 0.062993
+Time taken for execution in parallel: 0.059261
+Time taken for execution in parallel: 0.090978
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.050903
+Time taken for execution in parallel: 0.08494
+Time taken for execution in parallel: 0.08337
+Time taken for execution in parallel: 0.059284
 For nThreads 4
-Time taken for execution in parallel: 0.097412
+Time taken for execution in parallel: 0.098837
+Time taken for execution in parallel: 0.050133
+Time taken for execution in parallel: 0.054436
 For nThreads 6
-Time taken for execution in parallel: 0.088309
+Time taken for execution in parallel: 0.057465
+Time taken for execution in parallel: 0.054769
+Time taken for execution in parallel: 0.07627
 For nThreads 8
-Time taken for execution in parallel: 0.092066
+Time taken for execution in parallel: 0.062724
+Time taken for execution in parallel: 0.070649
+Time taken for execution in parallel: 0.119901
 For nThreads 12
-Time taken for execution in parallel: 0.082303
+Time taken for execution in parallel: 0.09801
+Time taken for execution in parallel: 0.076067
+Time taken for execution in parallel: 0.146267
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 0.199236
+Total sequential time: 0.276771
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.105845
+Time taken for execution in parallel: 0.164123
+Time taken for execution in parallel: 0.18787
+Time taken for execution in parallel: 0.113633
 For nThreads 4
-Time taken for execution in parallel: 0.14405
+Time taken for execution in parallel: 0.17881
+Time taken for execution in parallel: 0.131043
+Time taken for execution in parallel: 0.075481
 For nThreads 6
-Time taken for execution in parallel: 0.148474
+Time taken for execution in parallel: 0.145665
+Time taken for execution in parallel: 0.114296
+Time taken for execution in parallel: 0.11672
 For nThreads 8
-Time taken for execution in parallel: 0.135773
+Time taken for execution in parallel: 0.068407
+Time taken for execution in parallel: 0.154937
+Time taken for execution in parallel: 0.073887
 For nThreads 12
-Time taken for execution in parallel: 0.096946
+Time taken for execution in parallel: 0.080464
+Time taken for execution in parallel: 0.19956
+Time taken for execution in parallel: 0.142239
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.11627
+Time taken for execution in parallel: 0.112449
+Time taken for execution in parallel: 0.165305
+Time taken for execution in parallel: 0.17396
 For nThreads 4
-Time taken for execution in parallel: 0.138728
+Time taken for execution in parallel: 0.161872
+Time taken for execution in parallel: 0.114824
+Time taken for execution in parallel: 0.120329
 For nThreads 6
-Time taken for execution in parallel: 0.089053
+Time taken for execution in parallel: 0.155652
+Time taken for execution in parallel: 0.085293
+Time taken for execution in parallel: 0.182326
 For nThreads 8
-Time taken for execution in parallel: 0.17865
+Time taken for execution in parallel: 0.082027
+Time taken for execution in parallel: 0.107348
+Time taken for execution in parallel: 0.075629
 For nThreads 12
-Time taken for execution in parallel: 0.11491
+Time taken for execution in parallel: 0.1001
+Time taken for execution in parallel: 0.086782
+Time taken for execution in parallel: 0.123651
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 0.620727
+Total sequential time: 0.599179
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.352518
+Time taken for execution in parallel: 0.307523
+Time taken for execution in parallel: 0.253557
+Time taken for execution in parallel: 0.277027
 For nThreads 4
-Time taken for execution in parallel: 0.244055
+Time taken for execution in parallel: 0.201758
+Time taken for execution in parallel: 0.279737
+Time taken for execution in parallel: 0.188174
 For nThreads 6
-Time taken for execution in parallel: 0.189474
+Time taken for execution in parallel: 0.169824
+Time taken for execution in parallel: 0.19108
+Time taken for execution in parallel: 0.176438
 For nThreads 8
-Time taken for execution in parallel: 0.209286
+Time taken for execution in parallel: 0.148824
+Time taken for execution in parallel: 0.165669
+Time taken for execution in parallel: 0.188925
 For nThreads 12
-Time taken for execution in parallel: 0.214762
+Time taken for execution in parallel: 0.263049
+Time taken for execution in parallel: 0.158767
+Time taken for execution in parallel: 0.135847
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.347023
+Time taken for execution in parallel: 0.288048
+Time taken for execution in parallel: 0.257622
+Time taken for execution in parallel: 0.293872
 For nThreads 4
-Time taken for execution in parallel: 0.261551
+Time taken for execution in parallel: 0.198999
+Time taken for execution in parallel: 0.201335
+Time taken for execution in parallel: 0.180651
 For nThreads 6
-Time taken for execution in parallel: 0.161771
+Time taken for execution in parallel: 0.185946
+Time taken for execution in parallel: 0.166824
+Time taken for execution in parallel: 0.180562
 For nThreads 8
-Time taken for execution in parallel: 0.186535
+Time taken for execution in parallel: 0.226173
+Time taken for execution in parallel: 0.213659
+Time taken for execution in parallel: 0.200427
 For nThreads 12
-Time taken for execution in parallel: 0.163697
+Time taken for execution in parallel: 0.207038
+Time taken for execution in parallel: 0.218587
+Time taken for execution in parallel: 0.196876
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 2.026487
+Total sequential time: 2.223088
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.896994
+Time taken for execution in parallel: 0.886377
+Time taken for execution in parallel: 0.895822
+Time taken for execution in parallel: 0.88582
 For nThreads 4
-Time taken for execution in parallel: 0.561199
+Time taken for execution in parallel: 0.54235
+Time taken for execution in parallel: 0.546875
+Time taken for execution in parallel: 0.511737
 For nThreads 6
-Time taken for execution in parallel: 0.532276
+Time taken for execution in parallel: 0.421269
+Time taken for execution in parallel: 0.500435
+Time taken for execution in parallel: 0.525554
 For nThreads 8
-Time taken for execution in parallel: 0.399798
+Time taken for execution in parallel: 0.518542
+Time taken for execution in parallel: 0.469732
+Time taken for execution in parallel: 0.497241
 For nThreads 12
-Time taken for execution in parallel: 0.449349
+Time taken for execution in parallel: 0.424625
+Time taken for execution in parallel: 0.468161
+Time taken for execution in parallel: 0.495945
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.034108
+Time taken for execution in parallel: 0.945045
+Time taken for execution in parallel: 0.963038
+Time taken for execution in parallel: 1.008249
 For nThreads 4
-Time taken for execution in parallel: 0.573398
+Time taken for execution in parallel: 0.596047
+Time taken for execution in parallel: 0.554135
+Time taken for execution in parallel: 0.644572
 For nThreads 6
-Time taken for execution in parallel: 0.459625
+Time taken for execution in parallel: 0.490311
+Time taken for execution in parallel: 0.55681
+Time taken for execution in parallel: 0.460653
 For nThreads 8
-Time taken for execution in parallel: 0.471033
+Time taken for execution in parallel: 0.439991
+Time taken for execution in parallel: 0.454585
+Time taken for execution in parallel: 0.404851
 For nThreads 12
-Time taken for execution in parallel: 0.439562
+Time taken for execution in parallel: 0.410118
+Time taken for execution in parallel: 0.366757
+Time taken for execution in parallel: 0.390746
 
 --------------------------------------------------
 Processing 100 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.073234
+Total sequential time: 0.075081
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.046262
+Time taken for execution in parallel: 0.095012
+Time taken for execution in parallel: 0.088983
+Time taken for execution in parallel: 0.127316
 For nThreads 4
-Time taken for execution in parallel: 0.073884
+Time taken for execution in parallel: 0.088137
+Time taken for execution in parallel: 0.079262
+Time taken for execution in parallel: 0.082128
 For nThreads 6
-Time taken for execution in parallel: 0.159162
+Time taken for execution in parallel: 0.088672
+Time taken for execution in parallel: 0.107353
+Time taken for execution in parallel: 0.082988
 For nThreads 8
-Time taken for execution in parallel: 0.193975
+Time taken for execution in parallel: 0.210167
+Time taken for execution in parallel: 0.051335
+Time taken for execution in parallel: 0.086163
 For nThreads 12
-Time taken for execution in parallel: 0.147267
+Time taken for execution in parallel: 0.098975
+Time taken for execution in parallel: 0.069735
+Time taken for execution in parallel: 0.074659
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.11565
+Time taken for execution in parallel: 0.066859
+Time taken for execution in parallel: 0.097844
+Time taken for execution in parallel: 0.123839
 For nThreads 4
-Time taken for execution in parallel: 0.138305
+Time taken for execution in parallel: 0.098856
+Time taken for execution in parallel: 0.064139
+Time taken for execution in parallel: 0.086047
 For nThreads 6
-Time taken for execution in parallel: 0.111737
+Time taken for execution in parallel: 0.083473
+Time taken for execution in parallel: 0.069604
+Time taken for execution in parallel: 0.065736
 For nThreads 8
-Time taken for execution in parallel: 0.090642
+Time taken for execution in parallel: 0.105991
+Time taken for execution in parallel: 0.119535
+Time taken for execution in parallel: 0.163999
 For nThreads 12
-Time taken for execution in parallel: 0.120814
+Time taken for execution in parallel: 0.261694
+Time taken for execution in parallel: 0.203268
+Time taken for execution in parallel: 0.162365
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.081472
+Total sequential time: 0.084356
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.065787
+Time taken for execution in parallel: 0.048949
+Time taken for execution in parallel: 0.054604
+Time taken for execution in parallel: 0.041494
 For nThreads 4
-Time taken for execution in parallel: 0.076758
+Time taken for execution in parallel: 0.078296
+Time taken for execution in parallel: 0.091187
+Time taken for execution in parallel: 0.07034
 For nThreads 6
-Time taken for execution in parallel: 0.14089
+Time taken for execution in parallel: 0.076986
+Time taken for execution in parallel: 0.129788
+Time taken for execution in parallel: 0.047461
 For nThreads 8
-Time taken for execution in parallel: 0.113254
+Time taken for execution in parallel: 0.072306
+Time taken for execution in parallel: 0.066021
+Time taken for execution in parallel: 0.085789
 For nThreads 12
-Time taken for execution in parallel: 0.090974
+Time taken for execution in parallel: 0.084732
+Time taken for execution in parallel: 0.121407
+Time taken for execution in parallel: 0.056107
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.051338
+Time taken for execution in parallel: 0.097022
+Time taken for execution in parallel: 0.1068
+Time taken for execution in parallel: 0.088951
 For nThreads 4
-Time taken for execution in parallel: 0.123591
+Time taken for execution in parallel: 0.112928
+Time taken for execution in parallel: 0.087947
+Time taken for execution in parallel: 0.112217
 For nThreads 6
-Time taken for execution in parallel: 0.10668
+Time taken for execution in parallel: 0.125715
+Time taken for execution in parallel: 0.134931
+Time taken for execution in parallel: 0.076678
 For nThreads 8
-Time taken for execution in parallel: 0.114347
+Time taken for execution in parallel: 0.17067
+Time taken for execution in parallel: 0.17388
+Time taken for execution in parallel: 0.100404
 For nThreads 12
-Time taken for execution in parallel: 0.14114
+Time taken for execution in parallel: 0.109699
+Time taken for execution in parallel: 0.123184
+Time taken for execution in parallel: 0.0872
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 0.137161
+Total sequential time: 0.171696
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.113985
+Time taken for execution in parallel: 0.132312
+Time taken for execution in parallel: 0.097086
+Time taken for execution in parallel: 0.109049
 For nThreads 4
-Time taken for execution in parallel: 0.084008
+Time taken for execution in parallel: 0.217557
+Time taken for execution in parallel: 0.147316
+Time taken for execution in parallel: 0.146665
 For nThreads 6
-Time taken for execution in parallel: 0.133968
+Time taken for execution in parallel: 0.174319
+Time taken for execution in parallel: 0.099996
+Time taken for execution in parallel: 0.168657
 For nThreads 8
-Time taken for execution in parallel: 0.095015
+Time taken for execution in parallel: 0.234421
+Time taken for execution in parallel: 0.223615
+Time taken for execution in parallel: 0.198472
 For nThreads 12
-Time taken for execution in parallel: 0.131852
+Time taken for execution in parallel: 0.173984
+Time taken for execution in parallel: 0.101213
+Time taken for execution in parallel: 0.147829
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.160924
+Time taken for execution in parallel: 0.12442
+Time taken for execution in parallel: 0.147607
+Time taken for execution in parallel: 0.093244
 For nThreads 4
-Time taken for execution in parallel: 0.120143
+Time taken for execution in parallel: 0.191259
+Time taken for execution in parallel: 0.126499
+Time taken for execution in parallel: 0.172876
 For nThreads 6
-Time taken for execution in parallel: 0.144291
+Time taken for execution in parallel: 0.134474
+Time taken for execution in parallel: 0.129653
+Time taken for execution in parallel: 0.106187
 For nThreads 8
-Time taken for execution in parallel: 0.16277
+Time taken for execution in parallel: 0.170377
+Time taken for execution in parallel: 0.112495
+Time taken for execution in parallel: 0.197754
 For nThreads 12
-Time taken for execution in parallel: 0.1635
+Time taken for execution in parallel: 0.154838
+Time taken for execution in parallel: 0.141333
+Time taken for execution in parallel: 0.190253
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 0.380657
+Total sequential time: 0.442755
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.168996
+Time taken for execution in parallel: 0.220161
+Time taken for execution in parallel: 0.173941
+Time taken for execution in parallel: 0.201958
 For nThreads 4
-Time taken for execution in parallel: 0.143761
+Time taken for execution in parallel: 0.175275
+Time taken for execution in parallel: 0.152309
+Time taken for execution in parallel: 0.176101
 For nThreads 6
-Time taken for execution in parallel: 0.158832
+Time taken for execution in parallel: 0.136362
+Time taken for execution in parallel: 0.133053
+Time taken for execution in parallel: 0.166932
 For nThreads 8
-Time taken for execution in parallel: 0.148904
+Time taken for execution in parallel: 0.165908
+Time taken for execution in parallel: 0.175486
+Time taken for execution in parallel: 0.138858
 For nThreads 12
-Time taken for execution in parallel: 0.158787
+Time taken for execution in parallel: 0.144086
+Time taken for execution in parallel: 0.183284
+Time taken for execution in parallel: 0.154105
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.216045
+Time taken for execution in parallel: 0.253679
+Time taken for execution in parallel: 0.227693
+Time taken for execution in parallel: 0.252302
 For nThreads 4
-Time taken for execution in parallel: 0.16664
+Time taken for execution in parallel: 0.157954
+Time taken for execution in parallel: 0.267316
+Time taken for execution in parallel: 0.206176
 For nThreads 6
-Time taken for execution in parallel: 0.16955
+Time taken for execution in parallel: 0.157722
+Time taken for execution in parallel: 0.149903
+Time taken for execution in parallel: 0.161272
 For nThreads 8
-Time taken for execution in parallel: 0.195716
+Time taken for execution in parallel: 0.157409
+Time taken for execution in parallel: 0.176093
+Time taken for execution in parallel: 0.225407
 For nThreads 12
-Time taken for execution in parallel: 0.238825
+Time taken for execution in parallel: 0.197163
+Time taken for execution in parallel: 0.190892
+Time taken for execution in parallel: 0.185097
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 1.684631
+Total sequential time: 1.672228
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.710124
+Time taken for execution in parallel: 0.655861
+Time taken for execution in parallel: 0.681846
+Time taken for execution in parallel: 0.694868
 For nThreads 4
-Time taken for execution in parallel: 0.455267
+Time taken for execution in parallel: 0.490754
+Time taken for execution in parallel: 0.52619
+Time taken for execution in parallel: 0.484015
 For nThreads 6
-Time taken for execution in parallel: 0.419173
+Time taken for execution in parallel: 0.447051
+Time taken for execution in parallel: 0.467591
+Time taken for execution in parallel: 0.616474
 For nThreads 8
-Time taken for execution in parallel: 0.357482
+Time taken for execution in parallel: 0.411133
+Time taken for execution in parallel: 0.373006
+Time taken for execution in parallel: 0.409912
 For nThreads 12
-Time taken for execution in parallel: 0.381949
+Time taken for execution in parallel: 0.394552
+Time taken for execution in parallel: 0.434023
+Time taken for execution in parallel: 0.39268
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.694874
+Time taken for execution in parallel: 0.812029
+Time taken for execution in parallel: 0.79047
+Time taken for execution in parallel: 0.816996
 For nThreads 4
-Time taken for execution in parallel: 0.478657
+Time taken for execution in parallel: 0.882977
+Time taken for execution in parallel: 0.481517
+Time taken for execution in parallel: 0.5217
 For nThreads 6
-Time taken for execution in parallel: 0.48332
+Time taken for execution in parallel: 0.455209
+Time taken for execution in parallel: 0.492211
+Time taken for execution in parallel: 0.509127
 For nThreads 8
-Time taken for execution in parallel: 0.436257
+Time taken for execution in parallel: 0.379602
+Time taken for execution in parallel: 0.4742
+Time taken for execution in parallel: 0.420339
 For nThreads 12
-Time taken for execution in parallel: 0.454644
+Time taken for execution in parallel: 0.43449
+Time taken for execution in parallel: 0.393358
+Time taken for execution in parallel: 0.374017
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 5.905786
+Total sequential time: 5.66097
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 2.261768
+Time taken for execution in parallel: 2.253242
+Time taken for execution in parallel: 2.216146
+Time taken for execution in parallel: 2.233636
 For nThreads 4
-Time taken for execution in parallel: 1.433959
+Time taken for execution in parallel: 1.446413
+Time taken for execution in parallel: 1.510065
+Time taken for execution in parallel: 1.39184
 For nThreads 6
-Time taken for execution in parallel: 1.191979
+Time taken for execution in parallel: 1.157165
+Time taken for execution in parallel: 1.235189
+Time taken for execution in parallel: 1.162429
 For nThreads 8
-Time taken for execution in parallel: 1.101511
+Time taken for execution in parallel: 1.095531
+Time taken for execution in parallel: 1.074551
+Time taken for execution in parallel: 1.06434
 For nThreads 12
-Time taken for execution in parallel: 0.916384
+Time taken for execution in parallel: 1.060275
+Time taken for execution in parallel: 0.99094
+Time taken for execution in parallel: 1.009217
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 2.299045
+Time taken for execution in parallel: 2.374928
+Time taken for execution in parallel: 2.308969
+Time taken for execution in parallel: 2.292985
 For nThreads 4
-Time taken for execution in parallel: 1.435162
+Time taken for execution in parallel: 1.409558
+Time taken for execution in parallel: 1.46273
+Time taken for execution in parallel: 1.426194
 For nThreads 6
-Time taken for execution in parallel: 1.25766
+Time taken for execution in parallel: 1.240737
+Time taken for execution in parallel: 1.226765
+Time taken for execution in parallel: 1.214901
 For nThreads 8
-Time taken for execution in parallel: 1.140432
+Time taken for execution in parallel: 1.083316
+Time taken for execution in parallel: 1.083018
+Time taken for execution in parallel: 1.077679
 For nThreads 12
-Time taken for execution in parallel: 1.001588
+Time taken for execution in parallel: 1.002533
+Time taken for execution in parallel: 1.049354
+Time taken for execution in parallel: 1.064899
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 21.15498
+Total sequential time: 21.539825
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 8.758638
+Time taken for execution in parallel: 8.712917
+Time taken for execution in parallel: 8.693173
+Time taken for execution in parallel: 8.71259
 For nThreads 4
-Time taken for execution in parallel: 5.145663
+Time taken for execution in parallel: 5.156073
+Time taken for execution in parallel: 5.149617
+Time taken for execution in parallel: 5.253695
 For nThreads 6
-Time taken for execution in parallel: 4.204453
+Time taken for execution in parallel: 4.268418
+Time taken for execution in parallel: 4.276365
+Time taken for execution in parallel: 4.397333
 For nThreads 8
-Time taken for execution in parallel: 3.741219
+Time taken for execution in parallel: 3.865313
+Time taken for execution in parallel: 3.812653
+Time taken for execution in parallel: 3.846244
 For nThreads 12
-Time taken for execution in parallel: 3.202973
+Time taken for execution in parallel: 3.384767
+Time taken for execution in parallel: 3.330595
+Time taken for execution in parallel: 3.326671
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 9.024234
+Time taken for execution in parallel: 9.028918
+Time taken for execution in parallel: 9.056924
+Time taken for execution in parallel: 8.984809
 For nThreads 4
-Time taken for execution in parallel: 5.283246
+Time taken for execution in parallel: 5.322831
+Time taken for execution in parallel: 5.290973
+Time taken for execution in parallel: 5.377577
 For nThreads 6
-Time taken for execution in parallel: 4.327208
+Time taken for execution in parallel: 4.479792
+Time taken for execution in parallel: 4.356956
+Time taken for execution in parallel: 4.430703
 For nThreads 8
-Time taken for execution in parallel: 3.794509
+Time taken for execution in parallel: 3.846606
+Time taken for execution in parallel: 3.844108
+Time taken for execution in parallel: 3.838479
 For nThreads 12
-Time taken for execution in parallel: 3.321431
+Time taken for execution in parallel: 3.459906
+Time taken for execution in parallel: 3.37295
+Time taken for execution in parallel: 3.366499
 
 --------------------------------------------------
 Processing 1000 iterations.
 --------------------------------------------------
 Processing 10 test size.
-Total sequential time: 0.140334
+Total sequential time: 0.145186
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.095553
+Time taken for execution in parallel: 0.170946
+Time taken for execution in parallel: 0.112527
+Time taken for execution in parallel: 0.139148
 For nThreads 4
-Time taken for execution in parallel: 0.120425
+Time taken for execution in parallel: 0.130963
+Time taken for execution in parallel: 0.127384
+Time taken for execution in parallel: 0.21307
 For nThreads 6
-Time taken for execution in parallel: 0.155003
+Time taken for execution in parallel: 0.138929
+Time taken for execution in parallel: 0.187277
+Time taken for execution in parallel: 0.24299
 For nThreads 8
-Time taken for execution in parallel: 0.13841
+Time taken for execution in parallel: 0.214862
+Time taken for execution in parallel: 0.165964
+Time taken for execution in parallel: 0.274642
 For nThreads 12
-Time taken for execution in parallel: 0.201136
+Time taken for execution in parallel: 0.169862
+Time taken for execution in parallel: 0.220239
+Time taken for execution in parallel: 0.205843
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.161772
+Time taken for execution in parallel: 0.337072
+Time taken for execution in parallel: 0.257832
+Time taken for execution in parallel: 0.21745
 For nThreads 4
-Time taken for execution in parallel: 0.301773
+Time taken for execution in parallel: 0.360397
+Time taken for execution in parallel: 0.320394
+Time taken for execution in parallel: 0.394158
 For nThreads 6
-Time taken for execution in parallel: 0.376932
+Time taken for execution in parallel: 0.420768
+Time taken for execution in parallel: 0.405572
+Time taken for execution in parallel: 0.390321
 For nThreads 8
-Time taken for execution in parallel: 0.418448
+Time taken for execution in parallel: 0.480641
+Time taken for execution in parallel: 0.438891
+Time taken for execution in parallel: 0.433189
 For nThreads 12
-Time taken for execution in parallel: 0.443394
+Time taken for execution in parallel: 0.460369
+Time taken for execution in parallel: 0.447099
+Time taken for execution in parallel: 0.567071
 
 --------------------------------------------------
 Processing 30 test size.
-Total sequential time: 0.312935
+Total sequential time: 0.309156
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.183051
+Time taken for execution in parallel: 0.234981
+Time taken for execution in parallel: 0.172128
+Time taken for execution in parallel: 0.208656
 For nThreads 4
-Time taken for execution in parallel: 0.240605
+Time taken for execution in parallel: 0.190883
+Time taken for execution in parallel: 0.245087
+Time taken for execution in parallel: 0.175344
 For nThreads 6
-Time taken for execution in parallel: 0.239092
+Time taken for execution in parallel: 0.345329
+Time taken for execution in parallel: 0.236292
+Time taken for execution in parallel: 0.212795
 For nThreads 8
-Time taken for execution in parallel: 0.246175
+Time taken for execution in parallel: 0.230587
+Time taken for execution in parallel: 0.219817
+Time taken for execution in parallel: 0.254754
 For nThreads 12
-Time taken for execution in parallel: 0.254827
+Time taken for execution in parallel: 0.27263
+Time taken for execution in parallel: 0.253425
+Time taken for execution in parallel: 0.263213
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.241641
+Time taken for execution in parallel: 0.18494
+Time taken for execution in parallel: 0.2423
+Time taken for execution in parallel: 0.223448
 For nThreads 4
-Time taken for execution in parallel: 0.341558
+Time taken for execution in parallel: 0.379124
+Time taken for execution in parallel: 0.383853
+Time taken for execution in parallel: 0.378726
 For nThreads 6
-Time taken for execution in parallel: 0.454333
+Time taken for execution in parallel: 0.450254
+Time taken for execution in parallel: 0.458525
+Time taken for execution in parallel: 0.409483
 For nThreads 8
-Time taken for execution in parallel: 0.479349
+Time taken for execution in parallel: 0.439917
+Time taken for execution in parallel: 0.419124
+Time taken for execution in parallel: 0.470055
 For nThreads 12
-Time taken for execution in parallel: 0.529248
+Time taken for execution in parallel: 0.521159
+Time taken for execution in parallel: 0.465195
+Time taken for execution in parallel: 0.501235
 
 --------------------------------------------------
 Processing 100 test size.
-Total sequential time: 1.000008
+Total sequential time: 0.97333
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 0.425834
+Time taken for execution in parallel: 0.393221
+Time taken for execution in parallel: 0.399138
+Time taken for execution in parallel: 0.415597
 For nThreads 4
-Time taken for execution in parallel: 0.414886
+Time taken for execution in parallel: 0.405099
+Time taken for execution in parallel: 0.523111
+Time taken for execution in parallel: 0.490813
 For nThreads 6
-Time taken for execution in parallel: 0.438385
+Time taken for execution in parallel: 0.435043
+Time taken for execution in parallel: 0.468778
+Time taken for execution in parallel: 0.575453
 For nThreads 8
-Time taken for execution in parallel: 0.4683
+Time taken for execution in parallel: 0.443485
+Time taken for execution in parallel: 0.514107
+Time taken for execution in parallel: 0.489491
 For nThreads 12
-Time taken for execution in parallel: 0.533969
+Time taken for execution in parallel: 0.601514
+Time taken for execution in parallel: 0.611361
+Time taken for execution in parallel: 0.553313
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 0.45366
+Time taken for execution in parallel: 0.514134
+Time taken for execution in parallel: 0.481478
+Time taken for execution in parallel: 0.549092
 For nThreads 4
-Time taken for execution in parallel: 0.611451
+Time taken for execution in parallel: 0.582785
+Time taken for execution in parallel: 0.677559
+Time taken for execution in parallel: 0.855348
 For nThreads 6
-Time taken for execution in parallel: 0.722368
+Time taken for execution in parallel: 0.734348
+Time taken for execution in parallel: 0.637231
+Time taken for execution in parallel: 0.66813
 For nThreads 8
-Time taken for execution in parallel: 0.815015
+Time taken for execution in parallel: 0.778446
+Time taken for execution in parallel: 0.802127
+Time taken for execution in parallel: 0.796478
 For nThreads 12
-Time taken for execution in parallel: 0.907628
+Time taken for execution in parallel: 0.938876
+Time taken for execution in parallel: 0.936611
+Time taken for execution in parallel: 0.952944
 
 --------------------------------------------------
 Processing 300 test size.
-Total sequential time: 5.731619
+Total sequential time: 4.066937
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 1.435848
+Time taken for execution in parallel: 1.408699
+Time taken for execution in parallel: 1.389028
+Time taken for execution in parallel: 1.506639
 For nThreads 4
-Time taken for execution in parallel: 1.096367
+Time taken for execution in parallel: 1.156186
+Time taken for execution in parallel: 1.183037
+Time taken for execution in parallel: 1.154953
 For nThreads 6
-Time taken for execution in parallel: 1.071716
+Time taken for execution in parallel: 1.036234
+Time taken for execution in parallel: 1.067869
+Time taken for execution in parallel: 1.053763
 For nThreads 8
-Time taken for execution in parallel: 1.010228
+Time taken for execution in parallel: 1.050836
+Time taken for execution in parallel: 1.093365
+Time taken for execution in parallel: 1.05519
 For nThreads 12
-Time taken for execution in parallel: 1.040481
+Time taken for execution in parallel: 1.103492
+Time taken for execution in parallel: 1.107755
+Time taken for execution in parallel: 1.122435
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 1.447746
+Time taken for execution in parallel: 1.483576
+Time taken for execution in parallel: 1.463628
+Time taken for execution in parallel: 1.463935
 For nThreads 4
-Time taken for execution in parallel: 1.119947
+Time taken for execution in parallel: 1.262514
+Time taken for execution in parallel: 1.155735
+Time taken for execution in parallel: 1.180686
 For nThreads 6
-Time taken for execution in parallel: 1.138131
+Time taken for execution in parallel: 1.171265
+Time taken for execution in parallel: 1.168806
+Time taken for execution in parallel: 1.152526
 For nThreads 8
-Time taken for execution in parallel: 1.226089
+Time taken for execution in parallel: 1.221404
+Time taken for execution in parallel: 1.207537
+Time taken for execution in parallel: 1.234077
 For nThreads 12
-Time taken for execution in parallel: 1.403935
+Time taken for execution in parallel: 1.396903
+Time taken for execution in parallel: 1.423671
+Time taken for execution in parallel: 1.42136
 
 --------------------------------------------------
 Processing 1000 test size.
-Total sequential time: 15.700093
+Total sequential time: 16.0201
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 6.35704
+Time taken for execution in parallel: 6.256143
+Time taken for execution in parallel: 6.297135
+Time taken for execution in parallel: 6.324594
 For nThreads 4
-Time taken for execution in parallel: 4.141361
+Time taken for execution in parallel: 4.159432
+Time taken for execution in parallel: 4.187239
+Time taken for execution in parallel: 4.165479
 For nThreads 6
-Time taken for execution in parallel: 3.467648
+Time taken for execution in parallel: 3.493805
+Time taken for execution in parallel: 3.588805
+Time taken for execution in parallel: 3.528207
 For nThreads 8
-Time taken for execution in parallel: 3.250758
+Time taken for execution in parallel: 3.249714
+Time taken for execution in parallel: 3.333874
+Time taken for execution in parallel: 3.301749
 For nThreads 12
-Time taken for execution in parallel: 3.150109
+Time taken for execution in parallel: 3.13782
+Time taken for execution in parallel: 3.189476
+Time taken for execution in parallel: 3.12859
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 6.876038
+Time taken for execution in parallel: 6.548676
+Time taken for execution in parallel: 6.499359
+Time taken for execution in parallel: 6.542643
 For nThreads 4
-Time taken for execution in parallel: 4.285017
+Time taken for execution in parallel: 4.244805
+Time taken for execution in parallel: 4.262453
+Time taken for execution in parallel: 4.330365
 For nThreads 6
-Time taken for execution in parallel: 3.776733
+Time taken for execution in parallel: 3.721725
+Time taken for execution in parallel: 3.716201
+Time taken for execution in parallel: 3.803364
 For nThreads 8
-Time taken for execution in parallel: 3.487573
+Time taken for execution in parallel: 3.554815
+Time taken for execution in parallel: 3.520696
+Time taken for execution in parallel: 3.576011
 For nThreads 12
-Time taken for execution in parallel: 3.397273
+Time taken for execution in parallel: 3.445685
+Time taken for execution in parallel: 3.481852
+Time taken for execution in parallel: 3.423838
 
 --------------------------------------------------
 Processing 3000 test size.
-Total sequential time: 58.742909
+Total sequential time: 59.436359
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 22.036894
+Time taken for execution in parallel: 22.046707
+Time taken for execution in parallel: 21.999743
+Time taken for execution in parallel: 21.901262
 For nThreads 4
-Time taken for execution in parallel: 13.499269
+Time taken for execution in parallel: 13.572115
+Time taken for execution in parallel: 13.517881
+Time taken for execution in parallel: 13.587754
 For nThreads 6
-Time taken for execution in parallel: 11.202239
+Time taken for execution in parallel: 11.229623
+Time taken for execution in parallel: 11.268845
+Time taken for execution in parallel: 11.213088
 For nThreads 8
-Time taken for execution in parallel: 10.032179
+Time taken for execution in parallel: 10.128286
+Time taken for execution in parallel: 10.029697
+Time taken for execution in parallel: 10.248981
 For nThreads 12
-Time taken for execution in parallel: 8.897807
+Time taken for execution in parallel: 12.497587
+Time taken for execution in parallel: 9.760935
+Time taken for execution in parallel: 9.616383
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 22.933193
+Time taken for execution in parallel: 22.740711
+Time taken for execution in parallel: 22.890602
+Time taken for execution in parallel: 22.829841
 For nThreads 4
-Time taken for execution in parallel: 14.012151
+Time taken for execution in parallel: 14.009033
+Time taken for execution in parallel: 13.974307
+Time taken for execution in parallel: 13.994093
 For nThreads 6
-Time taken for execution in parallel: 11.715115
+Time taken for execution in parallel: 11.854414
+Time taken for execution in parallel: 11.741931
+Time taken for execution in parallel: 11.770381
 For nThreads 8
-Time taken for execution in parallel: 10.668837
+Time taken for execution in parallel: 10.716174
+Time taken for execution in parallel: 10.734556
+Time taken for execution in parallel: 10.677044
 For nThreads 12
-Time taken for execution in parallel: 9.63248
+Time taken for execution in parallel: 9.981255
+Time taken for execution in parallel: 9.886385
+Time taken for execution in parallel: 9.958839
 
 --------------------------------------------------
 Processing 10000 test size.
-Total sequential time: 215.986868
+Total sequential time: 219.665408
 
 Running for mode bsp
 
 For nThreads 2
-Time taken for execution in parallel: 87.323998
+Time taken for execution in parallel: 88.722878
+Time taken for execution in parallel: 88.832259
+Time taken for execution in parallel: 90.131083
 For nThreads 4
-Time taken for execution in parallel: 51.164455
+Time taken for execution in parallel: 55.684333
+Time taken for execution in parallel: 57.124688
+Time taken for execution in parallel: 54.950084
 For nThreads 6
-Time taken for execution in parallel: 41.767383
+Time taken for execution in parallel: 42.085609
+Time taken for execution in parallel: 42.19924
+Time taken for execution in parallel: 42.045821
 For nThreads 8
-Time taken for execution in parallel: 36.933761
+Time taken for execution in parallel: 37.166929
+Time taken for execution in parallel: 37.145613
+Time taken for execution in parallel: 37.10359
 For nThreads 12
-Time taken for execution in parallel: 31.697441
+Time taken for execution in parallel: 32.990508
+Time taken for execution in parallel: 32.668714
+Time taken for execution in parallel: 32.841902
 
 Running for mode ws
 
 For nThreads 2
-Time taken for execution in parallel: 90.427085
+Time taken for execution in parallel: 89.957186
+Time taken for execution in parallel: 91.799469
+Time taken for execution in parallel: 92.556316
 For nThreads 4
-Time taken for execution in parallel: 52.465319
+Time taken for execution in parallel: 56.054536
+Time taken for execution in parallel: 57.585632
+Time taken for execution in parallel: 56.591504
 For nThreads 6
-Time taken for execution in parallel: 42.551415
+Time taken for execution in parallel: 46.353668
+Time taken for execution in parallel: 44.381503
+Time taken for execution in parallel: 44.299717
 For nThreads 8
-Time taken for execution in parallel: 37.623064
+Time taken for execution in parallel: 41.112997
+Time taken for execution in parallel: 41.789437
+Time taken for execution in parallel: 42.045801
 For nThreads 12
-Time taken for execution in parallel: 32.643745
+Time taken for execution in parallel: 43.328092
+Time taken for execution in parallel: 46.333739
+Time taken for execution in parallel: 49.595021
 

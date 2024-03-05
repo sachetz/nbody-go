@@ -12,7 +12,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem-per-cpu=900
 #SBATCH --exclusive
-#SBATCH --time=3:00:00
+#SBATCH --time=3:59:59
 
 
 module load golang/1.19
