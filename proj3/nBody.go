@@ -6,7 +6,7 @@ import (
 	"proj3/barnesHut"
 )
 
-const usage string = "main() takes 3 arguments:\n" +
+const usage string = "main() takes 6 arguments:\n" +
 	"\t" + "1. Mode - this can be:\n" +
 	"\t\t" + "s (sequential) - default\n" +
 	"\t\t" + "bsp (parallel with BSP)\n" +
