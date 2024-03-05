@@ -47,22 +47,22 @@ if __name__ == "__main__":
 
                         benchmarkFile.write(f"For nThreads {nThreads}\n")
 
-                        #for experiment in range(1, 6):
+                        for experiment in range(1, 4):
 
-                        # Run the process and get the time
-                        parallelProcess = subprocess.Popen([
-                            "go", "run", "../nBody.go", mode, str(testSize), str(nIters), str(nThreads), "false", inputType
-                        ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-                        parallelTime = float(parallelProcess.stdout.readline().decode()[:-1])
-                        
-                        # Calculate the speedup
-                        #benchmarkFile.write(f"In experiment {experiment}, time taken for execution in parallel: {parallelTime}\n")
-                        benchmarkFile.write(f"Time taken for execution in parallel: {parallelTime}\n")
-                        times[nThreads] = parallelTime
+                            # Run the process and get the time
+                            parallelProcess = subprocess.Popen([
+                                "go", "run", "../nBody.go", mode, str(testSize), str(nIters), str(nThreads), "false", inputType
+                            ], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+                            parallelTime = float(parallelProcess.stdout.readline().decode()[:-1])
+                            
+                            # Calculate the speedup
+                            #benchmarkFile.write(f"In experiment {experiment}, time taken for execution in parallel: {parallelTime}\n")
+                            benchmarkFile.write(f"Time taken for execution in parallel: {parallelTime}\n")
+                            times[nThreads] += [parallelTime]
 
                     benchmarkFile.write("\n")
 
-                    speedups = [sequentialTime/times[key] for key in sorted(times.keys())]
+                    speedups = [sequentialTime/min(times[key]) for key in sorted(times.keys())]
 
                     # Plot the graph
                     plt.figure(f"{inputType}-{mode}-{nIters}")
@@ -71,5 +71,6 @@ if __name__ == "__main__":
                     plt.xlabel("Number of Threads")
                     plt.ylabel("Speedup")
                     plt.savefig(f"speedup-benchmark-{inputType}-{mode}-{nIters}")
+            plt.close(f"{inputType}-{mode}-{nIters}")        
     
     benchmarkFile.close()
