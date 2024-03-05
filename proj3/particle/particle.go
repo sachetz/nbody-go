@@ -43,6 +43,24 @@ func InitialiseRandomPointsSequential(data []*Particle, lowerBound int, upperBou
 	}
 }
 
+func InitialiseSkewedPointsSequential(data []*Particle, lowerBound int, upperBound int) {
+	for i := lowerBound; i < upperBound; i++ {
+		data[i] = &Particle{}
+		if rand.Float64() < 0.8 { // 80% chance of being in the cluster
+			// Generate points in a tight Gaussian cluster
+			data[i].X = rand.NormFloat64() * 0.1
+			data[i].Y = rand.NormFloat64() * 0.1
+		} else {
+			// Generate scattered points
+			data[i].X = (rand.Float64() * 2.0) - 1.0
+			data[i].Y = (rand.Float64() * 2.0) - 1.0
+		}
+		// Assuming velocity vectors are uniformly distributed for simplicity
+		data[i].Vx = (2.0 * rand.Float64()) - 1.0
+		data[i].Vy = (2.0 * rand.Float64()) - 1.0
+	}
+}
+
 // Randomly initialize particles in a circle in sequential mode
 func InitialiseParticlesInCircleSequential(p []*Particle, lowerBound int, upperBound int, nParticles int) {
 	var r float64 = 1.0 // Radius of the circle
@@ -76,4 +94,15 @@ func FindBoundsSequential(p []*Particle, lowerBound int, upperBound int) float64
 func FindBounds(p []*Particle, idx int, max *float64) {
 	*max = math.Max(*max, math.Abs(p[idx].X))
 	*max = math.Max(*max, math.Abs(p[idx].Y))
+}
+
+func GeneratePoints(p []*Particle, kind string, nParticles int) {
+	switch kind {
+	case "random":
+		InitialiseRandomPointsSequential(p, 0, nParticles)
+	case "circle":
+		InitialiseParticlesInCircleSequential(p, 0, nParticles, nParticles)
+	case "skewed":
+		InitialiseSkewedPointsSequential(p, 0, nParticles)
+	}
 }

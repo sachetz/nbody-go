@@ -12,16 +12,20 @@ import (
 // Code for Barnes-Hut nBody problem using BSP pattern
 func Bsp() {
 	start := time.Now()
-	datafile, err := os.Create("benchmarks/particles_bsp.dat") // Output file for particle positions
+	datafile, err := os.Create("particles_bsp.dat") // Output file for particle positions
 	utils.Check(err)
 	defer datafile.Close()
 
-	nParticles, nIters, numThreads, logging := utils.GetParams()
+	config := utils.GetParams()
+	nParticles := config.NParticles
+	nIters := config.NIters
+	numThreads := config.NumThreads
+	logging := config.Logging
+	initPoints := config.InitPoints
 
 	var p []*particle.Particle = make([]*particle.Particle, nParticles) // Slices for randomly generated points
 
-	particle.InitialiseParticlesInCircleParallel(p, nParticles, numThreads) // Init position and velocity data
-	//particle.InitialiseRandomPointsParallel(p, nParticles, nIters)
+	particle.GeneratePoints(p, initPoints, nParticles)
 
 	_, err = fmt.Fprintf(datafile, "%d %d %d\n", nParticles, nIters, 0)
 	utils.Check(err)

@@ -12,15 +12,18 @@ import (
 // Sequential code for Barnes-Hut nBody problem
 func Sequential() {
 	start := time.Now()
-	datafile, err := os.Create("benchmarks/particles_s.dat") // Output file for particle positions
+	datafile, err := os.Create("particles_s.dat") // Output file for particle positions
 	utils.Check(err)
 	defer datafile.Close()
 
-	nParticles, nIters, _, logging := utils.GetParams()
+	config := utils.GetParams()
+	nParticles := config.NParticles
+	nIters := config.NIters
+	logging := config.Logging
+	initPoints := config.InitPoints
 
-	var p []*particle.Particle = make([]*particle.Particle, nParticles)          // Slices for randomly generated points
-	particle.InitialiseParticlesInCircleSequential(p, 0, nParticles, nParticles) // Init position and velocity data
-	//particle.InitialiseRandomPointsSequential(p, 0, nParticles)
+	var p []*particle.Particle = make([]*particle.Particle, nParticles) // Slices for randomly generated points
+	particle.GeneratePoints(p, initPoints, nParticles)
 
 	_, err = fmt.Fprintf(datafile, "%d %d %d\n", nParticles, nIters, 0)
 	utils.Check(err)

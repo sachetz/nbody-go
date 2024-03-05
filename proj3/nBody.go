@@ -14,7 +14,11 @@ const usage string = "main() takes 3 arguments:\n" +
 	"\t" + "2. nPoints - number of points, default is 3000\n" +
 	"\t" + "3. nIters - number of iterations, default is 200\n" +
 	"\t" + "4. numThreads - number of threads/goroutines, default is 8" +
-	"\t" + "5. logging - display logs/create output file, default is true"
+	"\t" + "5. logging - display logs/create output file, default is true" +
+	"\t" + "6. initPoints - this can be:\n" +
+	"\t\t" + "random - default\n" +
+	"\t\t" + "circle\n" +
+	"\t\t" + "skewed"
 
 func main() {
 	mode := "s"
