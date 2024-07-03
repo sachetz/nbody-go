@@ -3,7 +3,7 @@ package particle
 import (
 	"math"
 	"math/rand"
-	"utils"
+	"nbody_go/utils"
 )
 
 const SOFTENING float64 = 1e-9

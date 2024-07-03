@@ -3,7 +3,7 @@ package particle
 import (
 	"math"
 	"math/rand"
-	"queue"
+	"nbody_go/queue"
 	"sync"
 	"sync/atomic"
 )

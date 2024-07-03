@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"nbody_go/barnesHut"
 	"os"
-	"barnesHut"
 )
 
 const usage string = "main() takes 6 arguments:\n" +

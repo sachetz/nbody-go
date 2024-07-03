@@ -1,7 +1,7 @@
 package tree
 
 import (
-	"particle"
+	"nbody_go/particle"
 	"sync"
 )
 
