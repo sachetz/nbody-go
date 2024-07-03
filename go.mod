@@ -1,3 +1,3 @@
-module proj3
+module nbody_go
 
 go 1.19

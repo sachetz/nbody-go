@@ -3,9 +3,9 @@ package barnesHut
 import (
 	"fmt"
 	"os"
-	"proj3/particle"
-	"proj3/tree"
-	"proj3/utils"
+	"particle"
+	"tree"
+	"utils"
 	"time"
 )
 

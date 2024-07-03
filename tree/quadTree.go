@@ -1,7 +1,7 @@
 package tree
 
 import (
-	"proj3/particle"
+	"particle"
 	"sync"
 )
 

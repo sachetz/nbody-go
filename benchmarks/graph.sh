@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-#SBATCH --mail-user=sachetz@cs.uchicago.edu
+#SBATCH --mail-user=zodesachet@gmail.com
 #SBATCH --mail-type=ALL
-#SBATCH --job-name=proj3_graph
+#SBATCH --job-name=nbody_go_graph
 #SBATCH --output=./slurm/out/%j.%N.stdout
 #SBATCH --error=./slurm/out/%j.%N.stderr
-#SBATCH --chdir=/home/sachetz/ParallelProgramming/project-3-sachetz/proj3/benchmarks
+#SBATCH --chdir=/home/sachetz/nbody_go/benchmarks
 #SBATCH --partition=debug 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

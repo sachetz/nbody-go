@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"proj3/barnesHut"
+	"barnesHut"
 )
 
 const usage string = "main() takes 6 arguments:\n" +

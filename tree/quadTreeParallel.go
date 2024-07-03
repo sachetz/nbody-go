@@ -1,14 +1,14 @@
 package tree
 
 import (
+	"barrier"
 	"math"
 	"math/rand"
-	"proj3/barrier"
-	"proj3/particle"
-	"proj3/queue"
-	"proj3/utils"
+	"particle"
+	"queue"
 	"sync"
 	"sync/atomic"
+	"utils"
 )
 
 func AddParticlesParallel(p []*particle.Particle, root *QuadTree, nParticles int, numThreads int) {
